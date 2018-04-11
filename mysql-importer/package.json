@@ -1,0 +1,13 @@
+{
+  "name": "mysql-importer",
+  "version": "0.0.1",
+  "description": "MySQL Importer",
+  "main": "index.js",
+  "repository": "https://github.com/marc1404/msc-thesis",
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mysql2": "1.5.3"
+  }
+}
