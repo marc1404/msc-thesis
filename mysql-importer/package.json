@@ -7,7 +7,17 @@
   "author": "Marc Vornetran",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js"
+  },
   "dependencies": {
-    "mysql2": "1.5.3"
+    "csv-parse": "2.2.0",
+    "dotenv": "5.0.1",
+    "mysql2": "1.5.3",
+    "stream-transform": "1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.3"
   }
 }
