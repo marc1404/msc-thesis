@@ -1,12 +1,9 @@
 import chalk from 'chalk';
-import Beer from './Beer';
-import Ratings from './Ratings';
-import Stats from './Stats';
-import Brewery from './Brewery';
-import Style from './Style';
+import { Beer, Ratings, Stats, Brewery, Style } from './models';
+import getIdFromUrl from './getIdFromUrl';
 
 export default function extractBeer($, url) {
-    const id = extractId(url);
+    const id = getIdFromUrl(url);
     const name = $('h1', 'div.user-header').text().trim();
     const brewery = extractBrewery($);
     const style = extractStyle($);
@@ -32,17 +29,10 @@ export default function extractBeer($, url) {
     });
 }
 
-function extractId(url) {
-    const chunks = url.split('/');
-    const rawId = chunks[chunks.length - 2];
-
-    return toNumber(rawId);
-}
-
 function extractBrewery($) {
     const linkElement = $('#_brand4');
     const url = `https://ratebeer.com/${linkElement.attr('href')}`;
-    const id = extractId(url);
+    const id = getIdFromUrl(url);
     const name = linkElement.children('span').text();
 
     return new Brewery({
@@ -55,7 +45,7 @@ function extractBrewery($) {
 function extractStyle($) {
     const linkElement = $('#styleTopFifty').prev('a');
     const url = `https://ratebeer.com/${linkElement.attr('href')}`;
-    const id = extractId(url);
+    const id = getIdFromUrl(url);
     const name = linkElement.text();
 
     return new Style({

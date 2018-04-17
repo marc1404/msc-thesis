@@ -1,12 +1,13 @@
 import fs from 'fs';
 import splitLines from 'split-lines';
-import fetch from 'node-fetch';
-import cheerio from 'cheerio';
 import pLimit from 'p-limit';
 import extractBeer from './extractBeer';
+import extractReviews from './extractReviews';
 import chalk from 'chalk';
+import scrape from './scrape';
 
 const filePath = '../data/beers_NL.txt';
+const concurrency = 100;
 const progress = {
     total: 0,
     current: 0
@@ -15,9 +16,9 @@ const progress = {
 main().catch(error => console.error(chalk.bold.red(error.stack)));
 
 async function main() {
-    const limit = pLimit(100);
+    const limit = pLimit(concurrency);
     const text = fs.readFileSync(filePath, { encoding: 'utf8' });
-    const lines = splitLines(text);
+    const lines = splitLines(text).slice(0, 100);
     progress.total = lines.length;
     const tasks = lines.map(line => {
         return limit(() => scrapeBeerUrl(line));
@@ -34,10 +35,10 @@ async function main() {
 
 async function scrapeBeerUrl(url) {
     try {
-        const body = await fetchBody(url);
-        const $ = cheerio.load(body);
+        const $ = await scrape(url);
 
-        return extractBeer($, url);
+        //return extractBeer($, url);
+        return await extractReviews($, url);
     } catch (error) {
         console.error(chalk.bold.red(`Error on: ${url}`));
         console.error(chalk.bold.red(error.stack));
@@ -46,10 +47,4 @@ async function scrapeBeerUrl(url) {
     }
 
     return null;
-}
-
-async function fetchBody(url) {
-    const response = await fetch(url);
-
-    return await response.text();
 }
