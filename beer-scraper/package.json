@@ -1,0 +1,16 @@
+{
+  "name": "beer-scraper",
+  "version": "0.0.1",
+  "description": "Beer Scraper",
+  "main": "index.js",
+  "repository": "https://github.com/marc1404/msc-thesis",
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "esm": "3.0.18"
+  }
+}
