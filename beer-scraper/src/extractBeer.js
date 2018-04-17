@@ -31,7 +31,7 @@ export default function extractBeer($, url) {
 
 function extractBrewery($) {
     const linkElement = $('#_brand4');
-    const url = `https://ratebeer.com/${linkElement.attr('href')}`;
+    const url = `https://ratebeer.com${linkElement.attr('href')}`;
     const id = getIdFromUrl(url);
     const name = linkElement.children('span').text();
 
