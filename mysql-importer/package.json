@@ -12,8 +12,10 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@rich_harris/sql": "1.1.0",
     "csv-parse": "2.2.0",
     "dotenv": "5.0.1",
+    "esm": "3.0.18",
     "mysql2": "1.5.3",
     "stream-transform": "1.0.2"
   },

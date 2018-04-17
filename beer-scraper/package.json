@@ -12,15 +12,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@rich_harris/sql": "1.1.0",
     "chalk": "2.4.0",
     "cheerio": "1.0.0-rc.2",
     "esm": "3.0.18",
     "moment": "2.22.1",
-    "mysql2": "1.5.3",
     "node-fetch": "2.1.2",
     "p-limit": "1.2.0",
-    "semantic-schema-parser": "0.1.0",
     "split-lines": "1.1.0"
   },
   "devDependencies": {
