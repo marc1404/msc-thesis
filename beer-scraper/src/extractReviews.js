@@ -20,7 +20,7 @@ export default async function extractReviews($, url) {
     const tasks = [];
 
     for (let i = 2; i <= totalPages; i++) {
-        const pageUrl = `${url}/1/${i}/`;
+        const pageUrl = `${url}1/${i}/`;
         const task = limit(() => extractReviewsFromPage(pageUrl));
 
         tasks.push(task);
