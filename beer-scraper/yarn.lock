@@ -482,9 +482,9 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-esm@3.0.18:
-  version "3.0.18"
-  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.18.tgz#afdde98572af447637dc1a2841606945aa02dad0"
+esm@3.0.19:
+  version "3.0.19"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.19.tgz#eed937a45baef3653b5192e8f0e64571da819424"
 
 event-stream@~3.3.0:
   version "3.3.4"

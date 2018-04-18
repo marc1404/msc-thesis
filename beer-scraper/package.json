@@ -14,7 +14,7 @@
   "dependencies": {
     "chalk": "2.4.0",
     "cheerio": "1.0.0-rc.2",
-    "esm": "3.0.18",
+    "esm": "3.0.19",
     "moment": "2.22.1",
     "node-fetch": "2.1.2",
     "p-limit": "1.2.0",
