@@ -5,6 +5,7 @@ import extractBeer from './extractBeer';
 import extractReviews from './extractReviews';
 import chalk from 'chalk';
 import scrape from './scrape';
+import ipc from './ipc';
 
 const filePath = '../data/beers_NL.txt';
 const concurrency = 100;
@@ -14,6 +15,8 @@ const progress = {
 };
 
 (async () => {
+    ipc.connect();
+
     const limit = pLimit(concurrency);
     const text = fs.readFileSync(filePath, { encoding: 'utf8' });
     const lines = splitLines(text).slice(0, 1);
@@ -25,6 +28,9 @@ const progress = {
     console.log(chalk.green(`0/${progress.total}`));
 
     const result = await Promise.all(tasks);
+
+    ipc.disconnect();
+
     const outputFile = `output/scraped-beers_${new Date().toISOString()}.json`;
     const outputContent = JSON.stringify(result, null, 2);
 
@@ -36,7 +42,11 @@ async function scrapeBeerUrl(url) {
         const $ = await scrape(url);
 
         //return extractBeer($, url);
-        return await extractReviews($, url);
+        const reviews = await extractReviews($, url);
+
+        ipc.emitReviews(reviews);
+
+        return reviews;
     } catch (error) {
         console.error(chalk.bold.red(`Error on: ${url}`));
         console.error(chalk.bold.red(error.stack));

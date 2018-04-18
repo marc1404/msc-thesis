@@ -17,6 +17,7 @@
     "dotenv": "5.0.1",
     "esm": "3.0.19",
     "mysql2": "1.5.3",
+    "node-ipc": "9.1.1",
     "prompts": "0.1.8",
     "stream-transform": "1.0.2"
   }
