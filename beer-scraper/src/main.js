@@ -16,7 +16,7 @@ const progress = {
 (async () => {
     const limit = pLimit(concurrency);
     const text = fs.readFileSync(filePath, { encoding: 'utf8' });
-    const lines = splitLines(text);
+    const lines = splitLines(text).slice(0, 1);
     progress.total = lines.length;
     const tasks = lines.map(line => {
         return limit(() => scrapeBeerUrl(line));
@@ -35,8 +35,8 @@ async function scrapeBeerUrl(url) {
     try {
         const $ = await scrape(url);
 
-        return extractBeer($, url);
-        //return await extractReviews($, url);
+        //return extractBeer($, url);
+        return await extractReviews($, url);
     } catch (error) {
         console.error(chalk.bold.red(`Error on: ${url}`));
         console.error(chalk.bold.red(error.stack));

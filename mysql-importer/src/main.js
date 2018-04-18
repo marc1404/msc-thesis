@@ -2,6 +2,7 @@ import prompts from 'prompts';
 import chalk from 'chalk';
 import importCsv from './importCsv';
 import importBeers from './importBeers';
+import importReviews from './importReviews';
 
 (async () => {
     const { response } = await prompts({
@@ -17,6 +18,7 @@ import importBeers from './importBeers';
 
     const tasks = {
         beers: () => importBeers(),
+        reviews: () => importReviews(),
         csv: () => importCsv()
     };
 
