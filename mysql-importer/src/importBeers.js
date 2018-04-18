@@ -6,7 +6,11 @@ export default async function importBeers() {
     const config = Object.assign({ connectionLimit: 100 }, mysqlConfig);
     const db = await connect(config);
 
-    await insertBreweries(db);
+    await Promise.all([
+        insertBreweries(db),
+        insertTags(db)
+    ]);
+
     await db.close();
 }
 
@@ -26,6 +30,28 @@ async function insertBreweries(db) {
                 ${brewery.url}
             );
         `;
+    });
+
+    await Promise.all(tasks);
+}
+
+async function insertTags(db) {
+    const tagSet = new Set();
+
+    for (const beer of scrapedBeers) {
+        for (const tag of beer.tags) {
+            tagSet.add(tag);
+        }
+    }
+
+    const tasks = [];
+
+    tagSet.forEach(tag => {
+        const task = db`
+            INSERT IGNORE INTO tags (name) VALUES (${tag});
+        `;
+
+        tasks.push(task);
     });
 
     await Promise.all(tasks);
