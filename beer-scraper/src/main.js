@@ -13,9 +13,7 @@ const progress = {
     current: 0
 };
 
-main().catch(error => console.error(chalk.bold.red(error.stack)));
-
-async function main() {
+(async () => {
     const limit = pLimit(concurrency);
     const text = fs.readFileSync(filePath, { encoding: 'utf8' });
     const lines = splitLines(text).slice(0, 100);
@@ -31,7 +29,7 @@ async function main() {
     const outputContent = JSON.stringify(result, null, 2);
 
     fs.writeFileSync(outputFile, outputContent, { encoding: 'utf8' });
-}
+})().catch(error => console.error(chalk.bold.red(error.stack)));
 
 async function scrapeBeerUrl(url) {
     try {
