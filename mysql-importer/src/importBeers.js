@@ -8,7 +8,8 @@ export default async function importBeers() {
 
     await Promise.all([
         insertBreweries(db),
-        insertTags(db)
+        insertTags(db),
+        insertStyles(db)
     ]);
 
     await db.close();
@@ -40,6 +41,10 @@ async function insertTags(db) {
 
     for (const beer of scrapedBeers) {
         for (const tag of beer.tags) {
+            if (!tag) {
+                continue;
+            }
+
             tagSet.add(tag);
         }
     }
@@ -49,6 +54,32 @@ async function insertTags(db) {
     tagSet.forEach(tag => {
         const task = db`
             INSERT IGNORE INTO tags (name) VALUES (${tag});
+        `;
+
+        tasks.push(task);
+    });
+
+    await Promise.all(tasks);
+}
+
+async function insertStyles(db) {
+    const styleSet = new Set();
+
+    for (const beer of scrapedBeers) {
+        const { style } = beer;
+
+        if (!style) {
+            continue;
+        }
+
+        styleSet.add(style);
+    }
+
+    const tasks = [];
+
+    styleSet.forEach(style => {
+        const task = db`
+            INSERT IGNORE INTO beer_styles (name) VALUES (${style});
         `;
 
         tasks.push(task);
