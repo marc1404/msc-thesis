@@ -1,6 +1,7 @@
 import mysqlConfig from './mysqlConfig';
 import { connect } from '@rich_harris/sql';
 import scrapedBeers from '../../beer-scraper/output/scrapedBeers.json';
+import scrape from "../../beer-scraper/src/scrape";
 
 export default async function importBeers() {
     const config = Object.assign({ connectionLimit: 100 }, mysqlConfig);
@@ -12,7 +13,10 @@ export default async function importBeers() {
         insertStyles(db)
     ]);
 
-    await insertBeers(db);
+    await Promise.all([
+        insertBeers(db),
+        insertBeerTagsRelation(db)
+    ]);
 
     await db.close();
 }
@@ -114,6 +118,40 @@ async function insertBeers(db) {
             ) VALUES (
                 ${id}, ${name}, ${brewery.id}, ${styleId}, ${url}, ${location}, ${image}, ${description}, ${overallRating}, ${styleRating}, ${weightedAverage}, ${count}, ${ibu}, ${calories}, ${abv}
             );
+        `;
+    });
+
+    await Promise.all(tasks);
+}
+
+async function insertBeerTagsRelation(db) {
+    const { rows } = await db`SELECT id, name FROM tags;`;
+    const tagMap = new Map();
+
+    for (const row of rows) {
+        tagMap.set(row.name, row.id);
+    }
+
+    const relations = [];
+
+    for (const beer of scrapedBeers) {
+        for (const tag of beer.tags) {
+            const tagId = tagMap.get(tag);
+
+            if (!tagId) {
+                continue;
+            }
+
+            relations.push({
+                beerId: beer.id,
+                tagId: tagId
+            });
+        }
+    }
+
+    const tasks = relations.map(({ beerId, tagId }) => {
+        return db`
+            INSERT IGNORE INTO beer_tags (beer_id, tag_id) VALUES (${beerId}, ${tagId});
         `;
     });
 
