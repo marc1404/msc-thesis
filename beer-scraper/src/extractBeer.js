@@ -69,7 +69,7 @@ function extractRating($) {
 }
 
 function extractAggregated($) {
-    const isEmpty = $('#_aggregateRating6').has('.empty-placeholder').length > 0;
+    const isEmpty = $('#_aggregateRating6').length === 0;
 
     if (isEmpty) {
         return { overall: null, style: null };
