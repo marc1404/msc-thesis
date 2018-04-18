@@ -16,7 +16,7 @@ const progress = {
 (async () => {
     const limit = pLimit(concurrency);
     const text = fs.readFileSync(filePath, { encoding: 'utf8' });
-    const lines = splitLines(text).slice(0, 1);
+    const lines = splitLines(text);
     progress.total = lines.length;
     const tasks = lines.map(line => {
         return limit(() => scrapeBeerUrl(line));
@@ -27,8 +27,8 @@ const progress = {
     const result = await Promise.all(tasks);
     const outputFile = `output/scraped-beers_${new Date().toISOString()}.json`;
     const outputContent = JSON.stringify(result, null, 2);
-    console.log(outputContent);
-    //fs.writeFileSync(outputFile, outputContent, { encoding: 'utf8' });
+
+    fs.writeFileSync(outputFile, outputContent, { encoding: 'utf8' });
 })().catch(error => console.error(chalk.bold.red(error.stack)));
 
 async function scrapeBeerUrl(url) {
