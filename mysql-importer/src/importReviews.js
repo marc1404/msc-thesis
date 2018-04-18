@@ -6,15 +6,18 @@ export default async function importReviews() {
     const config = Object.assign({ connectionLimit: 100 }, mysqlConfig);
     const db = await connect(config);
 
-    await Promise.all([
-        insertReviews(db),
-        insertUsers(db)
-    ]);
-
+    await insertScrapedReviews(db, scrapedReviews);
     await db.close();
 }
 
-async function insertReviews(db) {
+export async function insertScrapedReviews(db, scrapedReviews) {
+    await Promise.all([
+        insertReviews(db, scrapedReviews),
+        insertUsers(db, scrapedReviews)
+    ]);
+}
+
+async function insertReviews(db, scrapedReviews) {
     const tasks = [];
 
     for (const beer of scrapedReviews) {
@@ -41,7 +44,7 @@ function insertReview(db, beer, review) {
     `;
 }
 
-async function insertUsers(db) {
+async function insertUsers(db, scrapedReviews) {
     const userMap = new Map();
 
     for (const beer of scrapedReviews) {

@@ -19,7 +19,7 @@ const progress = {
 
     const limit = pLimit(concurrency);
     const text = fs.readFileSync(filePath, { encoding: 'utf8' });
-    const lines = splitLines(text).slice(0, 1);
+    const lines = splitLines(text).slice(0, 100);
     progress.total = lines.length;
     const tasks = lines.map(line => {
         return limit(() => scrapeBeerUrl(line));
