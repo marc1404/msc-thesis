@@ -1,7 +1,6 @@
 import mysqlConfig from './mysqlConfig';
 import { connect } from '@rich_harris/sql';
-import scrapedBeers from '../../beer-scraper/output/scrapedBeers.json';
-import scrape from "../../beer-scraper/src/scrape";
+import scrapedBeers from '../../data/scrapedBeers.json';
 
 export default async function importBeers() {
     const config = Object.assign({ connectionLimit: 100 }, mysqlConfig);
