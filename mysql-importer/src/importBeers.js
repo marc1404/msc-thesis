@@ -17,6 +17,8 @@ async function insertBreweries(db) {
             return;
         }
 
+        brewery.url = brewery.url.replace('com//', 'com/');
+
         return db`
             INSERT IGNORE INTO breweries (id, name, url) VALUES (
                 ${brewery.id},
