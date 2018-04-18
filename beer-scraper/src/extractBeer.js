@@ -44,7 +44,7 @@ function extractBrewery($) {
 
 function extractStyle($) {
     const linkElement = $('#styleTopFifty').prev('a');
-    const url = `https://ratebeer.com/${linkElement.attr('href')}`;
+    const url = `https://ratebeer.com${linkElement.attr('href')}`;
     const id = getIdFromUrl(url);
     const name = linkElement.text();
 
