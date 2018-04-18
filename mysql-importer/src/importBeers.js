@@ -12,6 +12,8 @@ export default async function importBeers() {
         insertStyles(db)
     ]);
 
+    await insertBeers(db);
+
     await db.close();
 }
 
@@ -83,6 +85,36 @@ async function insertStyles(db) {
         `;
 
         tasks.push(task);
+    });
+
+    await Promise.all(tasks);
+}
+
+async function insertBeers(db) {
+    const { rows } = await db`SELECT id, name FROM beer_styles;`;
+    const styleMap = new Map();
+
+    for (const row of rows) {
+        styleMap.set(row.name, row.id);
+    }
+
+    const tasks = scrapedBeers.map(beer => {
+        const { id, name, brewery, style, url, location, image, description, ratings, stats } = beer;
+        const { overall: overallRating, style: styleRating, weightedAverage, count } = ratings;
+        const { ibu, calories, abv } = stats;
+        const styleId = styleMap.get(style) || null;
+
+        if (!name) {
+            return Promise.resolve();
+        }
+
+        return db`
+            INSERT IGNORE INTO beers (
+                id, name, brewery_id, style_id, url, location, image, description, overall, style, weighted_average, total_ratings, ibu, calories, abv
+            ) VALUES (
+                ${id}, ${name}, ${brewery.id}, ${styleId}, ${url}, ${location}, ${image}, ${description}, ${overallRating}, ${styleRating}, ${weightedAverage}, ${count}, ${ibu}, ${calories}, ${abv}
+            );
+        `;
     });
 
     await Promise.all(tasks);
