@@ -9,13 +9,11 @@ export default async function importBeers() {
     await Promise.all([
         insertBreweries(db),
         insertTags(db),
-        insertStyles(db)
+        insertStyles(db),
+        insertBeers(db)
     ]);
 
-    await Promise.all([
-        insertBeers(db),
-        insertBeerTagsRelation(db)
-    ]);
+    await insertBeerTagsRelation(db);
 
     await db.close();
 }
@@ -68,44 +66,38 @@ async function insertTags(db) {
 }
 
 async function insertStyles(db) {
-    const styleSet = new Set();
+    const styleMap = new Map();
 
     for (const beer of scrapedBeers) {
         const { style } = beer;
+        const shouldSkip = !style || !style.name;
 
-        if (!style) {
+        if (shouldSkip) {
             continue;
         }
 
-        styleSet.add(style);
+        styleMap.set(style.id, style);
     }
 
     const tasks = [];
 
-    styleSet.forEach(style => {
+    for (const style of styleMap.values()) {
+        const { id, name, url } = style;
         const task = db`
-            INSERT IGNORE INTO beer_styles (name) VALUES (${style});
+            INSERT IGNORE INTO beer_styles (id, name, url) VALUES (${id}, ${name}, ${url});
         `;
 
         tasks.push(task);
-    });
+    }
 
     await Promise.all(tasks);
 }
 
 async function insertBeers(db) {
-    const { rows } = await db`SELECT id, name FROM beer_styles;`;
-    const styleMap = new Map();
-
-    for (const row of rows) {
-        styleMap.set(row.name, row.id);
-    }
-
     const tasks = scrapedBeers.map(beer => {
         const { id, name, brewery, style, url, location, image, description, ratings, stats } = beer;
         const { overall: overallRating, style: styleRating, weightedAverage, count } = ratings;
         const { ibu, calories, abv } = stats;
-        const styleId = styleMap.get(style) || null;
 
         if (!name) {
             return Promise.resolve();
@@ -115,7 +107,7 @@ async function insertBeers(db) {
             INSERT IGNORE INTO beers (
                 id, name, brewery_id, style_id, url, location, image, description, overall, style, weighted_average, total_ratings, ibu, calories, abv
             ) VALUES (
-                ${id}, ${name}, ${brewery.id}, ${styleId}, ${url}, ${location}, ${image}, ${description}, ${overallRating}, ${styleRating}, ${weightedAverage}, ${count}, ${ibu}, ${calories}, ${abv}
+                ${id}, ${name}, ${brewery.id}, ${style.id}, ${url}, ${location}, ${image}, ${description}, ${overallRating}, ${styleRating}, ${weightedAverage}, ${count}, ${ibu}, ${calories}, ${abv}
             );
         `;
     });
