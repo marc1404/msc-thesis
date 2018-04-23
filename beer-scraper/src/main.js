@@ -2,6 +2,7 @@ import fs from 'fs';
 import pLimit from 'p-limit';
 import { extractBeer, extractReviews } from './extract';
 import { insertBeer, insertReviews } from './insert';
+import { shouldSkipBeer, shouldSkipReviews } from './skip';
 import { connect } from './mysql';
 import scrape from './scrape';
 import prompts from 'prompts';
@@ -16,11 +17,13 @@ const progress = {
 const taskFunctions = {
     beers: {
         extract: extractBeer,
-        insert: insertBeer
+        insert: insertBeer,
+        shouldSkip: shouldSkipBeer
     },
     reviews: {
         extract: extractReviews,
-        insert: insertReviews
+        insert: insertReviews,
+        shouldSkip: shouldSkipReviews
     }
 };
 
@@ -50,10 +53,16 @@ const taskFunctions = {
 
     consola.success('Connected to MySQL database');
 
-    const { extract, insert } = taskFunctions[scrapeTarget];
+    const { extract, insert, shouldSkip } = taskFunctions[scrapeTarget];
+
+    await shouldSkip.init(db);
+
     const allBeers = getBeers();
     const sliceEnd = scrapeAmount === 0 ? allBeers.length : scrapeAmount;
-    const beers = allBeers.slice(0, sliceEnd);
+    const beers = allBeers
+        .slice(0, sliceEnd)
+        .filter(beer => shouldSkip.check(beer));
+
     const limit = pLimit(concurrency);
     progress.total = beers.length;
 
