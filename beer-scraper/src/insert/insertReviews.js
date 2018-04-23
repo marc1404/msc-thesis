@@ -3,6 +3,8 @@ export default async function insertReviews(beerReviews, db) {
         insertOnlyReviews(beerReviews, db),
         insertUsers(beerReviews.reviews, db)
     ]);
+
+    await updateScraped(beerReviews.id, db);
 }
 
 async function insertOnlyReviews(beerReviews, db) {
@@ -50,4 +52,8 @@ async function insertUsers(reviews, db) {
     }
 
     await Promise.all(tasks);
+}
+
+async function updateScraped(beerId, db) {
+    return db`UPDATE beers SET scraped = 1 WHERE id = ${beerId};`;
 }
