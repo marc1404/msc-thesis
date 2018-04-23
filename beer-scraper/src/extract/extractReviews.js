@@ -87,9 +87,14 @@ function extractRating(startElement) {
     const ratingElement = startElement.children().last();
     const ratingText = ratingElement.attr('title');
     const score = scoreRegex.exec(ratingText)[0];
-    let aroma, appearance, taste, palate, overall = null;
+    let aroma = null;
+    let appearance = null;
+    let taste = null;
+    let palate = null;
+    let overall = null;
+    const hasAroma = ratingText.includes('Aroma');
 
-    if (ratingText.length > 20) {
+    if (hasAroma) {
         aroma = aromaRegex.exec(ratingText)[1];
         appearance = appearanceRegex.exec(ratingText)[1];
         taste = tasteRegex.exec(ratingText)[1];
