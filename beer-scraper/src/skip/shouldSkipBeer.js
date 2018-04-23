@@ -1,8 +1,8 @@
-import consola from 'consola';
 import getIdFromUrl from '../getIdFromUrl';
 
 export default {
     beerMap: new Map(),
+    skipped: 0,
     async init(db) {
         const { rows } = await db`SELECT id FROM beers;`;
 
@@ -15,7 +15,7 @@ export default {
         const hasBeer = this.beerMap.has(id);
 
         if (hasBeer) {
-            consola.info(`Skipping ${url}`);
+            this.skipped++;
             return false;
         }
         

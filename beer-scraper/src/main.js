@@ -70,7 +70,7 @@ const taskFunctions = {
         return limit(() => scrapeBeerUrl(beer, extract, insert, db));
     });
 
-    consola.info(`Found ${allBeers.length} beers, using ${beers.length}`);
+    consola.info(`Found ${allBeers.length} beers, skipped ${shouldSkip.skipped}, using ${beers.length}`);
     consola.info(`Using concurrency of ${concurrency}`);
     logProgress(false);
 

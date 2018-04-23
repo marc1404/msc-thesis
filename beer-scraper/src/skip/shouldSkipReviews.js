@@ -1,8 +1,8 @@
-import consola from 'consola';
 import getIdFromUrl from '../getIdFromUrl';
 
 export default {
     scrapedMap: new Map(),
+    skipped: 0,
     async init(db) {
         const { rows } = await db`SELECT id, scraped FROM beers;`;
 
@@ -15,7 +15,7 @@ export default {
         const isScraped = this.scrapedMap.get(id);
 
         if (isScraped) {
-            consola.info(`Skipping ${url}`);
+            this.skipped++;
             return false;
         }
 
