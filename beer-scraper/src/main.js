@@ -1,58 +1,102 @@
 import fs from 'fs';
-import splitLines from 'split-lines';
 import pLimit from 'p-limit';
-import extractBeer from './extractBeer';
-import extractReviews from './extractReviews';
-import chalk from 'chalk';
+import { extractBeer, extractReviews } from './extract';
+import { insertBeer, insertReviews } from './insert';
+import { connect } from './mysql';
 import scrape from './scrape';
-import ipc from './ipc';
+import prompts from 'prompts';
+import consola from 'consola';
+import getBeers from './getBeers';
 
-const filePath = '../data/beers_NL.txt';
 const concurrency = 100;
 const progress = {
-    total: 0,
-    current: 0
+    current: 0,
+    total: 0
+};
+const taskFunctions = {
+    beers: {
+        extract: extractBeer,
+        insert: insertBeer
+    },
+    reviews: {
+        extract: extractReviews,
+        insert: insertReviews
+    }
 };
 
 (async () => {
-    ipc.connect();
+    const { scrapeTarget, scrapeAmount } = await prompts([
+        {
+            type: 'select',
+            name: 'scrapeTarget',
+            message: 'What should be scraped?',
+            choices: [
+                { title: 'Beers 🍺', value: 'beers' },
+                { title: 'Reviews ⭐', value: 'reviews' }
+            ]
+        },
+        {
+            type: 'number',
+            name: 'scrapeAmount',
+            message: 'How many? (0 = all)',
+            initial: 0,
+            min: 0
+        }
+    ]);
 
+    consola.start('Connecting to MySQL database...');
+
+    const db = await connect();
+
+    consola.success('Connected to MySQL database');
+
+    const { extract, insert } = taskFunctions[scrapeTarget];
+    const allBeers = getBeers();
+    const sliceEnd = scrapeAmount === 0 ? allBeers.length : scrapeAmount;
+    const beers = allBeers.slice(0, sliceEnd);
     const limit = pLimit(concurrency);
-    const text = fs.readFileSync(filePath, { encoding: 'utf8' });
-    const lines = splitLines(text).slice(0, 100);
-    progress.total = lines.length;
-    const tasks = lines.map(line => {
-        return limit(() => scrapeBeerUrl(line));
+    progress.total = beers.length;
+
+    const tasks = beers.map(beer => {
+        return limit(() => scrapeBeerUrl(beer, extract, insert, db));
     });
 
-    console.log(chalk.green(`0/${progress.total}`));
+    consola.info(`Found ${allBeers.length} beers, using ${beers.length}`);
+    consola.info(`Using concurrency of ${concurrency}`);
+    logProgress(false);
 
     const result = await Promise.all(tasks);
 
-    ipc.disconnect();
+    consola.success('Done!');
+    consola.start('Dumping result...');
 
-    const outputFile = `output/scraped-beers_${new Date().toISOString()}.json`;
+    const outputFile = `../output/${scrapeTarget}_${new Date().toISOString()}.json`;
     const outputContent = JSON.stringify(result, null, 2);
 
     fs.writeFileSync(outputFile, outputContent, { encoding: 'utf8' });
-})().catch(error => console.error(chalk.bold.red(error.stack)));
+    consola.success('Output saved to disk!');
+    await db.close();
+})().catch(error => consola.error(error));
 
-async function scrapeBeerUrl(url) {
+async function scrapeBeerUrl(url, extract, insert, db) {
     try {
         const $ = await scrape(url);
 
-        //return extractBeer($, url);
-        const reviews = await extractReviews($, url);
-
-        ipc.emitReviews(reviews);
-
-        return reviews;
+        return await extract(url, $, insert, db);
     } catch (error) {
-        console.error(chalk.bold.red(`Error on: ${url}`));
-        console.error(chalk.bold.red(error.stack));
+        consola.error(`Error while scraping ${url}!`);
+        consola.error(error);
     } finally {
-        console.log(chalk.green(`${++progress.current}/${progress.total}`));
+        logProgress();
     }
 
     return null;
+}
+
+function logProgress(increment = true) {
+    if (increment) {
+        progress.current++;
+    }
+
+    consola.info(`Progress ${progress.current}/${progress.total}`);
 }

@@ -1,6 +1,5 @@
 .DS_Store
-*.gz
-Ratebeer.txt
+output/*.json
 
 # JETBRAINS #
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
