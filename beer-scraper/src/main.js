@@ -32,7 +32,16 @@ const taskFunctions = {
 };
 
 (async () => {
-    const { scrapeTarget, scrapeAmount } = await prompts([
+    const { scrapeFile, scrapeTarget, scrapeAmount } = await prompts([
+        {
+            type: 'select',
+            name: 'scrapeFile',
+            message: 'Which scraping list?',
+            choices: [
+                { title: 'World 🌐', value: '../data/beers.txt' },
+                { title: 'The Netherlands 🇳🇱', value: '../data/beers_NL.txt' }
+            ]
+        },
         {
             type: 'select',
             name: 'scrapeTarget',
@@ -62,7 +71,7 @@ const taskFunctions = {
 
     await shouldSkip.init(db);
 
-    const allBeers = getBeers();
+    const allBeers = getBeers(scrapeFile);
     const sliceEnd = scrapeAmount === 0 ? allBeers.length : scrapeAmount;
     const beers = allBeers
         .slice(0, sliceEnd)
