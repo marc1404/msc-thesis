@@ -71,13 +71,13 @@ const taskFunctions = {
     const limit = pLimit(concurrency);
     progress.total = beers.length;
 
-    const tasks = beers.map(beer => {
-        return limit(() => runTask(beer, extract, insert, db));
-    });
-
     consola.info(`Found ${allBeers.length} beers, skipped ${shouldSkip.skipped}, using ${beers.length}`);
     consola.info(`Using concurrency of ${concurrency}`);
     logProgress(false);
+
+    const tasks = beers.map(beer => {
+        return limit(() => runTask(beer, extract, insert, db));
+    });
 
     const result = await Promise.all(tasks);
 
