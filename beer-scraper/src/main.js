@@ -94,7 +94,7 @@ const taskFunctions = {
 
 async function runTask(url, extract, insert, db) {
     try {
-        return extract(url, insert, db);
+        return await extract(url, insert, db);
     } catch (error) {
         consola.error(`Error while scraping ${url}!`);
         consola.error(error);
