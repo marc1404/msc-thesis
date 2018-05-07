@@ -22,7 +22,6 @@ export default async function queryBeer(url, insert, db) {
     const result = await response.json();
     const beerResult = result.data.info;
     const tagResult = result.data.tagDisplayArr.items;
-    const
 
     return result;
 }
