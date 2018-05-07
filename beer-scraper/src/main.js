@@ -25,7 +25,7 @@ const taskFunctions = {
         insert: insertReviews,
         shouldSkip: shouldSkipReviews
     },
-    beers2: {
+    beersGraphQL: {
         extract: queryBeer,
         insert: insertBeer,
         shouldSkip: shouldSkipBeer
@@ -41,7 +41,7 @@ const taskFunctions = {
             choices: [
                 { title: 'Beers 🍺', value: 'beers' },
                 { title: 'Reviews ⭐', value: 'reviews' },
-                { title: 'Beers v2 🍺', value: 'beers2' },
+                { title: 'Beers GraphQL 🍺', value: 'beersGraphQL' },
             ]
         },
         {
