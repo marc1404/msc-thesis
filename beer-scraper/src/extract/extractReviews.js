@@ -12,7 +12,8 @@ const tasteRegex = /Taste (\d+)/;
 const palateRegex = /Palate (\d)/;
 const overallRegex = /Overall (\d+)/;
 
-export default async function extractReviews(url, $, insert, db) {
+export default async function extractReviews(url, insert, db) {
+    const $ = await scrape(url);
     const id = getIdFromUrl(url);
     let reviews = extractReviewsOnPage($);
     const totalPages = extractTotalPages($);
