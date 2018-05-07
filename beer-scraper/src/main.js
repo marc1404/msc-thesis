@@ -38,7 +38,7 @@ const taskFunctions = {
             name: 'scrapeFile',
             message: 'Which scraping list?',
             choices: [
-                { title: 'World 🌐', value: '../data/beers.txt' },
+                { title: 'World 🌍', value: '../data/beers.txt' },
                 { title: 'The Netherlands 🇳🇱', value: '../data/beers_NL.txt' }
             ]
         },
