@@ -1,8 +1,10 @@
 import consola from 'consola';
 import { Beer, Ratings, Stats, Brewery, Style } from '../models';
 import getIdFromUrl from '../getIdFromUrl';
+import scrape from '../scrape';
 
-export default async function extractBeer(url, $, insert, db) {
+export default async function extractBeer(url, insert, db) {
+    const $ = await scrape(url);
     const id = getIdFromUrl(url);
     const name = $('h1', 'div.user-header').text().trim();
     const brewery = extractBrewery($);

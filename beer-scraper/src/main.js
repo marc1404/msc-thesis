@@ -4,7 +4,6 @@ import { extractBeer, extractReviews, queryBeer } from './extract';
 import { insertBeer, insertReviews } from './insert';
 import { shouldSkipBeer, shouldSkipReviews } from './skip';
 import { connect } from './mysql';
-import scrape from './scrape';
 import prompts from 'prompts';
 import consola from 'consola';
 import getBeers from './getBeers';
@@ -73,7 +72,7 @@ const taskFunctions = {
     progress.total = beers.length;
 
     const tasks = beers.map(beer => {
-        return limit(() => extract(beer, insert, db));
+        return limit(() => runTask(beer, extract, insert, db));
     });
 
     consola.info(`Found ${allBeers.length} beers, skipped ${shouldSkip.skipped}, using ${beers.length}`);
@@ -93,19 +92,16 @@ const taskFunctions = {
     await db.close();
 })().catch(error => consola.error(error));
 
-async function scrapeBeerUrl(url, extract, insert, db) {
+async function runTask(url, extract, insert, db) {
     try {
-        const $ = await scrape(url);
-
-        return await extract(url, $, insert, db);
+        return extract(url, insert, db);
     } catch (error) {
         consola.error(`Error while scraping ${url}!`);
         consola.error(error);
+        return null;
     } finally {
         logProgress();
     }
-
-    return null;
 }
 
 function logProgress(increment = true) {
