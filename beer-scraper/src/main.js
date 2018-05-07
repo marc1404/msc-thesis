@@ -1,6 +1,6 @@
 import fs from 'fs';
 import pLimit from 'p-limit';
-import { extractBeer, extractReviews } from './extract';
+import { extractBeer, extractReviews, queryBeer } from './extract';
 import { insertBeer, insertReviews } from './insert';
 import { shouldSkipBeer, shouldSkipReviews } from './skip';
 import { connect } from './mysql';
@@ -24,6 +24,11 @@ const taskFunctions = {
         extract: extractReviews,
         insert: insertReviews,
         shouldSkip: shouldSkipReviews
+    },
+    beers2: {
+        extract: queryBeer,
+        insert: insertBeer,
+        shouldSkip: shouldSkipBeer
     }
 };
 
@@ -35,7 +40,8 @@ const taskFunctions = {
             message: 'What should be scraped?',
             choices: [
                 { title: 'Beers 🍺', value: 'beers' },
-                { title: 'Reviews ⭐', value: 'reviews' }
+                { title: 'Reviews ⭐', value: 'reviews' },
+                { title: 'Beers v2 🍺', value: 'beers2' },
             ]
         },
         {
@@ -67,7 +73,7 @@ const taskFunctions = {
     progress.total = beers.length;
 
     const tasks = beers.map(beer => {
-        return limit(() => scrapeBeerUrl(beer, extract, insert, db));
+        return limit(() => extract(beer, insert, db));
     });
 
     consola.info(`Found ${allBeers.length} beers, skipped ${shouldSkip.skipped}, using ${beers.length}`);
