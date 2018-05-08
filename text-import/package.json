@@ -1,0 +1,19 @@
+{
+  "name": "text-import",
+  "version": "0.0.1",
+  "description": "Text Import",
+  "main": "index.js",
+  "repository": "git@github.com:marc1404/msc-thesis.git",
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@rich_harris/sql": "1.1.0",
+    "dotenv": "5.0.1",
+    "esm": "3.0.31",
+    "split-lines": "1.1.0"
+  }
+}
