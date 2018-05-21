@@ -14,8 +14,6 @@ export default async function insertBeer(place, db) {
     } catch (error) {
         consola.error(`Failed to insert ${name}!`);
         consola.error(place);
-        consola.error(error);
+        throw error;
     }
-
-    return null;
 };
