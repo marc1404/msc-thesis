@@ -1,8 +1,8 @@
 import fs from 'fs';
 import pLimit from 'p-limit';
-import { extractBeer, extractReviews, queryBeer } from './extract';
-import { insertBeer, insertReviews } from './insert';
-import { shouldSkipBeer, shouldSkipReviews } from './skip';
+import { extractPlace, extractBeer, extractReviews, queryBeer } from './extract';
+import { insertPlace, insertBeer, insertReviews } from './insert';
+import { shouldSkipPlace, shouldSkipBeer, shouldSkipReviews } from './skip';
 import { connect } from './mysql';
 import prompts from 'prompts';
 import consola from 'consola';
@@ -14,6 +14,11 @@ const progress = {
     total: 0
 };
 const taskFunctions = {
+    places: {
+        extract: extractPlace,
+        insert: insertPlace,
+        shouldSkip: shouldSkipPlace
+    },
     beers: {
         extract: extractBeer,
         insert: insertBeer,
@@ -39,7 +44,8 @@ const taskFunctions = {
             message: 'Which scraping list?',
             choices: [
                 { title: 'World 🌍', value: '../data/beers.txt' },
-                { title: 'The Netherlands 🇳🇱', value: '../data/beers_NL.txt' }
+                { title: 'The Netherlands 🇳🇱', value: '../data/beers_NL.txt' },
+                { title: 'Places 📍', value: '../data/places.txt' }
             ]
         },
         {
@@ -47,6 +53,7 @@ const taskFunctions = {
             name: 'scrapeTarget',
             message: 'What should be scraped?',
             choices: [
+                { title: 'Places 📍', value: 'places' },
                 { title: 'Beers 🍺', value: 'beers' },
                 { title: 'Reviews ⭐', value: 'reviews' },
                 { title: 'Beers GraphQL 🍺', value: 'beersGraphQL' },

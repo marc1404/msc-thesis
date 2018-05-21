@@ -6,3 +6,4 @@ export { default as ReviewRating } from './ReviewRating';
 export { default as Stats } from './Stats';
 export { default as Style } from './Style';
 export { default as User } from './User';
+export { default as Place } from './Place';
