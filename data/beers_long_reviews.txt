@@ -198,6 +198,7 @@ https://www.ratebeer.com/beer/paulaner-hefeweissbier-dunkel/648/
 https://www.ratebeer.com/beer/paulaner-salvator/649/
 https://www.ratebeer.com/beer/hacker-pschorr-hefe-weisse-tap-bottle/652/
 https://www.ratebeer.com/beer/hacker-pschorr-oktoberfest-marzen/653/
+https://www.ratebeer.com/beer/hacker-pschorr-dunkle-weisse/655/
 https://www.ratebeer.com/beer/lefebvre-floreffe-double/658/
 https://www.ratebeer.com/beer/lefebvre-floreffe-triple/659/
 https://www.ratebeer.com/beer/barbar/661/
@@ -381,6 +382,8 @@ https://www.ratebeer.com/beer/three-floyds-alpha-king/1432/
 https://www.ratebeer.com/beer/duvel/1434/
 https://www.ratebeer.com/beer/harveys-tom-paine-ale-bottle/1435/
 https://www.ratebeer.com/beer/big-horn-buttface-amber-ale/1437/
+https://www.ratebeer.com/beer/big-horn-hefeweizen/1438/
+https://www.ratebeer.com/beer/big-horn-blonde/1439/
 https://www.ratebeer.com/beer/big-horn-big-red-ipa/1441/
 https://www.ratebeer.com/beer/big-horn-total-disorder-porter/1442/
 https://www.ratebeer.com/beer/magic-hat-humble-patience/1465/
@@ -425,6 +428,7 @@ https://www.ratebeer.com/beer/unibroue-raftman/1920/
 https://www.ratebeer.com/beer/unibroue-maudite/1921/
 https://www.ratebeer.com/beer/unibroue-trois-pistoles/1926/
 https://www.ratebeer.com/beer/unibroue-don-de-dieu/1929/
+https://www.ratebeer.com/beer/grays-irish-ale/1944/
 https://www.ratebeer.com/beer/grays-oatmeal-stout/1947/
 https://www.ratebeer.com/beer/gritty-mcduffs-black-fly-stout/1949/
 https://www.ratebeer.com/beer/gritty-mcduffs-best-bitter/1951/
@@ -572,12 +576,15 @@ https://www.ratebeer.com/beer/woodpecker-cider/3000/
 https://www.ratebeer.com/beer/strongbow-cider/3001/
 https://www.ratebeer.com/beer/scrumpy-jack/3002/
 https://www.ratebeer.com/beer/ace-pear-cider/3004/
+https://www.ratebeer.com/beer/titletown-400-honey-ale/3007/
+https://www.ratebeer.com/beer/titletown-railyard-alt/3008/
 https://www.ratebeer.com/beer/titletown-johnny-blood-red/3009/
 https://www.ratebeer.com/beer/allagash-white/3014/
 https://www.ratebeer.com/beer/bush-blonde-scaldis/3017/
 https://www.ratebeer.com/beer/bush-de-noel-scaldis-noel/3019/
 https://www.ratebeer.com/beer/ommegang-abbey-ale/3022/
 https://www.ratebeer.com/beer/milwaukee-brewing-downtown-lites/3024/
+https://www.ratebeer.com/beer/milwaukee-brewing-solomon-juneau/3025/
 https://www.ratebeer.com/beer/milwaukee-brewing-louie39s-demise/3027/
 https://www.ratebeer.com/beer/peroni-nastro-azzurro/3029/
 https://www.ratebeer.com/beer/long-trail-ale/3043/
@@ -651,7 +658,12 @@ https://www.ratebeer.com/beer/tucher-dunkles-hefe-weizen/3799/
 https://www.ratebeer.com/beer/scuttlebutt-amber-ale/3829/
 https://www.ratebeer.com/beer/scuttlebutt-weizenbock/3834/
 https://www.ratebeer.com/beer/great-dane-pecks-pilsner/3857/
+https://www.ratebeer.com/beer/great-dane-crop-circle-wheat/3858/
+https://www.ratebeer.com/beer/great-dane-old-glory-american-pale-ale/3859/
+https://www.ratebeer.com/beer/great-dane-devils-lake-red-lager/3860/
+https://www.ratebeer.com/beer/great-dane-stone-of-scone-scotch-ale/3861/
 https://www.ratebeer.com/beer/great-dane-emerald-isle-stout/3862/
+https://www.ratebeer.com/beer/great-dane-black-earth-porter/3863/
 https://www.ratebeer.com/beer/tyranena-headless-man-amber-alt/3872/
 https://www.ratebeer.com/beer/tyranena-chief-blackhawk-porter/3874/
 https://www.ratebeer.com/beer/ter-doolen-dolen-tripel/3908/
@@ -676,6 +688,7 @@ https://www.ratebeer.com/beer/augustijn-grand-cru/3960/
 https://www.ratebeer.com/beer/piraat/3962/
 https://www.ratebeer.com/beer/leute-bokbier/3964/
 https://www.ratebeer.com/beer/hapkin/3966/
+https://www.ratebeer.com/beer/hirter-morchl/3968/
 https://www.ratebeer.com/beer/schremser-weihnachtsbrau/3980/
 https://www.ratebeer.com/beer/diebels-alt/3990/
 https://www.ratebeer.com/beer/jever-pilsener/4003/
@@ -720,6 +733,7 @@ https://www.ratebeer.com/beer/wadworth-6x-bottle-can/4445/
 https://www.ratebeer.com/beer/wadworth-ipa-cask/4451/
 https://www.ratebeer.com/beer/wadworth-old-timer/4452/
 https://www.ratebeer.com/beer/guinness-extra-stout-north-america/4456/
+https://www.ratebeer.com/beer/kronenbourg-original/4457/
 https://www.ratebeer.com/beer/kronenbourg-1664/4459/
 https://www.ratebeer.com/beer/pelforth-brune/4461/
 https://www.ratebeer.com/beer/bombardier-glorious-english-bottle/4463/
@@ -736,10 +750,15 @@ https://www.ratebeer.com/beer/carnegie-stark-porter/4503/
 https://www.ratebeer.com/beer/boon-kriek/4505/
 https://www.ratebeer.com/beer/grimbergen-triple/4524/
 https://www.ratebeer.com/beer/obolon-premium/4530/
+https://www.ratebeer.com/beer/blagul/4535/
+https://www.ratebeer.com/beer/saku-hele/4542/
+https://www.ratebeer.com/beer/saku-rock/4546/
+https://www.ratebeer.com/beer/saku-tume/4549/
 https://www.ratebeer.com/beer/pinkus-munstersch-alt/4550/
 https://www.ratebeer.com/beer/pinkus-special/4551/
 https://www.ratebeer.com/beer/pinkus-hefe-weizen/4552/
 https://www.ratebeer.com/beer/pinkus-pils/4553/
+https://www.ratebeer.com/beer/schultheiss-pilsener/4557/
 https://www.ratebeer.com/beer/augustiner-maximator/4559/
 https://www.ratebeer.com/beer/maisel39s-weisse-original/4560/
 https://www.ratebeer.com/beer/la-trappe-dubbel/4563/
@@ -753,6 +772,7 @@ https://www.ratebeer.com/beer/weihenstephaner-hefeweissbier-dunkel/4583/
 https://www.ratebeer.com/beer/weihenstephaner-kristallweissbier/4584/
 https://www.ratebeer.com/beer/breckenridge-autumn-ale/4613/
 https://www.ratebeer.com/beer/breckenridge-christmas-ale/4614/
+https://www.ratebeer.com/beer/windhoek-lager/4622/
 https://www.ratebeer.com/beer/eku-pilsner/4625/
 https://www.ratebeer.com/beer/boon-oude-geuze/4631/
 https://www.ratebeer.com/beer/chapeau-fraises/4632/
@@ -764,6 +784,7 @@ https://www.ratebeer.com/beer/liefmans-kriek-brut/4638/
 https://www.ratebeer.com/beer/ipswich-oatmeal-stout/4644/
 https://www.ratebeer.com/beer/liefmans-goudenband/4663/
 https://www.ratebeer.com/beer/wild-goose-snow-goose-winter-ale/4670/
+https://www.ratebeer.com/beer/batemans-salem-porter/4672/
 https://www.ratebeer.com/beer/batemans-victory-ale-bottle/4674/
 https://www.ratebeer.com/beer/duyck-jenlain-ambree/4677/
 https://www.ratebeer.com/beer/hoogstraten-poorter/4678/
@@ -775,11 +796,14 @@ https://www.ratebeer.com/beer/kozel-premium-lager-12°/4692/
 https://www.ratebeer.com/beer/marston39s-oyster-stout-bottle-keg/4693/
 https://www.ratebeer.com/beer/bar-harbor-cadillac-mountain-stout/4697/
 https://www.ratebeer.com/beer/lapin-kulta-iv-a/4701/
+https://www.ratebeer.com/beer/hartwall-karjala-iv-a/4708/
 https://www.ratebeer.com/beer/bar-harbor-thunder-hole-ale/4719/
 https://www.ratebeer.com/beer/adnams-tally-ho/4727/
 https://www.ratebeer.com/beer/anchor-old-foghorn-ale/4728/
 https://www.ratebeer.com/beer/atlantic-bar-harbor-real-ale/4732/
+https://www.ratebeer.com/beer/westons-stowford-press-medium-dry-cider/4734/
 https://www.ratebeer.com/beer/clausthaler-classic-premium/4749/
+https://www.ratebeer.com/beer/dab-pilsener/4750/
 https://www.ratebeer.com/beer/dab-export/4751/
 https://www.ratebeer.com/beer/dab-original/4754/
 https://www.ratebeer.com/beer/hovels-original/4761/
@@ -788,20 +812,25 @@ https://www.ratebeer.com/beer/great-lakes-commodore-perry-ipa/4773/
 https://www.ratebeer.com/beer/barbar-bok/4786/
 https://www.ratebeer.com/beer/kilkenny/4788/
 https://www.ratebeer.com/beer/krusovice-cerne/4789/
+https://www.ratebeer.com/beer/staropramen-268erny-dark-temne/4791/
 https://www.ratebeer.com/beer/lowenbrau-original/4792/
 https://www.ratebeer.com/beer/biezn-ak-svetly-lez-ak-12°/4817/
 https://www.ratebeer.com/beer/biezn-ak-svetle-vycepni-10°/4818/
 https://www.ratebeer.com/beer/b345ez328-ak-tmave-vy269epni-pivo-10°/4819/
 https://www.ratebeer.com/beer/budweiser-budvar-bud-bstrong-super-strong/4822/
 https://www.ratebeer.com/beer/holba-352er-ak-11°/4834/
+https://www.ratebeer.com/beer/holba-premium-12°/4835/
 https://www.ratebeer.com/beer/nova-paka-kumbur-ak/4852/
 https://www.ratebeer.com/beer/zlatopramen-11°-premium/4863/
+https://www.ratebeer.com/beer/saku-on-ice/4879/
 https://www.ratebeer.com/beer/san-mig-light-5/4926/
 https://www.ratebeer.com/beer/lefebvre-floreffe-prima-melior-meilleure/4933/
 https://www.ratebeer.com/beer/westvleteren-12-xii/4934/
 https://www.ratebeer.com/beer/westvleteren-extra-8/4935/
 https://www.ratebeer.com/beer/cobra/4936/
 https://www.ratebeer.com/beer/carlow-curim-gold/4941/
+https://www.ratebeer.com/beer/taybeh-beer-golden/4943/
+https://www.ratebeer.com/beer/taybeh-beer-dark/4945/
 https://www.ratebeer.com/beer/aldaris-porteris/4947/
 https://www.ratebeer.com/beer/aldaris-zelta/4948/
 https://www.ratebeer.com/beer/aldaris-luksus/4950/
@@ -820,6 +849,7 @@ https://www.ratebeer.com/beer/okocim-ok-beer/4997/
 https://www.ratebeer.com/beer/broughton-merlin39s-ale-bottle/5002/
 https://www.ratebeer.com/beer/fish-tale-organic-india-pale-ale/5008/
 https://www.ratebeer.com/beer/fish-tale-organic-wild-salmon-pale-ale/5010/
+https://www.ratebeer.com/beer/cruzcampo-premium-lager/5040/
 https://www.ratebeer.com/beer/julius-echter-hefe-weissbier-hell/5047/
 https://www.ratebeer.com/beer/peter39s-brand/5049/
 https://www.ratebeer.com/beer/hanssens-oudbeitje/5059/
@@ -888,12 +918,14 @@ https://www.ratebeer.com/beer/einbecker-ur-bock-hell/5402/
 https://www.ratebeer.com/beer/einbecker-ur-bock-dunkel/5403/
 https://www.ratebeer.com/beer/einbecker-brauherren-premium-pils/5404/
 https://www.ratebeer.com/beer/einbecker-brauherren-alkoholfrei/5405/
+https://www.ratebeer.com/beer/la-caracole-troublette-bio/5420/
 https://www.ratebeer.com/beer/beartown-black-bear/5432/
 https://www.ratebeer.com/beer/coniston-bluebird-bitter-bottle/5493/
 https://www.ratebeer.com/beer/coniston-old-man-ale-bottle/5494/
 https://www.ratebeer.com/beer/daleside-old-leg-over/5504/
 https://www.ratebeer.com/beer/holdens-black-country-mild/5521/
 https://www.ratebeer.com/beer/holdens-black-country-special/5524/
+https://www.ratebeer.com/beer/o39douls/5530/
 https://www.ratebeer.com/beer/o39douls-amber/5531/
 https://www.ratebeer.com/beer/hambleton-nightmare/5545/
 https://www.ratebeer.com/beer/big-sky-moose-drool-brown-ale/5554/
@@ -934,6 +966,7 @@ https://www.ratebeer.com/beer/st-peters-honey-porter/5875/
 https://www.ratebeer.com/beer/st-peters-fruit-beer-grapefruit/5878/
 https://www.ratebeer.com/beer/st-peters-best-bitter/5880/
 https://www.ratebeer.com/beer/woods-shropshire-lad/5881/
+https://www.ratebeer.com/beer/woods-hopping-mad/5882/
 https://www.ratebeer.com/beer/dogfish-head-world-wide-stout-2001-2003-present-18/5923/
 https://www.ratebeer.com/beer/bfm-la-torpille/5924/
 https://www.ratebeer.com/beer/bfm-la-salamandre/5925/
@@ -942,7 +975,9 @@ https://www.ratebeer.com/beer/samuel-adams-old-fezziwig-ale/5928/
 https://www.ratebeer.com/beer/founders-imperial-stout/5933/
 https://www.ratebeer.com/beer/franziskaner-weissbier-kristall-klar/5939/
 https://www.ratebeer.com/beer/jamtlands-julol/5946/
+https://www.ratebeer.com/beer/jamtlands-barnsten/5947/
 https://www.ratebeer.com/beer/nynashamns-bedaro-bitter/5952/
+https://www.ratebeer.com/beer/slottskallans-nisse/5959/
 https://www.ratebeer.com/beer/cantillon-soleil-de-minuit/5962/
 https://www.ratebeer.com/beer/mort-subite-gueuze-lambic/5965/
 https://www.ratebeer.com/beer/westvleteren-blond/5971/
@@ -1010,6 +1045,7 @@ https://www.ratebeer.com/beer/florisgaarden-fraise/6186/
 https://www.ratebeer.com/beer/blanche-des-neiges/6189/
 https://www.ratebeer.com/beer/vancouver-island-hermannator-ice-bock/6195/
 https://www.ratebeer.com/beer/schneider-weisse-tap-4-meine-festweisse/6212/
+https://www.ratebeer.com/beer/weltenburger-kloster-anno-1050/6213/
 https://www.ratebeer.com/beer/eku-28/6222/
 https://www.ratebeer.com/beer/three-floyds-rabbid-rabbit-saison/6224/
 https://www.ratebeer.com/beer/steam-whistle-pilsner/6226/
@@ -1024,6 +1060,7 @@ https://www.ratebeer.com/beer/andechser-spezial-hell/6280/
 https://www.ratebeer.com/beer/andechser-export-dunkel/6281/
 https://www.ratebeer.com/beer/eichbaum-ureich-premium-pils/6323/
 https://www.ratebeer.com/beer/gayant-tequieros/6327/
+https://www.ratebeer.com/beer/herforder-pils/6338/
 https://www.ratebeer.com/beer/aecht-schlenkerla-rauchbier-urbock/6349/
 https://www.ratebeer.com/beer/lindemans-faro/6376/
 https://www.ratebeer.com/beer/lowenbrau-oktoberfestbier/6378/
@@ -1049,13 +1086,17 @@ https://www.ratebeer.com/beer/locher-vollmond/6530/
 https://www.ratebeer.com/beer/379ywiec-jasne-pe322ne-beer/6558/
 https://www.ratebeer.com/beer/379ywiec-porter/6561/
 https://www.ratebeer.com/beer/379ubr/6568/
+https://www.ratebeer.com/beer/feldschlosschen-original/6620/
+https://www.ratebeer.com/beer/berliner-kindl-jubilaums-pilsener-premium/6668/
 https://www.ratebeer.com/beer/tuborg-fine-festival/6677/
+https://www.ratebeer.com/beer/cropton-two-pints/6685/
 https://www.ratebeer.com/beer/ellezelloise-quintine-blonde/6699/
 https://www.ratebeer.com/beer/ellezelloise-quintine-ambree/6700/
 https://www.ratebeer.com/beer/ellezelloise-hercule-stout/6701/
 https://www.ratebeer.com/beer/saranac-caramel-porter/6702/
 https://www.ratebeer.com/beer/allgauer-furstabt-hefeweizen/6738/
 https://www.ratebeer.com/beer/allgauer-buble-bier-bayrisch-hell/6741/
+https://www.ratebeer.com/beer/allgauer-teutsch-pils/6743/
 https://www.ratebeer.com/beer/allgauer-buble-bier-edelbrau/6752/
 https://www.ratebeer.com/beer/batemans-rosey-nosey-bottle/6770/
 https://www.ratebeer.com/beer/petrus-speciale/6772/
@@ -1095,6 +1136,8 @@ https://www.ratebeer.com/beer/jopen-hoppenbier/6955/
 https://www.ratebeer.com/beer/jopen-adriaan-wit/6956/
 https://www.ratebeer.com/beer/moeder-overste/6957/
 https://www.ratebeer.com/beer/la-trappe-witte-trappist/6958/
+https://www.ratebeer.com/beer/carlsberg-carls-special/6972/
+https://www.ratebeer.com/beer/refsvindinge-hvid-guld/6979/
 https://www.ratebeer.com/beer/brugs-tarwebier/7009/
 https://www.ratebeer.com/beer/belfast-bay-mcgoverns-oatmeal-stout/7013/
 https://www.ratebeer.com/beer/tongerlo-6-bruin-brune/7037/
@@ -1107,6 +1150,7 @@ https://www.ratebeer.com/beer/dikke-mathile/7050/
 https://www.ratebeer.com/beer/ichtegems-oud-bruin/7052/
 https://www.ratebeer.com/beer/bourgogne-des-flandres/7054/
 https://www.ratebeer.com/beer/timmermans-framboise-lambic/7056/
+https://www.ratebeer.com/beer/timmermans-peche-lambic/7059/
 https://www.ratebeer.com/beer/timmermans-tradition-blanche-lambicus/7060/
 https://www.ratebeer.com/beer/beerlao-lager-beer/7068/
 https://www.ratebeer.com/beer/yards-philadelphia-pale-ale/7081/
@@ -1148,6 +1192,8 @@ https://www.ratebeer.com/beer/tucher-bajuvator-doppelbock/7355/
 https://www.ratebeer.com/beer/thisted-limfjords-porter/7357/
 https://www.ratebeer.com/beer/thisted-porse-guld/7361/
 https://www.ratebeer.com/beer/thisted-thy-classic/7367/
+https://www.ratebeer.com/beer/albani-odense-classic/7376/
+https://www.ratebeer.com/beer/albani-hc-andersen/7384/
 https://www.ratebeer.com/beer/faxe-free/7400/
 https://www.ratebeer.com/beer/faxe-premium/7402/
 https://www.ratebeer.com/beer/mt-begbie-high-country-kolsch/7415/
@@ -1202,6 +1248,7 @@ https://www.ratebeer.com/beer/kapuziner-weissbier-schwarz/7753/
 https://www.ratebeer.com/beer/almaza-pilsener/7755/
 https://www.ratebeer.com/beer/samuel-smiths-extra-stout/7757/
 https://www.ratebeer.com/beer/boulevard-zon/7758/
+https://www.ratebeer.com/beer/ayinger-leichte-brauweisse/7764/
 https://www.ratebeer.com/beer/fruh-kolsch/7777/
 https://www.ratebeer.com/beer/muhlen-kolsch/7778/
 https://www.ratebeer.com/beer/gilden-kolsch/7779/
@@ -1220,6 +1267,7 @@ https://www.ratebeer.com/beer/odell-isolation-ale/7873/
 https://www.ratebeer.com/beer/dominion-millennium/7874/
 https://www.ratebeer.com/beer/barley-days-wind-sail-dark-ale/7918/
 https://www.ratebeer.com/beer/cerveja-super-bock/7932/
+https://www.ratebeer.com/beer/sagres/7934/
 https://www.ratebeer.com/beer/peroni-gran-riserva-doppio-malto/7976/
 https://www.ratebeer.com/beer/new-glarus-snowshoe-ale/7984/
 https://www.ratebeer.com/beer/molson-ice/8025/
@@ -1251,6 +1299,7 @@ https://www.ratebeer.com/beer/left-hand-st-vrain-tripel/8201/
 https://www.ratebeer.com/beer/gilde-pilsener/8203/
 https://www.ratebeer.com/beer/lagunitas-equinox-ale/8219/
 https://www.ratebeer.com/beer/mountain-goat-hightail-ale/8227/
+https://www.ratebeer.com/beer/tuborg-classic/8231/
 https://www.ratebeer.com/beer/hofbrau-munchen-maibock/8235/
 https://www.ratebeer.com/beer/erdinger-champ/8296/
 https://www.ratebeer.com/beer/tucher-urfrankisch-dunkel/8322/
@@ -1263,6 +1312,8 @@ https://www.ratebeer.com/beer/sapporo-reserve/8398/
 https://www.ratebeer.com/beer/beer-works-fenway-american-pale-ale/8429/
 https://www.ratebeer.com/beer/tommyknocker-maple-nut-brown-ale/8440/
 https://www.ratebeer.com/beer/lost-coast-raspberry-brown/8448/
+https://www.ratebeer.com/beer/foroya-bjor-pilsnar-veorur-ram/8478/
+https://www.ratebeer.com/beer/foroya-bjor-black-sheep/8484/
 https://www.ratebeer.com/beer/hair-of-the-dog-ruth/8492/
 https://www.ratebeer.com/beer/heather-ales-kelpie/8500/
 https://www.ratebeer.com/beer/schlafly-raspberry-hefeweizen/8536/
@@ -1285,6 +1336,7 @@ https://www.ratebeer.com/beer/ambar-especial/8666/
 https://www.ratebeer.com/beer/ambar-pale-ale-1900/8667/
 https://www.ratebeer.com/beer/pater-lieven-tripel/8670/
 https://www.ratebeer.com/beer/sand-creek-oscar39s-chocolate-oatmeal-stout/8701/
+https://www.ratebeer.com/beer/stary-melnik-svetloe-lager/8710/
 https://www.ratebeer.com/beer/lagunitas-brown-shugga/8732/
 https://www.ratebeer.com/beer/schlitz/8748/
 https://www.ratebeer.com/beer/val-dieu-triple/8761/
@@ -1323,6 +1375,7 @@ https://www.ratebeer.com/beer/castelain-ch39ti-blonde/8969/
 https://www.ratebeer.com/beer/avery-the-reverend/8972/
 https://www.ratebeer.com/beer/shipyard-longfellow-winter-ale/8973/
 https://www.ratebeer.com/beer/radeberger-pilsner/8975/
+https://www.ratebeer.com/beer/beach-chalet-presidio-ipa/9001/
 https://www.ratebeer.com/beer/kasteel-rouge/9010/
 https://www.ratebeer.com/beer/alaskan-winter-ale/9018/
 https://www.ratebeer.com/beer/garrison-nut-brown-ale/9027/
@@ -1332,6 +1385,7 @@ https://www.ratebeer.com/beer/baladin-super-baladin/9037/
 https://www.ratebeer.com/beer/kulmbacher-monchshof-schwarzbier/9055/
 https://www.ratebeer.com/beer/dragonmead-final-absolution-belgian-style-trippel/9068/
 https://www.ratebeer.com/beer/schneider-weisse-weizen-hell/9072/
+https://www.ratebeer.com/beer/belikin-premium/9077/
 https://www.ratebeer.com/beer/bear-republic-big-bear-black-stout/9081/
 https://www.ratebeer.com/beer/lindemans-gueuze/9083/
 https://www.ratebeer.com/beer/cascade-bitter/9095/
@@ -1350,9 +1404,11 @@ https://www.ratebeer.com/beer/biere-du-corsaire/9196/
 https://www.ratebeer.com/beer/anchor-smooth-pilsener/9224/
 https://www.ratebeer.com/beer/red-horse-extra-strong/9227/
 https://www.ratebeer.com/beer/goldstar/9228/
+https://www.ratebeer.com/beer/zipfer-marzen/9235/
 https://www.ratebeer.com/beer/zipfer-urtyp/9236/
 https://www.ratebeer.com/beer/rothaus-hefeweizen/9284/
 https://www.ratebeer.com/beer/au-baron-cuvee-des-jonquilles/9285/
+https://www.ratebeer.com/beer/sprecher-irish-style-stout/9288/
 https://www.ratebeer.com/beer/wittekerke/9315/
 https://www.ratebeer.com/beer/petrus-roodbruin/9316/
 https://www.ratebeer.com/beer/petrus-blond/9317/
@@ -1367,6 +1423,7 @@ https://www.ratebeer.com/beer/karlovacko-pivo/9372/
 https://www.ratebeer.com/beer/pan-lager/9373/
 https://www.ratebeer.com/beer/ozujsko-pivo/9374/
 https://www.ratebeer.com/beer/mac39s-black-mac/9400/
+https://www.ratebeer.com/beer/wuhrer-pilsener/9409/
 https://www.ratebeer.com/beer/leinenkugels-oktoberfest/9411/
 https://www.ratebeer.com/beer/de-bie-helleketelbier/9412/
 https://www.ratebeer.com/beer/pater-lieven-blond/9414/
@@ -1382,6 +1439,7 @@ https://www.ratebeer.com/beer/gosser-stiftsbrau/9515/
 https://www.ratebeer.com/beer/tennents-super/9527/
 https://www.ratebeer.com/beer/damm-xibeca/9530/
 https://www.ratebeer.com/beer/gordon-finest-gold/9541/
+https://www.ratebeer.com/beer/maxim-double-maxim-pasteurised/9554/
 https://www.ratebeer.com/beer/bohemia-regent-sv283tly-lez-ak-12°/9562/
 https://www.ratebeer.com/beer/bernard-268erny-lez-ak-12°-bernard-dark-lager/9579/
 https://www.ratebeer.com/beer/rothaus-pils-tannenzapfle/9599/
@@ -1390,6 +1448,7 @@ https://www.ratebeer.com/beer/augustiner-lagerbier-hell/9604/
 https://www.ratebeer.com/beer/augustiner-edelstoff/9605/
 https://www.ratebeer.com/beer/berliner-burgerbrau-rotkehlchen/9616/
 https://www.ratebeer.com/beer/caulier-bon-secours-blonde/9665/
+https://www.ratebeer.com/beer/norrlands-guld-export/9671/
 https://www.ratebeer.com/beer/braven-apostel-tripel/9677/
 https://www.ratebeer.com/beer/neumarkter-lammsbrau-dunkel/9681/
 https://www.ratebeer.com/beer/gordon-xmas-ale/9688/
@@ -1402,13 +1461,16 @@ https://www.ratebeer.com/beer/la-vieille-salme/9741/
 https://www.ratebeer.com/beer/waldhaus-diplom-pils/9751/
 https://www.ratebeer.com/beer/fischer-tradition/9760/
 https://www.ratebeer.com/beer/super-des-fagnes-brune/9789/
+https://www.ratebeer.com/beer/hannen-alt/9796/
 https://www.ratebeer.com/beer/wernesgruner-pils/9797/
 https://www.ratebeer.com/beer/schlosser-alt/9798/
 https://www.ratebeer.com/beer/lancelot-telenn-du/9806/
 https://www.ratebeer.com/beer/schwarzer-steiger-schwarzbier/9807/
 https://www.ratebeer.com/beer/feldschlosschen-pilsner/9809/
+https://www.ratebeer.com/beer/lancelot-blanche-hermine/9831/
 https://www.ratebeer.com/beer/lancelot-bonnets-rouges/9832/
 https://www.ratebeer.com/beer/lancelot-xii/9833/
+https://www.ratebeer.com/beer/meteor-lager/9838/
 https://www.ratebeer.com/beer/geants-gouyasse-6/9860/
 https://www.ratebeer.com/beer/tuckerman-pale-ale/9863/
 https://www.ratebeer.com/beer/burton-bridge-golden-delicious/9872/
@@ -1448,6 +1510,7 @@ https://www.ratebeer.com/beer/hoss-dunkler-hirsch-allgauer-weizen/10150/
 https://www.ratebeer.com/beer/hoss-weisser-hirsch-allgauer-weizen/10152/
 https://www.ratebeer.com/beer/taiwan-beer-45-classic/10160/
 https://www.ratebeer.com/beer/zlaty-bazant-10/10165/
+https://www.ratebeer.com/beer/ur-krostitzer-feinherbes-pilsner/10166/
 https://www.ratebeer.com/beer/engel-bock-dunkel/10174/
 https://www.ratebeer.com/beer/budweiser-budvar-bclassic-svetle-vy269epni-pivo-10°/10183/
 https://www.ratebeer.com/beer/berliner-kindl-bock-dunkel/10184/
@@ -1457,6 +1520,7 @@ https://www.ratebeer.com/beer/bosman-full/10254/
 https://www.ratebeer.com/beer/lech-premium/10265/
 https://www.ratebeer.com/beer/great-lakes-nosferatu/10270/
 https://www.ratebeer.com/beer/hoegaarden-verboden-vrucht/10278/
+https://www.ratebeer.com/beer/potts-alt-potts-landbier/10306/
 https://www.ratebeer.com/beer/de-ranke-guldenberg/10309/
 https://www.ratebeer.com/beer/de-ranke-pere-noel/10310/
 https://www.ratebeer.com/beer/utenos-alus-beer/10316/
@@ -1476,6 +1540,7 @@ https://www.ratebeer.com/beer/propeller-london-porter/10419/
 https://www.ratebeer.com/beer/lord-nelson-old-admiral/10437/
 https://www.ratebeer.com/beer/salopian-entire-butt/10442/
 https://www.ratebeer.com/beer/321om380a-jasne/10444/
+https://www.ratebeer.com/beer/simon-regal/10466/
 https://www.ratebeer.com/beer/trumer-pils-austria/10503/
 https://www.ratebeer.com/beer/keo/10508/
 https://www.ratebeer.com/beer/new-belgium-la-folie/10513/
@@ -1487,6 +1552,7 @@ https://www.ratebeer.com/beer/la-wambrechies/10527/
 https://www.ratebeer.com/beer/baltika-9-krepkoe-strong/10540/
 https://www.ratebeer.com/beer/mammoth-double-nut-brown/10542/
 https://www.ratebeer.com/beer/dogfish-head-90-minute-imperial-ipa/10569/
+https://www.ratebeer.com/beer/sweetwater-georgia-brown/10571/
 https://www.ratebeer.com/beer/ettaler-curator-doppelbock/10585/
 https://www.ratebeer.com/beer/ettaler-kloster-dunkel/10586/
 https://www.ratebeer.com/beer/schmucker-rose-bock/10591/
@@ -1536,9 +1602,11 @@ https://www.ratebeer.com/beer/dupont-avec-les-bons-voeux/11047/
 https://www.ratebeer.com/beer/krug-brau-dunkles-lagerbier/11048/
 https://www.ratebeer.com/beer/spezial-rauchbier-lager/11058/
 https://www.ratebeer.com/beer/lammin-sahti/11063/
+https://www.ratebeer.com/beer/fagerhult/11085/
 https://www.ratebeer.com/beer/il-vicino-wet-mountain-india-pale-ale/11086/
 https://www.ratebeer.com/beer/boulder-beer-buffalo-gold-premium-ale/11102/
 https://www.ratebeer.com/beer/dark-horse-boffo-brown-ale/11104/
+https://www.ratebeer.com/beer/hansa-premium/11113/
 https://www.ratebeer.com/beer/oak-creek-nut-brown-ale/11115/
 https://www.ratebeer.com/beer/oak-creek-amber-ale/11117/
 https://www.ratebeer.com/beer/hansa-sterkol/11120/
@@ -1558,6 +1626,7 @@ https://www.ratebeer.com/beer/blue-point-toasted-lager/11221/
 https://www.ratebeer.com/beer/tring-death-or-glory-ale/11241/
 https://www.ratebeer.com/beer/arrogant-double-bastard-ale/11243/
 https://www.ratebeer.com/beer/schmidt-beer/11246/
+https://www.ratebeer.com/beer/abro-original/11253/
 https://www.ratebeer.com/beer/port-townsend-peeping-peater-scotch-ale/11311/
 https://www.ratebeer.com/beer/estrella-galicia/11325/
 https://www.ratebeer.com/beer/ginder-ale/11334/
@@ -1598,6 +1667,7 @@ https://www.ratebeer.com/beer/oskar-blues-dale39s-pale-ale/11576/
 https://www.ratebeer.com/beer/oskar-blues-old-chub/11579/
 https://www.ratebeer.com/beer/horse-ale/11589/
 https://www.ratebeer.com/beer/hoss-holzar-bier/11610/
+https://www.ratebeer.com/beer/nynashamns-pumpvikens-paskol/11624/
 https://www.ratebeer.com/beer/nynashamns-landsort-lager/11626/
 https://www.ratebeer.com/beer/nynashamns-pickla-pils/11627/
 https://www.ratebeer.com/beer/cantillon-iris/11630/
@@ -1651,6 +1721,7 @@ https://www.ratebeer.com/beer/borsodi-sor/12281/
 https://www.ratebeer.com/beer/jelen-pivo/12285/
 https://www.ratebeer.com/beer/baladin-wayan/12288/
 https://www.ratebeer.com/beer/lambrate-ghisa/12290/
+https://www.ratebeer.com/beer/lambrate-lambrate/12291/
 https://www.ratebeer.com/beer/lambrate-montestella/12292/
 https://www.ratebeer.com/beer/21st-amendment-lower-de-boom-barleywine/12298/
 https://www.ratebeer.com/beer/hopf-dunkle-weisse/12314/
@@ -1660,10 +1731,12 @@ https://www.ratebeer.com/beer/pivovara-medvedgrad-dva-klasa/12402/
 https://www.ratebeer.com/beer/alivaria-desyatka/12406/
 https://www.ratebeer.com/beer/cannabia/12414/
 https://www.ratebeer.com/beer/frydenlund-bokkol/12422/
+https://www.ratebeer.com/beer/abro-kung-52/12492/
 https://www.ratebeer.com/beer/3-fonteinen-framboos-framboise/12514/
 https://www.ratebeer.com/beer/silly-enghien-noel-triple-blonde/12517/
 https://www.ratebeer.com/beer/u-flek367-flekovsky-tmavy-lez-ak-13°/12523/
 https://www.ratebeer.com/beer/chodovar-z-amecky-lez-ak-special-13°/12524/
+https://www.ratebeer.com/beer/chodovar-prezident-12°/12527/
 https://www.ratebeer.com/beer/dent-ramsbottom-strong-ale/12534/
 https://www.ratebeer.com/beer/pripps-bla-extra-stark/12552/
 https://www.ratebeer.com/beer/lasko-dark-temno/12556/
@@ -1684,11 +1757,14 @@ https://www.ratebeer.com/beer/moon-river-savannah-fest-beer/12780/
 https://www.ratebeer.com/beer/het-anker-gouden-carolus-tripel/12799/
 https://www.ratebeer.com/beer/girardin-oude-lambik/12802/
 https://www.ratebeer.com/beer/beersel-blond/12803/
+https://www.ratebeer.com/beer/gulder-lager-nigeria/12805/
 https://www.ratebeer.com/beer/phoenix-beer/12812/
+https://www.ratebeer.com/beer/frydenlund-bayerol/12814/
 https://www.ratebeer.com/beer/dogfish-head-raison-d-extra/12834/
 https://www.ratebeer.com/beer/oettinger-export/12853/
 https://www.ratebeer.com/beer/silver-gulch-coldfoot-pilsner-lager/12857/
 https://www.ratebeer.com/beer/smoky-mountain-velas-helles-lager/12866/
+https://www.ratebeer.com/beer/detmolder-landbier-dunkel/12878/
 https://www.ratebeer.com/beer/pegas-svetly-lez-ak-nefiltrovany/12884/
 https://www.ratebeer.com/beer/guinness-foreign-extra-stout/12910/
 https://www.ratebeer.com/beer/memminger-premium/12911/
@@ -1731,14 +1807,19 @@ https://www.ratebeer.com/beer/gordon-biersch-schwarzbier/13262/
 https://www.ratebeer.com/beer/batemans-hooker/13270/
 https://www.ratebeer.com/beer/bath-barnsey/13273/
 https://www.ratebeer.com/beer/weltenburger-kloster-winter-traum/13279/
+https://www.ratebeer.com/beer/rebel-268erny/13302/
 https://www.ratebeer.com/beer/platan-jeden-act-sv283tly-lez-ak-11°/13304/
+https://www.ratebeer.com/beer/nymburk-postiizinske-svetly-lez-ak-11°/13308/
 https://www.ratebeer.com/beer/badger-golden-glory/13324/
 https://www.ratebeer.com/beer/plank-hefeweizen/13335/
 https://www.ratebeer.com/beer/caracu-cerveja-escura/13340/
+https://www.ratebeer.com/beer/olvi-sandels-iv-a/13365/
 https://www.ratebeer.com/beer/diamond-knot-industrial-india-pale-ale/13366/
 https://www.ratebeer.com/beer/mesa-cerveza-schnorzenboomer-dark-amber-doppelbock/13374/
+https://www.ratebeer.com/beer/frydenlund-pilsener/13387/
 https://www.ratebeer.com/beer/lost-coast-winterbraun/13414/
 https://www.ratebeer.com/beer/ithaca-flower-power-ipa/13422/
+https://www.ratebeer.com/beer/berliner-pilsner/13471/
 https://www.ratebeer.com/beer/florisgaarden-pomme-apple/13499/
 https://www.ratebeer.com/beer/santa-fe-nut-brown-ale/13501/
 https://www.ratebeer.com/beer/chaucers-mead/13514/
@@ -1760,6 +1841,7 @@ https://www.ratebeer.com/beer/central-waters-satin-solitude-imperial-stout/13678
 https://www.ratebeer.com/beer/central-waters-kosmyk-charlies-y2k-catastrophe-ale/13679/
 https://www.ratebeer.com/beer/peoples-pint-hope-street-esb/13708/
 https://www.ratebeer.com/beer/granville-island-english-bay-pale-ale/13710/
+https://www.ratebeer.com/beer/munkholm/13724/
 https://www.ratebeer.com/beer/oak-creek-gold-lager/13727/
 https://www.ratebeer.com/beer/otter-bright/13738/
 https://www.ratebeer.com/beer/otter-head/13740/
@@ -1792,13 +1874,16 @@ https://www.ratebeer.com/beer/schlafly-kaldis-coffee-stout/14170/
 https://www.ratebeer.com/beer/reinaert-tripel/14225/
 https://www.ratebeer.com/beer/gageleer/14227/
 https://www.ratebeer.com/beer/chimay-doree-speciale-du-potaupre/14228/
+https://www.ratebeer.com/beer/magnolia-kalifornia-kolsch/14229/
 https://www.ratebeer.com/beer/alesmith-speedway-stout/14232/
 https://www.ratebeer.com/beer/town-hall-maibock/14236/
 https://www.ratebeer.com/beer/sly-fox-helles-golden-lager/14249/
+https://www.ratebeer.com/beer/cb-juleol-65/14268/
 https://www.ratebeer.com/beer/vierzehnheiligen-nothelfer-urdunkel-export/14320/
 https://www.ratebeer.com/beer/tuatara-weiz-guy/14323/
 https://www.ratebeer.com/beer/tuatara-mot-eureka/14324/
 https://www.ratebeer.com/beer/veldensteiner-weissbier/14334/
+https://www.ratebeer.com/beer/dansk-mjod-vikingernes-mjod/14355/
 https://www.ratebeer.com/beer/la-quenast/14360/
 https://www.ratebeer.com/beer/kulmbacher-eisbock/14367/
 https://www.ratebeer.com/beer/alesmith-ipa/14396/
@@ -1839,7 +1924,10 @@ https://www.ratebeer.com/beer/kameleon-tripel/14900/
 https://www.ratebeer.com/beer/anchor-summer-wheat/14934/
 https://www.ratebeer.com/beer/mendocino-white-hawk-select-ipa/14940/
 https://www.ratebeer.com/beer/founders-breakfast-stout/14956/
+https://www.ratebeer.com/beer/carling-black-label-beer-south-africa/14974/
+https://www.ratebeer.com/beer/carnegie-porter-35/14982/
 https://www.ratebeer.com/beer/buckeye-76-india-pale-ale/15004/
+https://www.ratebeer.com/beer/millennium-starkol-51/15038/
 https://www.ratebeer.com/beer/hofstettner-granit-bier/15062/
 https://www.ratebeer.com/beer/salm-brau-helles/15067/
 https://www.ratebeer.com/beer/dieu-du-ciel-solstice-d39hiver/15121/
@@ -1852,22 +1940,26 @@ https://www.ratebeer.com/beer/fuller39s-vintage-ale-2002/15234/
 https://www.ratebeer.com/beer/liefmans-oud-bruin/15243/
 https://www.ratebeer.com/beer/stela/15329/
 https://www.ratebeer.com/beer/kaiserdom-pilsener/15349/
+https://www.ratebeer.com/beer/falcon-bayerskt/15383/
 https://www.ratebeer.com/beer/39t-ij-ijwit/15411/
 https://www.ratebeer.com/beer/les-3-brasseurs-l39ambree/15414/
 https://www.ratebeer.com/beer/riedenburger-pilsner/15456/
 https://www.ratebeer.com/beer/boltens-alt/15458/
 https://www.ratebeer.com/beer/lake-placid-ubu-ale/15484/
 https://www.ratebeer.com/beer/nova-scotia-stout/15522/
+https://www.ratebeer.com/beer/holsten-edel/15540/
 https://www.ratebeer.com/beer/georg-braeu-hell/15558/
 https://www.ratebeer.com/beer/georg-braeu-dunkel/15559/
 https://www.ratebeer.com/beer/prim-ator-exkluziv-16°/15578/
 https://www.ratebeer.com/beer/lakefront-oktoberfest/15584/
 https://www.ratebeer.com/beer/sint-gummarus-dubbel/15586/
+https://www.ratebeer.com/beer/zotler-st-stephans-bock-dunkel/15608/
 https://www.ratebeer.com/beer/breda-royal-beer-lager/15642/
 https://www.ratebeer.com/beer/altenmunster-brauer-bier-hopfig-herb/15647/
 https://www.ratebeer.com/beer/altenmunster-brauer-bier-urig-wurzig/15648/
 https://www.ratebeer.com/beer/eurobrau-cannabis-red-power/15680/
 https://www.ratebeer.com/beer/debowe-mocne/15694/
+https://www.ratebeer.com/beer/kopparbergs-dansk-fadol/15745/
 https://www.ratebeer.com/beer/kirin-tanrei-green-label/15746/
 https://www.ratebeer.com/beer/fantome-printemps/15762/
 https://www.ratebeer.com/beer/thiriez-la-blonde-d39esquelbecq/15774/
@@ -1880,8 +1972,12 @@ https://www.ratebeer.com/beer/stone-20th-anniversary-encore-series-6th-anniversa
 https://www.ratebeer.com/beer/kneitinger-dunkel/15991/
 https://www.ratebeer.com/beer/achel-8-bruin/15994/
 https://www.ratebeer.com/beer/twisted-pine-blonde-ale/15995/
+https://www.ratebeer.com/beer/water-street-old-world-oktoberfest/16005/
+https://www.ratebeer.com/beer/water-street-bavarian-weiss/16008/
+https://www.ratebeer.com/beer/water-street-honey-lager-light/16010/
 https://www.ratebeer.com/beer/ginga-kogen-ko-mugi-no-beer/16024/
 https://www.ratebeer.com/beer/little-creatures-rogers-beer/16074/
+https://www.ratebeer.com/beer/water-street-raspberry-weiss/16110/
 https://www.ratebeer.com/beer/3-fonteinen-faro-classic/16185/
 https://www.ratebeer.com/beer/stortebeker-schwarz-bier/16208/
 https://www.ratebeer.com/beer/sierra-nevada-pale-ale-draft/16248/
@@ -1927,6 +2023,7 @@ https://www.ratebeer.com/beer/texels-tripel/16733/
 https://www.ratebeer.com/beer/roman-blanche/16737/
 https://www.ratebeer.com/beer/dark-horse-oktoberfest-beer/16743/
 https://www.ratebeer.com/beer/brewer39s-art-beazly/16745/
+https://www.ratebeer.com/beer/groninger-pils/16759/
 https://www.ratebeer.com/beer/duclaw-bad-moon-porter/16772/
 https://www.ratebeer.com/beer/alesmith-lil-devil/16789/
 https://www.ratebeer.com/beer/augustiner-oktoberfest-bier/16807/
@@ -1951,6 +2048,7 @@ https://www.ratebeer.com/beer/salopian-golden-thread/16997/
 https://www.ratebeer.com/beer/speakeasy-double-daddy-ipa/17012/
 https://www.ratebeer.com/beer/sly-fox-incubus/17024/
 https://www.ratebeer.com/beer/hofmann-helles-landbier/17060/
+https://www.ratebeer.com/beer/leo-beer/17078/
 https://www.ratebeer.com/beer/myanmar-lager-beer/17109/
 https://www.ratebeer.com/beer/tegernseer-hell/17116/
 https://www.ratebeer.com/beer/dragonmead-octoberfest-marzen/17120/
@@ -2009,6 +2107,7 @@ https://www.ratebeer.com/beer/alhambra-reserva-1925/18211/
 https://www.ratebeer.com/beer/westons-henry-westons-vintage-reserve-cider/18214/
 https://www.ratebeer.com/beer/babycham-sparkling-perry/18294/
 https://www.ratebeer.com/beer/elysian-bifrost-winter-ale/18309/
+https://www.ratebeer.com/beer/lindisfarne-mead/18358/
 https://www.ratebeer.com/beer/south-shore-nut-brown-ale/18359/
 https://www.ratebeer.com/beer/het-anker-gouden-carolus-christmas-noel/18375/
 https://www.ratebeer.com/beer/tsingtao-augerta-1903-12°/18405/
@@ -2019,7 +2118,9 @@ https://www.ratebeer.com/beer/schlappeseppel-export/18494/
 https://www.ratebeer.com/beer/schlappeseppel-pilsener/18495/
 https://www.ratebeer.com/beer/de-ryck-special/18513/
 https://www.ratebeer.com/beer/flossmoor-station-chessie-cherry-wheat-ale/18551/
+https://www.ratebeer.com/beer/tegernseer-quirinus-dunkler-doppelbock/18558/
 https://www.ratebeer.com/beer/peoples-pint-farmer-brown/18576/
+https://www.ratebeer.com/beer/cerpa-export/18578/
 https://www.ratebeer.com/beer/hijos-de-rivera-1906-extra/18579/
 https://www.ratebeer.com/beer/switchback-ale/18592/
 https://www.ratebeer.com/beer/kastaar/18599/
@@ -2035,6 +2136,7 @@ https://www.ratebeer.com/beer/rittmayer-hallerndorfer-rauchbier/18758/
 https://www.ratebeer.com/beer/bischofshof-hefe-weissbier-dunkel/18777/
 https://www.ratebeer.com/beer/riegele-commerzienrat-riegele-privat/18808/
 https://www.ratebeer.com/beer/alpine-beer-company-pure-hoppiness/18829/
+https://www.ratebeer.com/beer/boltens-ur-alt/18839/
 https://www.ratebeer.com/beer/ballast-point-tongue-buckler-imperial-red-ale/18849/
 https://www.ratebeer.com/beer/port-brewing-santas-little-helper/18856/
 https://www.ratebeer.com/beer/bohemia-regent-prezident-14°/18868/
@@ -2044,12 +2146,14 @@ https://www.ratebeer.com/beer/sly-fox-christmas-ale/18917/
 https://www.ratebeer.com/beer/achel-extra-bruin-de-3-wijzen/18983/
 https://www.ratebeer.com/beer/berkshire-farmstand-raspberry-barleywine-style-ale/19040/
 https://www.ratebeer.com/beer/brunehaut-abbaye-de-saint-martin-blonde/19047/
+https://www.ratebeer.com/beer/original-sin-hard-cider/19051/
 https://www.ratebeer.com/beer/abdij-van-39t-park-blond/19107/
 https://www.ratebeer.com/beer/westheimer-premium-pilsener/19131/
 https://www.ratebeer.com/beer/wolf-edith-cavell/19142/
 https://www.ratebeer.com/beer/kempisch-vuur-tripel/19149/
 https://www.ratebeer.com/beer/lindeboom-venloosch-alt/19180/
 https://www.ratebeer.com/beer/maui-brewing-bikini-blonde-lager/19187/
+https://www.ratebeer.com/beer/san-miguel-spain/19198/
 https://www.ratebeer.com/beer/eriksberg/19199/
 https://www.ratebeer.com/beer/dark-horse-fore-smoked-stout/19266/
 https://www.ratebeer.com/beer/goller-dunkel/19294/
@@ -2075,6 +2179,7 @@ https://www.ratebeer.com/beer/kuchlbauer-aloysius/19969/
 https://www.ratebeer.com/beer/troegs-the-mad-elf-holiday-ale/19994/
 https://www.ratebeer.com/beer/den-bangelijke/20184/
 https://www.ratebeer.com/beer/kuchlbauer-alte-liebe-dunkle-weisse/20225/
+https://www.ratebeer.com/beer/grumpy-troll-troll39s-gold-lager/20338/
 https://www.ratebeer.com/beer/russian-river-salvation/20539/
 https://www.ratebeer.com/beer/josephsbrau-black-toad-distinctive-dark-ale/20543/
 https://www.ratebeer.com/beer/bell39s-winter-white-ale/20555/
@@ -2105,6 +2210,7 @@ https://www.ratebeer.com/beer/uerige-sticke/21386/
 https://www.ratebeer.com/beer/marcus-brau-pils-unfiltriert/21394/
 https://www.ratebeer.com/beer/marcus-brau-preussen-dunkel/21395/
 https://www.ratebeer.com/beer/iron-hill-russian-imperial-stout/21425/
+https://www.ratebeer.com/beer/rebel-original-premium-12°/21451/
 https://www.ratebeer.com/beer/3-fonteinen-millennium-geuze/21457/
 https://www.ratebeer.com/beer/florisgaarden-griotte/21539/
 https://www.ratebeer.com/beer/wynkoop-pattys-chile-beer/21623/
@@ -2120,7 +2226,10 @@ https://www.ratebeer.com/beer/lemke-original/21898/
 https://www.ratebeer.com/beer/holdens-golden-glow/21905/
 https://www.ratebeer.com/beer/real-ale-coffee-porter/21931/
 https://www.ratebeer.com/beer/hacker-pschorr-munchner-hell/21943/
+https://www.ratebeer.com/beer/mack-arctic-beer/21948/
 https://www.ratebeer.com/beer/dartmoor-jail-ale/22023/
+https://www.ratebeer.com/beer/lidl-bergadler-premium-pils/22051/
+https://www.ratebeer.com/beer/zotler-hefe-weizen/22076/
 https://www.ratebeer.com/beer/caldera-ipa/22106/
 https://www.ratebeer.com/beer/glacier-big-woody-barleywine/22134/
 https://www.ratebeer.com/beer/dunkertons-black-fox-organic-cider-bottle/22144/
@@ -2130,12 +2239,15 @@ https://www.ratebeer.com/beer/mort-subite-witte-lambic/22315/
 https://www.ratebeer.com/beer/cantillon-lou-pepe-framboise/22328/
 https://www.ratebeer.com/beer/duysters-loterbol-bruin/22337/
 https://www.ratebeer.com/beer/kuhnhenn-bourbon-barrel-barley-wine/22339/
+https://www.ratebeer.com/beer/refsvindinge-enkens-anden-lyst/22393/
 https://www.ratebeer.com/beer/panil-barriquee-sour/22395/
 https://www.ratebeer.com/beer/young39s-oatmeal-stout-london-stout/22412/
 https://www.ratebeer.com/beer/stone-030303-vertical-epic-ale/22427/
+https://www.ratebeer.com/beer/kulmbacher-monchshof-lager/22437/
 https://www.ratebeer.com/beer/midnight-sun-monk39s-mistress/22463/
 https://www.ratebeer.com/beer/firestone-walker-pale-31/22526/
 https://www.ratebeer.com/beer/short39s-nicie-spicie/22528/
+https://www.ratebeer.com/beer/sofiero-original/22539/
 https://www.ratebeer.com/beer/leroy-stout/22561/
 https://www.ratebeer.com/beer/dragonmead-sir-williams-esb/22583/
 https://www.ratebeer.com/beer/queue-de-charrue-vieille-brune-oud-bruin/22618/
@@ -2156,6 +2268,7 @@ https://www.ratebeer.com/beer/victory-v12/22905/
 https://www.ratebeer.com/beer/rock-bottom-el-jefe-hefeweizen/22923/
 https://www.ratebeer.com/beer/st-austell-tribute-bottle-can/22934/
 https://www.ratebeer.com/beer/wagner-valley-sled-dog-trippelbock/22945/
+https://www.ratebeer.com/beer/hancock-black-lager/22956/
 https://www.ratebeer.com/beer/kieler-bier/22958/
 https://www.ratebeer.com/beer/ricklinger-marzen/22959/
 https://www.ratebeer.com/beer/avery-white-rascal/22967/
@@ -2171,6 +2284,7 @@ https://www.ratebeer.com/beer/zerodegrees-pale-ale/23226/
 https://www.ratebeer.com/beer/thiriez-extra/23258/
 https://www.ratebeer.com/beer/thiriez-l39ambree-d39esquelbecq/23294/
 https://www.ratebeer.com/beer/la-choulette-de-noel/23326/
+https://www.ratebeer.com/beer/niksi263ko-tamno/23339/
 https://www.ratebeer.com/beer/legend-tripel-ale/23404/
 https://www.ratebeer.com/beer/orbaek-paskebryg/23411/
 https://www.ratebeer.com/beer/craftsman-heavenly-hefe/23412/
@@ -2195,7 +2309,9 @@ https://www.ratebeer.com/beer/malheur-8-bier-van-de-kastelein/23712/
 https://www.ratebeer.com/beer/duivels-bier-donker/23741/
 https://www.ratebeer.com/beer/fnc-zillertal-premium/23776/
 https://www.ratebeer.com/beer/nogne-o-pale-ale/23812/
+https://www.ratebeer.com/beer/orbaek-fynsk-forar/23815/
 https://www.ratebeer.com/beer/madonna/23825/
+https://www.ratebeer.com/beer/refsvindinge-mors-stout/23846/
 https://www.ratebeer.com/beer/hair-of-the-dog-dave/23897/
 https://www.ratebeer.com/beer/kl-aster-lez-ak-11°/23908/
 https://www.ratebeer.com/beer/dekoninck-oude-gueuze/23924/
@@ -2214,10 +2330,12 @@ https://www.ratebeer.com/beer/de-cam-oude-kriek/24082/
 https://www.ratebeer.com/beer/ska-steel-toe-stout-milk-stout/24110/
 https://www.ratebeer.com/beer/goachers-best-dark-ale/24161/
 https://www.ratebeer.com/beer/celis-white-belgian/24172/
+https://www.ratebeer.com/beer/schwaben-brau-das-helle/24181/
 https://www.ratebeer.com/beer/val-dieu-blonde/24198/
 https://www.ratebeer.com/beer/konigsbacher-pilsener-48/24233/
 https://www.ratebeer.com/beer/black-isle-organic-yellowhammer-bitter/24250/
 https://www.ratebeer.com/beer/douglas-celtic-brown/24252/
+https://www.ratebeer.com/beer/dukes-big-ass-bock/24271/
 https://www.ratebeer.com/beer/zehendner-monchsambacher-hefe-weizen/24304/
 https://www.ratebeer.com/beer/marston39s-old-empire-bottle/24312/
 https://www.ratebeer.com/beer/dieu-du-ciel-aphrodisiaque/24350/
@@ -2233,12 +2351,14 @@ https://www.ratebeer.com/beer/bayreuther-aktien-zwick39l-kellerbier/24569/
 https://www.ratebeer.com/beer/blue-anchor-spingo-middle/24594/
 https://www.ratebeer.com/beer/mighty-oak-oscar-wilde/24600/
 https://www.ratebeer.com/beer/goose-island-pere-jacques/24619/
+https://www.ratebeer.com/beer/abro-svensk-starkol/24624/
 https://www.ratebeer.com/beer/wye-valley-dorothy-goodbody39s-country-ale/24634/
 https://www.ratebeer.com/beer/town-hall-hefeweizen/24637/
 https://www.ratebeer.com/beer/hopdaemon-incubus/24667/
 https://www.ratebeer.com/beer/friedel-zentbechhofen-lagerbier/24686/
 https://www.ratebeer.com/beer/wold-top-bitter/24700/
 https://www.ratebeer.com/beer/ursus-premium/24730/
+https://www.ratebeer.com/beer/schwaben-brau-weihnachtsbier/24799/
 https://www.ratebeer.com/beer/sagres-preta/24839/
 https://www.ratebeer.com/beer/cerveja-super-bock-stout/24840/
 https://www.ratebeer.com/beer/meantime-raspberry-wheat/24855/
@@ -2252,18 +2372,23 @@ https://www.ratebeer.com/beer/timmermans-tradition-kriek-lambic/24975/
 https://www.ratebeer.com/beer/schlafly-dry-hopped-apa/24986/
 https://www.ratebeer.com/beer/great-divide-yeti-imperial-stout/25082/
 https://www.ratebeer.com/beer/great-divide-titan-ipa/25083/
+https://www.ratebeer.com/beer/three-hearts-stockholm-fine-festival-72/25094/
 https://www.ratebeer.com/beer/boulder-beer-mojo-ipa/25095/
 https://www.ratebeer.com/beer/ottakringer-gold-fassl-zwickl/25104/
 https://www.ratebeer.com/beer/cambridge-saison-du-cbc/25126/
 https://www.ratebeer.com/beer/orange-blossom-pilsner-obp/25137/
 https://www.ratebeer.com/beer/teignworthy-christmas-cracker/25168/
+https://www.ratebeer.com/beer/kingstone-press-classic-apple-cider/25275/
 https://www.ratebeer.com/beer/de-troch-kriek/25280/
 https://www.ratebeer.com/beer/dupont-cervesia/25290/
+https://www.ratebeer.com/beer/obolon-magnat-mazham/25323/
 https://www.ratebeer.com/beer/baltika-5-zolotoe-golden/25329/
 https://www.ratebeer.com/beer/westmalle-extra/25406/
+https://www.ratebeer.com/beer/shepherd-neame-bishops-finger-35/25415/
 https://www.ratebeer.com/beer/goachers-crown-imperial-stout/25555/
 https://www.ratebeer.com/beer/dragonmead-london-brown-ale/25562/
 https://www.ratebeer.com/beer/savanna-dry-premium-cider/25582/
+https://www.ratebeer.com/beer/lunar-total-eclipse/25599/
 https://www.ratebeer.com/beer/original-ritterguts-gose/25639/
 https://www.ratebeer.com/beer/kuhnhenn-tangerine-wit/25644/
 https://www.ratebeer.com/beer/bayerischer-bahnhof-schaffner-naturtrubes-pils/25668/
@@ -2319,6 +2444,7 @@ https://www.ratebeer.com/beer/rittmayer-hallerndorfer-landbier-hell/26854/
 https://www.ratebeer.com/beer/kettle-house-cold-smoke-scotch-ale/26860/
 https://www.ratebeer.com/beer/weiherer-bock/26871/
 https://www.ratebeer.com/beer/olvi-tumma-jouluolut-iii/26901/
+https://www.ratebeer.com/beer/norrebro-ravnsborg-rod/26903/
 https://www.ratebeer.com/beer/flying-bison-baron-von-bisonfest/26909/
 https://www.ratebeer.com/beer/nogne-o-wit/26938/
 https://www.ratebeer.com/beer/schlappeseppel-dunkel/26954/
@@ -2332,12 +2458,14 @@ https://www.ratebeer.com/beer/four-peaks-hop-knot-ipa/27080/
 https://www.ratebeer.com/beer/magic-hat-mother-lager/27090/
 https://www.ratebeer.com/beer/eylenbosch-framboise-cuvee-speciale/27097/
 https://www.ratebeer.com/beer/lake-louie-brother-tims-tripel/27109/
+https://www.ratebeer.com/beer/floris-framboise/27137/
 https://www.ratebeer.com/beer/geants-ducassis/27153/
 https://www.ratebeer.com/beer/new-belgium-lips-of-faith-transatlantique-kriek/27227/
 https://www.ratebeer.com/beer/earl-soham-gannet-mild/27352/
 https://www.ratebeer.com/beer/big-river-grille-oktoberfest/27363/
 https://www.ratebeer.com/beer/bunratty-irish-mead/27380/
 https://www.ratebeer.com/beer/legado-de-yuste/27395/
+https://www.ratebeer.com/beer/urpiner-classic-vy269apne-svetle-10°-draught-pale-beer/27411/
 https://www.ratebeer.com/beer/southern-tier-harvest-ale/27471/
 https://www.ratebeer.com/beer/lefebvre-belgian-kriek/27586/
 https://www.ratebeer.com/beer/spaten-oktoberfestbier/27599/
@@ -2403,6 +2531,7 @@ https://www.ratebeer.com/beer/port-brewing-shark-attack-double-red-ale/29012/
 https://www.ratebeer.com/beer/de-hemel-nieuw-ligt-grand-cru/29028/
 https://www.ratebeer.com/beer/banks39s-barley-gold/29033/
 https://www.ratebeer.com/beer/greyhawk-copper-dragon-golden-pippin/29038/
+https://www.ratebeer.com/beer/stortebeker-pilsener-bier/29121/
 https://www.ratebeer.com/beer/golden-valley-dundee-porter/29154/
 https://www.ratebeer.com/beer/buffalo-bills-orange-blossom-cream-ale/29160/
 https://www.ratebeer.com/beer/niederrhein-alt/29186/
@@ -2415,8 +2544,11 @@ https://www.ratebeer.com/beer/yazoo-dos-perros/29315/
 https://www.ratebeer.com/beer/yazoo-pale-ale/29316/
 https://www.ratebeer.com/beer/abbey-brewing-immaculate-ipa/29335/
 https://www.ratebeer.com/beer/prescott-ponderosa-ipa/29378/
+https://www.ratebeer.com/beer/water-street-black-lager/29447/
 https://www.ratebeer.com/beer/alpine-beer-company-willy-vanilly/29466/
+https://www.ratebeer.com/beer/abro-smaland/29482/
 https://www.ratebeer.com/beer/coeur-d39alene-vanilla-bourbon-stout/29497/
+https://www.ratebeer.com/beer/richmodis-kolsch/29512/
 https://www.ratebeer.com/beer/staffordshire-double-sunset/29552/
 https://www.ratebeer.com/beer/silver-city-fat-scotch-ale/29561/
 https://www.ratebeer.com/beer/staffordshire-rudyard-ruby-ale/29610/
@@ -2458,6 +2590,7 @@ https://www.ratebeer.com/beer/3-ravens-white/30633/
 https://www.ratebeer.com/beer/damm-lemon-6-4/30638/
 https://www.ratebeer.com/beer/gekkeikan-laurel-crown-black-and-gold-junmai-ginjo-sake/30662/
 https://www.ratebeer.com/beer/raschhofer-innviertler-hell/30681/
+https://www.ratebeer.com/beer/abro-femkommatvaan/30757/
 https://www.ratebeer.com/beer/erie-brewing-ol39-red-cease-desist-scottish-ale/30784/
 https://www.ratebeer.com/beer/saison-de-mai/30787/
 https://www.ratebeer.com/beer/troegs-nugget-nectar-ale/30812/
@@ -2466,6 +2599,7 @@ https://www.ratebeer.com/beer/stone-old-guardian-vintages-2004-and-later/30838/
 https://www.ratebeer.com/beer/great-lakes-blackout-stout/30896/
 https://www.ratebeer.com/beer/red-lodge-helio-hefeweizen/30905/
 https://www.ratebeer.com/beer/goose-island-312-urban-wheat-ale/30913/
+https://www.ratebeer.com/beer/williams-brothers-red-bottle/30914/
 https://www.ratebeer.com/beer/barley-johns-stockyard-ipa/30927/
 https://www.ratebeer.com/beer/drakes-denogginizer/30946/
 https://www.ratebeer.com/beer/hockley-valley-dark/31037/
@@ -2481,6 +2615,7 @@ https://www.ratebeer.com/beer/rock-bottom-denver-molly39s-titanic-brown-ale/3150
 https://www.ratebeer.com/beer/brunswick-railway-porter/31570/
 https://www.ratebeer.com/beer/apostelbrau-original-dinkel-bier/31663/
 https://www.ratebeer.com/beer/castle-rock-harvest-pale-cask/31707/
+https://www.ratebeer.com/beer/einsiedler-sachsisch-landbier-zwickel/31742/
 https://www.ratebeer.com/beer/elland-nettlethrasher/31743/
 https://www.ratebeer.com/beer/engel-kristall-weizen/31792/
 https://www.ratebeer.com/beer/gubernija-grand-95/31832/
@@ -2538,6 +2673,7 @@ https://www.ratebeer.com/beer/adirondack-bear-naked-ale/33575/
 https://www.ratebeer.com/beer/custom-brewcrafters-st-patricks-irish-ale/33649/
 https://www.ratebeer.com/beer/etna-blackberry-blonde/33677/
 https://www.ratebeer.com/beer/gordon-biersch-sommerbrau/33710/
+https://www.ratebeer.com/beer/paulaner-brauhaus-brewpub-munich-paulus/33745/
 https://www.ratebeer.com/beer/portsmouth-oatmeal-stout/33813/
 https://www.ratebeer.com/beer/emmetts-munich-light/33838/
 https://www.ratebeer.com/beer/hereford-hops-schwarzbier/33945/
@@ -2545,6 +2681,7 @@ https://www.ratebeer.com/beer/struise-rosse/33963/
 https://www.ratebeer.com/beer/upstream-capitol-premium-pale-ale/33965/
 https://www.ratebeer.com/beer/bushys-gibraltar-barbary-beer/34014/
 https://www.ratebeer.com/beer/svaneke-sweet-mary/34018/
+https://www.ratebeer.com/beer/royal-classic/34054/
 https://www.ratebeer.com/beer/anderson-valley-brother-david39s-triple-abbey-style-ale/34081/
 https://www.ratebeer.com/beer/pink-killer/34094/
 https://www.ratebeer.com/beer/herslev-okologisk-pale-ale/34100/
@@ -2607,11 +2744,15 @@ https://www.ratebeer.com/beer/blue-point-blueberry-ale/35876/
 https://www.ratebeer.com/beer/city-light/35886/
 https://www.ratebeer.com/beer/de-leckere-witte-vrouwen/36061/
 https://www.ratebeer.com/beer/weiherer-rauch/36062/
+https://www.ratebeer.com/beer/patrizier-brau-weissbier/36082/
 https://www.ratebeer.com/beer/carib-shandy-sorrel/36089/
 https://www.ratebeer.com/beer/vlasbier/36140/
 https://www.ratebeer.com/beer/dob345anske-pivo-dob345ansk-a-desitka-sv283tle-vy269epni-10/36183/
 https://www.ratebeer.com/beer/dob345anske-pivo-dob345ansky-sek-a269-sv283tly-speci-al-17/36187/
+https://www.ratebeer.com/beer/yazoo-sly-rye-porter/36192/
 https://www.ratebeer.com/beer/adnams-explorer-cask/36232/
+https://www.ratebeer.com/beer/hunters-pure-gold/36262/
+https://www.ratebeer.com/beer/hunters-extra-dry/36263/
 https://www.ratebeer.com/beer/budweiser-budvar-bdark-tmavy-lez-ak/36339/
 https://www.ratebeer.com/beer/schreckenskammer-kolsch/36341/
 https://www.ratebeer.com/beer/glacier-ipa/36348/
@@ -2619,6 +2760,7 @@ https://www.ratebeer.com/beer/westerham-british-bulldog-bb/36415/
 https://www.ratebeer.com/beer/trondhjem-stout/36564/
 https://www.ratebeer.com/beer/rogue-morimoto-black-obi-soba-ale/36648/
 https://www.ratebeer.com/beer/victory-braumeister-pils/36675/
+https://www.ratebeer.com/beer/reutberger-josefi-bock/36692/
 https://www.ratebeer.com/beer/jolly-pumpkin-oro-de-calabaza/36703/
 https://www.ratebeer.com/beer/jolly-pumpkin-la-roja/36704/
 https://www.ratebeer.com/beer/jolly-pumpkin-calabaza-blanca/36706/
@@ -2632,6 +2774,7 @@ https://www.ratebeer.com/beer/jovaru-alus/36938/
 https://www.ratebeer.com/beer/prim-ator-weizenbier/36953/
 https://www.ratebeer.com/beer/tervetes-sen269u-alus/36999/
 https://www.ratebeer.com/beer/elysian-avatar-jasmine-ipa/37015/
+https://www.ratebeer.com/beer/laitilan-vahva-kukko/37031/
 https://www.ratebeer.com/beer/scuttlebutt-tripel-7/37082/
 https://www.ratebeer.com/beer/hair-of-the-dog-adam-from-the-wood/37101/
 https://www.ratebeer.com/beer/hair-of-the-dog-fred-from-the-wood/37102/
@@ -2648,6 +2791,7 @@ https://www.ratebeer.com/beer/ambrausianum-bernstein-weizen/37307/
 https://www.ratebeer.com/beer/schonramer-original-altbayrisch-dunkel/37407/
 https://www.ratebeer.com/beer/kulmbacher-monchshof-kellerbier/37413/
 https://www.ratebeer.com/beer/flying-dog-dogtoberfest/37539/
+https://www.ratebeer.com/beer/stolichno-bock/37568/
 https://www.ratebeer.com/beer/guinness-extra-stout-50-continental-europe/37649/
 https://www.ratebeer.com/beer/great-divide-yeti-imperial-stout-oak-aged/37652/
 https://www.ratebeer.com/beer/blue-anchor-spingo-special/37670/
@@ -2657,12 +2801,14 @@ https://www.ratebeer.com/beer/d367m-kop345ivove/37710/
 https://www.ratebeer.com/beer/cairngorm-black-gold-bottle/37730/
 https://www.ratebeer.com/beer/fitgers-starfire-pale-ale/37758/
 https://www.ratebeer.com/beer/struise-pannepot-10/37835/
+https://www.ratebeer.com/beer/skands-nicks-ale/37858/
 https://www.ratebeer.com/beer/allagash-curieux/38037/
 https://www.ratebeer.com/beer/russian-river-sanctification/38052/
 https://www.ratebeer.com/beer/heavy-seas-peg-leg/38110/
 https://www.ratebeer.com/beer/hair-of-the-dog-doggie-claws-2003-/38244/
 https://www.ratebeer.com/beer/gradl-leupser-pils/38324/
 https://www.ratebeer.com/beer/gradl-leupser-dunkel/38325/
+https://www.ratebeer.com/beer/slots-classic/38356/
 https://www.ratebeer.com/beer/kentucky-bourbon-barrel-ale/38441/
 https://www.ratebeer.com/beer/brewster39s-rutterkin/38491/
 https://www.ratebeer.com/beer/florisgaarden-cactus/38498/
@@ -2677,9 +2823,11 @@ https://www.ratebeer.com/beer/the-duck-rabbit-porter/38878/
 https://www.ratebeer.com/beer/the-duck-rabbit-milk-stout/38879/
 https://www.ratebeer.com/beer/paulaner-hefeweissbier-leicht/38931/
 https://www.ratebeer.com/beer/brunswick-black-sabbath/38989/
+https://www.ratebeer.com/beer/giesler-kolsch/39002/
 https://www.ratebeer.com/beer/blue-point-hoptical-illusion/39047/
 https://www.ratebeer.com/beer/xinjiang-sinkiang-black-beer/39067/
 https://www.ratebeer.com/beer/lagunitas-cappuccino-stout/39077/
+https://www.ratebeer.com/beer/rock-bottom-milwaukee-jazzberry/39150/
 https://www.ratebeer.com/beer/kloster-machern-hell/39181/
 https://www.ratebeer.com/beer/hargreaves-hill-pale/39209/
 https://www.ratebeer.com/beer/flying-dog-double-dog-double-pale-ale/39287/
@@ -2689,10 +2837,12 @@ https://www.ratebeer.com/beer/aspall-suffolk-premier-cru-cyder-bottle/39447/
 https://www.ratebeer.com/beer/schonramer-gold/39499/
 https://www.ratebeer.com/beer/dogfish-head-burton-baton/39508/
 https://www.ratebeer.com/beer/la-trappe-bockbier/39548/
+https://www.ratebeer.com/beer/poutnik-pelhrimov-sv283tly-lez-ak-premium-12°/39563/
 https://www.ratebeer.com/beer/fyne-ales-vital-spark/39574/
 https://www.ratebeer.com/beer/flensburger-winterbock/39590/
 https://www.ratebeer.com/beer/svijansky-m-az-11°/39638/
 https://www.ratebeer.com/beer/veldensteiner-original-lager/39728/
+https://www.ratebeer.com/beer/stortebeker-bernstein-weizen/39881/
 https://www.ratebeer.com/beer/kluvers-weizen/39933/
 https://www.ratebeer.com/beer/port-brewing-high-tide-fresh-hop-ipa/39965/
 https://www.ratebeer.com/beer/van-pur-karpackie-9/39988/
@@ -2707,6 +2857,7 @@ https://www.ratebeer.com/beer/ridgeway-santas-butt-winter-porter/40414/
 https://www.ratebeer.com/beer/ridgeway-lump-of-coal/40415/
 https://www.ratebeer.com/beer/john-sleeman-presents-fine-porter/40441/
 https://www.ratebeer.com/beer/tommyknocker-imperial-nut-brown-ale/40444/
+https://www.ratebeer.com/beer/goose-island-altbier/40458/
 https://www.ratebeer.com/beer/weissenoher-altfrankisch-klosterbier/40459/
 https://www.ratebeer.com/beer/de-la-senne-zinnebir/40467/
 https://www.ratebeer.com/beer/jaipur-jalapeno-ale/40483/
@@ -2719,6 +2870,7 @@ https://www.ratebeer.com/beer/founders-kbs-kentucky-breakfast-stout/40544/
 https://www.ratebeer.com/beer/nogne-o-underlig-jul/40625/
 https://www.ratebeer.com/beer/carlsberg-lager-uk/40636/
 https://www.ratebeer.com/beer/abbaye-des-rocs-triple-imperiale/40722/
+https://www.ratebeer.com/beer/cruzcampo-cerveza-pilsen-pilsner/40786/
 https://www.ratebeer.com/beer/meantime-coffee-porter/40803/
 https://www.ratebeer.com/beer/bell39s-hell-hath-no-fury/40930/
 https://www.ratebeer.com/beer/josef-hell/40931/
@@ -2733,6 +2885,7 @@ https://www.ratebeer.com/beer/bard39s-gold/41366/
 https://www.ratebeer.com/beer/amnesia-desolation-ipa/41424/
 https://www.ratebeer.com/beer/iwate-kura-weizen/41471/
 https://www.ratebeer.com/beer/iwate-kura-stout/41473/
+https://www.ratebeer.com/beer/a-le-coq-tommu-hiid/41583/
 https://www.ratebeer.com/beer/taberna-de-la-muralla-munich-oscura/41661/
 https://www.ratebeer.com/beer/baird-shimaguni-stout/41744/
 https://www.ratebeer.com/beer/baird-natsumikan-summer-ale/41745/
@@ -2754,6 +2907,7 @@ https://www.ratebeer.com/beer/braustelle-helios/42474/
 https://www.ratebeer.com/beer/itaipava-premium/42481/
 https://www.ratebeer.com/beer/dark-horse-plead-the-5th-imperial-stout/42502/
 https://www.ratebeer.com/beer/schmohz-hopknocker-imperial-ipa/42506/
+https://www.ratebeer.com/beer/vestfyen-stout/42531/
 https://www.ratebeer.com/beer/dunkertons-organic-perry-sparkling-bottle/42534/
 https://www.ratebeer.com/beer/maumee-bay-blitzen-ale/42552/
 https://www.ratebeer.com/beer/la-voie-maltee-polissonne/42580/
@@ -2779,6 +2933,8 @@ https://www.ratebeer.com/beer/thiriez-la-noel-d39esquelbecq/43363/
 https://www.ratebeer.com/beer/gadds-dogbolter/43383/
 https://www.ratebeer.com/beer/keweenaw-pickaxe-blonde-ale/43387/
 https://www.ratebeer.com/beer/fur-porter/43454/
+https://www.ratebeer.com/beer/2m/43471/
+https://www.ratebeer.com/beer/memminger-kristallweizen/43503/
 https://www.ratebeer.com/beer/lancaster-hop-hog-ipa/43527/
 https://www.ratebeer.com/beer/rezeknis-bryuvers-gaisais/43573/
 https://www.ratebeer.com/beer/sixpoint-bengali-tiger-ipa/43594/
@@ -2789,14 +2945,17 @@ https://www.ratebeer.com/beer/portsmouth-wheat-wine/43693/
 https://www.ratebeer.com/beer/odell-5-barrel-pale-ale/43776/
 https://www.ratebeer.com/beer/godefroy-rousse/43852/
 https://www.ratebeer.com/beer/faust-weihnachts-festbier/43874/
+https://www.ratebeer.com/beer/freiberger-freibergisch-bockbier/43910/
 https://www.ratebeer.com/beer/harviestoun-bitter-twisted-bottle/43927/
 https://www.ratebeer.com/beer/russian-river-supplication/43947/
 https://www.ratebeer.com/beer/max-old-320-barley-wine/43956/
 https://www.ratebeer.com/beer/fosters-uk/43965/
 https://www.ratebeer.com/beer/dark-horse-double-crooked-tree-ipa/43971/
+https://www.ratebeer.com/beer/ruddles-county-cask/43987/
 https://www.ratebeer.com/beer/three-floyds-alpha-kong/44039/
 https://www.ratebeer.com/beer/bear-republic-apex/44139/
 https://www.ratebeer.com/beer/carlow-o39hara39s-irish-red/44140/
+https://www.ratebeer.com/beer/piece-dark-bier/44152/
 https://www.ratebeer.com/beer/shepherd-neame-spitfire-cask/44298/
 https://www.ratebeer.com/beer/old-yale-sasquatch-stout/44341/
 https://www.ratebeer.com/beer/fuller39s-esb-cask/44376/
@@ -2804,6 +2963,7 @@ https://www.ratebeer.com/beer/moritz/44377/
 https://www.ratebeer.com/beer/young39s-bitter-cask/44387/
 https://www.ratebeer.com/beer/young39s-special-cask/44390/
 https://www.ratebeer.com/beer/baeren-apple-lager/44413/
+https://www.ratebeer.com/beer/bayreuther-aktien-original-1857/44444/
 https://www.ratebeer.com/beer/young39s-winter-warmer-cask/44453/
 https://www.ratebeer.com/beer/avery-the-maharaja-imperial-india-pale-ale/44485/
 https://www.ratebeer.com/beer/downton-chimera-ipa/44496/
@@ -2865,6 +3025,7 @@ https://www.ratebeer.com/beer/fujizakura-heights-weizen/45917/
 https://www.ratebeer.com/beer/flying-dog-gonzo-imperial-porter/45950/
 https://www.ratebeer.com/beer/rush-river-bubblejack-ipa/45982/
 https://www.ratebeer.com/beer/beck39s-premier-light/46046/
+https://www.ratebeer.com/beer/williams-brothers-gold-cask/46127/
 https://www.ratebeer.com/beer/uerige-doppel-sticke/46158/
 https://www.ratebeer.com/beer/three-floyds-blackheart-english-ipa/46164/
 https://www.ratebeer.com/beer/brugge-brasserie-white/46275/
@@ -2876,6 +3037,8 @@ https://www.ratebeer.com/beer/ridgeway-ipa/46471/
 https://www.ratebeer.com/beer/adelardus-trudoabdijbier-haspengouwse-tripel/46495/
 https://www.ratebeer.com/beer/duyck-jenlain-blonde-75/46653/
 https://www.ratebeer.com/beer/anderson-valley-summer-solstice-cerveza-crema/46662/
+https://www.ratebeer.com/beer/great-dane-john-jacob-jingle-heimer-schmidt-dunkel-doppel-hefe-weizenbock/46687/
+https://www.ratebeer.com/beer/zlatopramen-bernstein/46699/
 https://www.ratebeer.com/beer/twisted-pine-billy39s-chilies/46744/
 https://www.ratebeer.com/beer/russian-river-erudition/46766/
 https://www.ratebeer.com/beer/acorn-old-moor-porter-cask/46832/
@@ -2912,11 +3075,13 @@ https://www.ratebeer.com/beer/dogfish-head-chateau-jiahu/47985/
 https://www.ratebeer.com/beer/pisgah-pale-ale/48057/
 https://www.ratebeer.com/beer/erdinger-festweisse/48060/
 https://www.ratebeer.com/beer/heineken-premium-light/48076/
+https://www.ratebeer.com/beer/murree-beer/48080/
 https://www.ratebeer.com/beer/the-original-hy-super-beer-cuvee-h936/48081/
 https://www.ratebeer.com/beer/cisco-sankaty-light-lager/48089/
 https://www.ratebeer.com/beer/de-halve-maan-brugse-zot/48109/
 https://www.ratebeer.com/beer/ballast-point-barmy-apricot-ale/48128/
 https://www.ratebeer.com/beer/bedondaine-et-bedons-ronds-mentheuse/48156/
+https://www.ratebeer.com/beer/engelbrau-rettenberg-jubilaums-bier/48203/
 https://www.ratebeer.com/beer/avery-samael39s-oak-aged-ale/48268/
 https://www.ratebeer.com/beer/christian-moerlein-dopplebock/48304/
 https://www.ratebeer.com/beer/bridge-road-beechworth-pale-ale/48352/
@@ -2961,6 +3126,7 @@ https://www.ratebeer.com/beer/brewpub-kobenhavn-cole-porter/49636/
 https://www.ratebeer.com/beer/mort-subite-xtreme-framboise/49641/
 https://www.ratebeer.com/beer/bath-wild-hare/49668/
 https://www.ratebeer.com/beer/u-medvidk-oldgott-barique-lezak-13°/49683/
+https://www.ratebeer.com/beer/edelweiss-france/49854/
 https://www.ratebeer.com/beer/moonlight-reality-czeck/49938/
 https://www.ratebeer.com/beer/oud-beersel-framboise/49975/
 https://www.ratebeer.com/beer/bright-brewery-hellfire-ale/50000/
@@ -2971,6 +3137,7 @@ https://www.ratebeer.com/beer/gekkeikan-nigori-sake/50225/
 https://www.ratebeer.com/beer/lost-coast-watermelon-wheat/50247/
 https://www.ratebeer.com/beer/white-horse-village-idiot/50358/
 https://www.ratebeer.com/beer/rohozec-skal-ak-sv283tly-lez-ak-11°/50377/
+https://www.ratebeer.com/beer/rohozec-skal-ak-sv283tly-lez-ak-premium-12°/50378/
 https://www.ratebeer.com/beer/rohrbach-vanilla-porter/50516/
 https://www.ratebeer.com/beer/everards-original-bottle-can/50521/
 https://www.ratebeer.com/beer/foothills-torch-pilsner/50579/
@@ -2993,6 +3160,7 @@ https://www.ratebeer.com/beer/wild-blue/51222/
 https://www.ratebeer.com/beer/beersel-lager/51224/
 https://www.ratebeer.com/beer/dundee-india-pale-ale/51228/
 https://www.ratebeer.com/beer/urthel-hop-it/51264/
+https://www.ratebeer.com/beer/jopen-extra-stout/51317/
 https://www.ratebeer.com/beer/north-coast-le-merle/51332/
 https://www.ratebeer.com/beer/brooklyn-blast/51334/
 https://www.ratebeer.com/beer/edwin-tucker39s-devonshire-prize-ale/51335/
@@ -3024,8 +3192,10 @@ https://www.ratebeer.com/beer/colorado-indica/52307/
 https://www.ratebeer.com/beer/steiger-12-svetly-leziak/52313/
 https://www.ratebeer.com/beer/potbelly-beijing-black/52534/
 https://www.ratebeer.com/beer/goose-eye-golden-goose/52625/
+https://www.ratebeer.com/beer/arboga-73/52643/
 https://www.ratebeer.com/beer/foothills-oktoberfest/52667/
 https://www.ratebeer.com/beer/dinkelacker-volksfestbier/52676/
+https://www.ratebeer.com/beer/riegele-augsburger-herren-pils/52719/
 https://www.ratebeer.com/beer/gulden-draak-vintage/52828/
 https://www.ratebeer.com/beer/lazy-magnolia-indian-summer/52843/
 https://www.ratebeer.com/beer/allagash-interlude/52853/
@@ -3033,8 +3203,10 @@ https://www.ratebeer.com/beer/fruh-kolsch-alkoholfrei/52861/
 https://www.ratebeer.com/beer/hansa-ekstra-vellagret-julebrygg-65/52874/
 https://www.ratebeer.com/beer/jacobsen-golden-naked-christmas-ale/52889/
 https://www.ratebeer.com/beer/anchor-our-special-ale-2005-and-later/52930/
+https://www.ratebeer.com/beer/brewpub-kobenhavn-st-noel/52933/
 https://www.ratebeer.com/beer/haandbryggeriet-nissefar/52948/
 https://www.ratebeer.com/beer/ridgeway-warm-welcome/52951/
+https://www.ratebeer.com/beer/refsvindinge-havgassen/52959/
 https://www.ratebeer.com/beer/propeller-ipa/52960/
 https://www.ratebeer.com/beer/maeght-van-gottem/52975/
 https://www.ratebeer.com/beer/vicaris-generaal/52986/
@@ -3059,6 +3231,7 @@ https://www.ratebeer.com/beer/van-pur-premium-50/53547/
 https://www.ratebeer.com/beer/jolly-pumpkin-fuego-del-otono-autumn-fire/53557/
 https://www.ratebeer.com/beer/purple-moose-dark-side-of-the-moose-ochr-dywyll-y-mws/53618/
 https://www.ratebeer.com/beer/great-lakes-barrel-aged-blackout-stout/53647/
+https://www.ratebeer.com/beer/beach-chalet-high-tide-hefeweizen/53688/
 https://www.ratebeer.com/beer/lancaster-blonde/53697/
 https://www.ratebeer.com/beer/bfm-tarry-suchong/53713/
 https://www.ratebeer.com/beer/arcobrau-schloss-dunkel/53745/
@@ -3102,11 +3275,13 @@ https://www.ratebeer.com/beer/pfungstadter-export-classic/54863/
 https://www.ratebeer.com/beer/michelob-ultra-amber/54868/
 https://www.ratebeer.com/beer/keler-18/54910/
 https://www.ratebeer.com/beer/chicago-hardway-ipa/54915/
+https://www.ratebeer.com/beer/memminger-dunkle-weisse/54942/
 https://www.ratebeer.com/beer/foothills-hoppyum-ipa/55040/
 https://www.ratebeer.com/beer/dark-star-imperial-stout/55061/
 https://www.ratebeer.com/beer/surly-bender/55126/
 https://www.ratebeer.com/beer/avery-mephistopheles-stout/55211/
 https://www.ratebeer.com/beer/three-floyds-broodoo/55239/
+https://www.ratebeer.com/beer/windhoek-draught/55252/
 https://www.ratebeer.com/beer/midnight-sun-berserker/55357/
 https://www.ratebeer.com/beer/marble-port-stout/55368/
 https://www.ratebeer.com/beer/jolly-pumpkin-bam-biere/55372/
@@ -3137,12 +3312,14 @@ https://www.ratebeer.com/beer/de-la-senne-taras-boulba/56185/
 https://www.ratebeer.com/beer/new-glarus-thumbprint-series-cherry-stout/56215/
 https://www.ratebeer.com/beer/kozel-11°-svetly-lezak/56243/
 https://www.ratebeer.com/beer/pelican-stormwatchers-winterfest-2005/56262/
+https://www.ratebeer.com/beer/great-dane-vintage-ale/56355/
 https://www.ratebeer.com/beer/little-valley-stoodley-stout/56383/
 https://www.ratebeer.com/beer/southern-tier-unearthly/56403/
 https://www.ratebeer.com/beer/brewerkz-hopback-ale/56451/
 https://www.ratebeer.com/beer/dark-horse-scotty-karate-scotch-ale-bourbon-barrel-aged/56507/
 https://www.ratebeer.com/beer/short39s-the-curl/56510/
 https://www.ratebeer.com/beer/leffe-9°-rituel-9/56545/
+https://www.ratebeer.com/beer/stortebeker-hanse-porter/56569/
 https://www.ratebeer.com/beer/emelisse-witbier/56628/
 https://www.ratebeer.com/beer/aarhus-forarsbryg/56645/
 https://www.ratebeer.com/beer/de-halve-maan-brugse-zot-dubbel/56673/
@@ -3162,13 +3339,17 @@ https://www.ratebeer.com/beer/montegioco-quarta-runa/57096/
 https://www.ratebeer.com/beer/eel-river-triple-exultation/57165/
 https://www.ratebeer.com/beer/locher-quollfrisch-hell/57252/
 https://www.ratebeer.com/beer/o39fallon-5-day-ipa/57343/
+https://www.ratebeer.com/beer/paulaner-original-munchner-hell-alkoholfrei/57407/
 https://www.ratebeer.com/beer/rodenbach-foederbier/57424/
 https://www.ratebeer.com/beer/leinenkugels-sunset-wheat/57459/
+https://www.ratebeer.com/beer/oppigards-easter-ale/57593/
 https://www.ratebeer.com/beer/prim-ator-polotmavy-13°/57636/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-pale-ale-americaine/57670/
 https://www.ratebeer.com/beer/alesmith-wee-heavy-scotch-ale-bourbon-barrel/57693/
+https://www.ratebeer.com/beer/staropramen-35/57714/
 https://www.ratebeer.com/beer/stone-imperial-russian-stout-bourbon-barrel/57739/
 https://www.ratebeer.com/beer/licher-weizen-hefe-hell/57808/
+https://www.ratebeer.com/beer/pripps-bla-pure/57814/
 https://www.ratebeer.com/beer/durham-hop-addict/57874/
 https://www.ratebeer.com/beer/namyslow-zloty-denar-mocny/57884/
 https://www.ratebeer.com/beer/dunkertons-court-royal-cider-bottle/57931/
@@ -3179,6 +3360,7 @@ https://www.ratebeer.com/beer/ballast-point-even-keel/57984/
 https://www.ratebeer.com/beer/captain-lawrence-liquid-gold/57992/
 https://www.ratebeer.com/beer/u-medvidk367-x33-beer/58029/
 https://www.ratebeer.com/beer/shiga-kogen-ipa/58042/
+https://www.ratebeer.com/beer/refsvindinge-den-sorte-enke/58053/
 https://www.ratebeer.com/beer/pfungstadter-justus-weizen-hefe-hell/58195/
 https://www.ratebeer.com/beer/abita-strawberry-harvest-lager/58218/
 https://www.ratebeer.com/beer/allagash-victoria-ale/58234/
@@ -3211,6 +3393,7 @@ https://www.ratebeer.com/beer/duckstein/59024/
 https://www.ratebeer.com/beer/weyerbacher-double-simcoe-ipa/59030/
 https://www.ratebeer.com/beer/plank-dunkler-weizenbock/59045/
 https://www.ratebeer.com/beer/chang-beer/59123/
+https://www.ratebeer.com/beer/astra-rotlicht/59124/
 https://www.ratebeer.com/beer/tullibardine-1488-whisky-beer/59140/
 https://www.ratebeer.com/beer/two-brothers-cane-and-ebel/59141/
 https://www.ratebeer.com/beer/southampton-10th-anniversary-old-ale/59151/
@@ -3224,12 +3407,14 @@ https://www.ratebeer.com/beer/sierra-nevada-torpedo-extra-ipa/59261/
 https://www.ratebeer.com/beer/lindemans-apple-pomme/59282/
 https://www.ratebeer.com/beer/maui-brewing-coconut-hiwa-porter/59330/
 https://www.ratebeer.com/beer/troegs-naked-elf/59364/
+https://www.ratebeer.com/beer/vesterbro-india-pale-ale/59437/
 https://www.ratebeer.com/beer/hallertau-statesman/59453/
 https://www.ratebeer.com/beer/hallertau-deception/59455/
 https://www.ratebeer.com/beer/de-dolle-stille-nacht-special-reserva-2005/59477/
 https://www.ratebeer.com/beer/witzgall-landbier/59535/
 https://www.ratebeer.com/beer/lieberth-kellerbier/59539/
 https://www.ratebeer.com/beer/lost-abbey-avant-garde-ale/59580/
+https://www.ratebeer.com/beer/little-valley-hebden39s-wheat/59600/
 https://www.ratebeer.com/beer/vesterbro-brown-ale/59675/
 https://www.ratebeer.com/beer/butternuts-porkslap-pale-ale/59676/
 https://www.ratebeer.com/beer/schlappeseppel-specialitat/59700/
@@ -3301,6 +3486,7 @@ https://www.ratebeer.com/beer/dry-dock-paragon-apricot-blonde/62351/
 https://www.ratebeer.com/beer/ninkasi-total-domination-ipa/62382/
 https://www.ratebeer.com/beer/cucap-a-obscura/62440/
 https://www.ratebeer.com/beer/st-peters-india-pale-ale/62444/
+https://www.ratebeer.com/beer/l257269pl275sis-dzintara/62533/
 https://www.ratebeer.com/beer/mikkeller-jackie-brown/62660/
 https://www.ratebeer.com/beer/ellicottville-blueberry-wheat/62736/
 https://www.ratebeer.com/beer/belzebuth-85/62740/
@@ -3340,6 +3526,7 @@ https://www.ratebeer.com/beer/stegmaier-oktoberfest/63782/
 https://www.ratebeer.com/beer/the-duck-rabbit-baltic-porter/63820/
 https://www.ratebeer.com/beer/brooklyn-summer-ale/63840/
 https://www.ratebeer.com/beer/de-la-senne-stouterik/63911/
+https://www.ratebeer.com/beer/church-brew-thunderhop-ipa/64044/
 https://www.ratebeer.com/beer/theresien-stammbrau/64047/
 https://www.ratebeer.com/beer/theresien-weisse/64048/
 https://www.ratebeer.com/beer/alesmith-double-red-ipa/64102/
@@ -3393,6 +3580,7 @@ https://www.ratebeer.com/beer/cazeau-tournay-de-noel/65937/
 https://www.ratebeer.com/beer/eisenbahn-strong-golden-ale/65942/
 https://www.ratebeer.com/beer/odell-extra-special-red-ale/65974/
 https://www.ratebeer.com/beer/d367m-st283p-an-268esky-klasicky-lez-ak-sv283tly/66006/
+https://www.ratebeer.com/beer/refsvindinge-malmer/66037/
 https://www.ratebeer.com/beer/orkney-dark-island-reserve/66103/
 https://www.ratebeer.com/beer/schlafly-christmas-ale/66127/
 https://www.ratebeer.com/beer/slaapmutske-christmas-kerstmutske-christmas-nightcap/66152/
@@ -3409,6 +3597,7 @@ https://www.ratebeer.com/beer/fagnes-quatres-cereales/66550/
 https://www.ratebeer.com/beer/39t-hofbrouwerijke-hofdraak/66551/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-weizenbock/66568/
 https://www.ratebeer.com/beer/strubbe-trammelantje-den-haene/66574/
+https://www.ratebeer.com/beer/braustelle-ehrenfelder-alt/66576/
 https://www.ratebeer.com/beer/ridgeway-criminally-bad-elf/66619/
 https://www.ratebeer.com/beer/wasatch-pumpkin-ale/66623/
 https://www.ratebeer.com/beer/port-brewing-older-viscosity/66624/
@@ -3426,6 +3615,7 @@ https://www.ratebeer.com/beer/redbridge/67279/
 https://www.ratebeer.com/beer/la-voie-maltee-soutien-gorge-imperial-ipa/67294/
 https://www.ratebeer.com/beer/great-lakes-brewery-winter-ale/67373/
 https://www.ratebeer.com/beer/tamamura-honten-shiga-kogen-house-ipa/67410/
+https://www.ratebeer.com/beer/baladin-sidro/67419/
 https://www.ratebeer.com/beer/half-pints-burlywine/67450/
 https://www.ratebeer.com/beer/dogfish-head-festina-peche/67470/
 https://www.ratebeer.com/beer/old-chimneys-good-king-henry-special-reserve/67522/
@@ -3434,6 +3624,7 @@ https://www.ratebeer.com/beer/alpine-beer-company-bad-boy-ipa/67551/
 https://www.ratebeer.com/beer/usedomer-inselbier-schwarz/67574/
 https://www.ratebeer.com/beer/hobsons-postmans-knock/67594/
 https://www.ratebeer.com/beer/boulder-beer-mojo-risin/67620/
+https://www.ratebeer.com/beer/menabrea-la-150°-strong-forte/67637/
 https://www.ratebeer.com/beer/redhook-long-hammer-ipa/67663/
 https://www.ratebeer.com/beer/millevertus-la-douce-vertus/67686/
 https://www.ratebeer.com/beer/fumette-de-millevertus/67687/
@@ -3471,7 +3662,9 @@ https://www.ratebeer.com/beer/midnight-sun-monk39s-mistress-bourbon/69361/
 https://www.ratebeer.com/beer/koutsky-12°-sv283tly-lez-ak/69364/
 https://www.ratebeer.com/beer/koutsky-14°-tmavy-speci-al/69365/
 https://www.ratebeer.com/beer/allagash-avance/69525/
+https://www.ratebeer.com/beer/zatec-baronka-premium-svetly-lez-ak/69546/
 https://www.ratebeer.com/beer/lightning-black-lightning-porter/69582/
+https://www.ratebeer.com/beer/morland-old-speckled-hen-35/69610/
 https://www.ratebeer.com/beer/mountain-sun-stoked-oak-stout/69616/
 https://www.ratebeer.com/beer/founders-backwoods-bastard/69624/
 https://www.ratebeer.com/beer/cheddar-potholer/69759/
@@ -3512,6 +3705,7 @@ https://www.ratebeer.com/beer/weihenstephaner-vitus/70791/
 https://www.ratebeer.com/beer/ridgeway-foreign-export-stout/70803/
 https://www.ratebeer.com/beer/kelso-chocolate-lager/70813/
 https://www.ratebeer.com/beer/he39brew-origin/70828/
+https://www.ratebeer.com/beer/riegele-weizendoppelbock/70909/
 https://www.ratebeer.com/beer/salitos-cerveza-especial/70951/
 https://www.ratebeer.com/beer/amager-christianshavn-pale-ale/70958/
 https://www.ratebeer.com/beer/oakham-asylum/70967/
@@ -3536,6 +3730,7 @@ https://www.ratebeer.com/beer/schofferhofer-grapefruit/71458/
 https://www.ratebeer.com/beer/krombacher-weizen/71469/
 https://www.ratebeer.com/beer/amager-hr-frederiksen/71568/
 https://www.ratebeer.com/beer/central-waters-brewhouse-coffee-stout/71621/
+https://www.ratebeer.com/beer/spendrups-bright-50/71646/
 https://www.ratebeer.com/beer/nickel-brook-maple-porter/71674/
 https://www.ratebeer.com/beer/ise-kadoya-pale-ale/71682/
 https://www.ratebeer.com/beer/brunehaut-abbaye-de-saint-martin-brune/71721/
@@ -3600,6 +3795,7 @@ https://www.ratebeer.com/beer/hopworks-ipa/74134/
 https://www.ratebeer.com/beer/celestial-meads-southern-heat/74262/
 https://www.ratebeer.com/beer/lindemans-oude-lambik-loerik/74272/
 https://www.ratebeer.com/beer/persha-stare-misto/74274/
+https://www.ratebeer.com/beer/williams-brothers-seven-giraffes-bottle/74342/
 https://www.ratebeer.com/beer/genevieve-de-brabant-blanche/74368/
 https://www.ratebeer.com/beer/barley-browns-tank-slapper-imperial-ipa/74426/
 https://www.ratebeer.com/beer/barley-browns-chaos/74427/
@@ -3643,6 +3839,7 @@ https://www.ratebeer.com/beer/short39s-imperial-soft-parade/75742/
 https://www.ratebeer.com/beer/short39s-bloody-beer/75746/
 https://www.ratebeer.com/beer/de-molen-moord-doodslag/75845/
 https://www.ratebeer.com/beer/jolly-pumpkin-madrugada-obscura-reserve/75860/
+https://www.ratebeer.com/beer/a-le-coq-special-1807/75893/
 https://www.ratebeer.com/beer/samuel-adams-dunkelweizen/75905/
 https://www.ratebeer.com/beer/st-austell-proper-job-cask/75920/
 https://www.ratebeer.com/beer/amber-z322ote-lwy/75972/
@@ -3682,6 +3879,7 @@ https://www.ratebeer.com/beer/dock-street-rye-ipa/77245/
 https://www.ratebeer.com/beer/adirondack-dirty/77280/
 https://www.ratebeer.com/beer/montegioco-bran/77284/
 https://www.ratebeer.com/beer/struise-black-albert/77305/
+https://www.ratebeer.com/beer/stortebeker-roggen-weizen/77357/
 https://www.ratebeer.com/beer/north-coast-old-stock-cellar-reserve-brandy-barrel/77372/
 https://www.ratebeer.com/beer/stone-coast-sunday-river-jamaican-stout/77379/
 https://www.ratebeer.com/beer/lost-abbey-red-poppy-ale/77393/
@@ -3718,6 +3916,7 @@ https://www.ratebeer.com/beer/voodoo-big-black-voodoo-daddy/78545/
 https://www.ratebeer.com/beer/kirin-ichibanshibori-stout/78552/
 https://www.ratebeer.com/beer/mikkeller-big-worse-barley-wine/78764/
 https://www.ratebeer.com/beer/badger-poachers-choice/78770/
+https://www.ratebeer.com/beer/abro-bryggmastarens-premium-gold/78779/
 https://www.ratebeer.com/beer/little-creatures-pipsqueak-best-cider/78846/
 https://www.ratebeer.com/beer/birra-del-borgo-cortigiana/78849/
 https://www.ratebeer.com/beer/pictish-sauvin-blanc/78897/
@@ -3727,7 +3926,9 @@ https://www.ratebeer.com/beer/cazeau-saison/78952/
 https://www.ratebeer.com/beer/riegele-kellerbier/79128/
 https://www.ratebeer.com/beer/double-mountain-killer-green/79174/
 https://www.ratebeer.com/beer/kaltenecker-brok-at-dark-lager-13°/79237/
+https://www.ratebeer.com/beer/kongens-bryghus-julemumme/79349/
 https://www.ratebeer.com/beer/hoppin39-frog-smashin39-berry-ale/79452/
+https://www.ratebeer.com/beer/astika-fine-quality-lager/79470/
 https://www.ratebeer.com/beer/firestone-walker-11-xi-quercus-alba/79566/
 https://www.ratebeer.com/beer/almond-22-torbata/79588/
 https://www.ratebeer.com/beer/blue-mountain-full-nelson-pale-ale/79602/
@@ -3763,6 +3964,7 @@ https://www.ratebeer.com/beer/coedo-shiro-hefeweizen/80638/
 https://www.ratebeer.com/beer/bulmers-pear-cider/80675/
 https://www.ratebeer.com/beer/pump-room-lager/80726/
 https://www.ratebeer.com/beer/rock-bottom-yorktown-hogshead-bitter/80761/
+https://www.ratebeer.com/beer/stortebeker-keller-bier-1402/80775/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-doppelbock/80784/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-porter-baltique/80785/
 https://www.ratebeer.com/beer/ridgeway-insanely-bad-elf/80825/
@@ -3776,6 +3978,7 @@ https://www.ratebeer.com/beer/shock-top-belgian-white/81108/
 https://www.ratebeer.com/beer/stallhagen-julbock-iii/81119/
 https://www.ratebeer.com/beer/new-holland-cabin-fever-2007-/81130/
 https://www.ratebeer.com/beer/pisgah-valdez/81137/
+https://www.ratebeer.com/beer/shepherd-neame-spitfire-35/81143/
 https://www.ratebeer.com/beer/oakshire-overcast-espresso-stout/81182/
 https://www.ratebeer.com/beer/nebraska-eos-hefeweizen/81188/
 https://www.ratebeer.com/beer/eschenbrau-maibock/81198/
@@ -3792,6 +3995,7 @@ https://www.ratebeer.com/beer/o39so-night-rain-porter/81677/
 https://www.ratebeer.com/beer/o39so-lupulin-maximus-ipa/81678/
 https://www.ratebeer.com/beer/o39so-hopdinger-pale-ale/81681/
 https://www.ratebeer.com/beer/bell39s-the-wild-one/81756/
+https://www.ratebeer.com/beer/b345ez328-ak-sv-ate269ni-jantarovy-lez-ak-11°/81800/
 https://www.ratebeer.com/beer/southern-tier-blackwater-series-choklat/81812/
 https://www.ratebeer.com/beer/moa-five-hop/81826/
 https://www.ratebeer.com/beer/carlton-dry/81831/
@@ -3862,6 +4066,7 @@ https://www.ratebeer.com/beer/harviestoun-ola-dubh-16-year-old/84058/
 https://www.ratebeer.com/beer/harviestoun-ola-dubh-30-year-old/84059/
 https://www.ratebeer.com/beer/green-flash-grand-cru/84101/
 https://www.ratebeer.com/beer/santa-cruz-ale-works-hefeweizen/84269/
+https://www.ratebeer.com/beer/skagen-pasketrold/84315/
 https://www.ratebeer.com/beer/de-molen-heen-weer-back-forth/84320/
 https://www.ratebeer.com/beer/horseheads-chocolate-porter/84358/
 https://www.ratebeer.com/beer/sonoran-cordillera-blanca/84364/
@@ -3908,11 +4113,13 @@ https://www.ratebeer.com/beer/steenbrugge-wit/85696/
 https://www.ratebeer.com/beer/rock-art-jasmine-pale-ale/85824/
 https://www.ratebeer.com/beer/mikkeller-it39s-alive/85835/
 https://www.ratebeer.com/beer/shiga-kogen-takashi-imperial-stout/85886/
+https://www.ratebeer.com/beer/highland-clawhammer-oktoberfest/85943/
 https://www.ratebeer.com/beer/brand-lentebock/85986/
 https://www.ratebeer.com/beer/central-waters-glacial-trail-ipa/86049/
 https://www.ratebeer.com/beer/midnight-sun-meltdown-double-ipa/86101/
 https://www.ratebeer.com/beer/alsfelder-landpils-bio/86117/
 https://www.ratebeer.com/beer/williams-brothers-midnight-sun-bottle/86118/
+https://www.ratebeer.com/beer/stiegl-paracelsus-bio-zwickl/86155/
 https://www.ratebeer.com/beer/dieu-du-ciel-penombre/86161/
 https://www.ratebeer.com/beer/beer-valley-leafer-madness-imperial-pale-ale/86165/
 https://www.ratebeer.com/beer/spire-mountain-dark-dry-apple-cider/86171/
@@ -3930,6 +4137,7 @@ https://www.ratebeer.com/beer/ballast-point-big-eye-ipa-ginger/86548/
 https://www.ratebeer.com/beer/ocean-jarntorgets-arbetarporter/86578/
 https://www.ratebeer.com/beer/upland-infinite-wisdom-tripel/86640/
 https://www.ratebeer.com/beer/timmermans-strawberry/86681/
+https://www.ratebeer.com/beer/egger-walder-bier/86756/
 https://www.ratebeer.com/beer/lancaster-black/86757/
 https://www.ratebeer.com/beer/shiner-spezial-leicht/86813/
 https://www.ratebeer.com/beer/mayflower-porter/86840/
@@ -3946,6 +4154,7 @@ https://www.ratebeer.com/beer/iron-springs-sless-stimulating-oatmeal-stout/87017
 https://www.ratebeer.com/beer/nebraska-cardinal-pale-ale/87032/
 https://www.ratebeer.com/beer/lost-abbey-inferno-ale/87082/
 https://www.ratebeer.com/beer/dunham-massey-dunham-dark-mild/87099/
+https://www.ratebeer.com/beer/birrificio-del-ducato-chimera/87118/
 https://www.ratebeer.com/beer/trois-dames-la-semeuse-espresso-stout/87159/
 https://www.ratebeer.com/beer/zirndorfer-kellerbier/87184/
 https://www.ratebeer.com/beer/lift-bridge-farm-girl-belgian-saison/87229/
@@ -3971,6 +4180,7 @@ https://www.ratebeer.com/beer/de-cam-framboise-lambiek/88140/
 https://www.ratebeer.com/beer/pearl-street-sabers-edge-imperial-ipa/88287/
 https://www.ratebeer.com/beer/mager-marzen/88299/
 https://www.ratebeer.com/beer/southern-tier-cherry-saison/88358/
+https://www.ratebeer.com/beer/amiata-drago-della-selva/88384/
 https://www.ratebeer.com/beer/birrificio-del-ducato-krampus/88386/
 https://www.ratebeer.com/beer/birrificio-del-ducato-winterlude-tripel/88439/
 https://www.ratebeer.com/beer/gruut-belgian-wit-bier/88462/
@@ -4003,6 +4213,7 @@ https://www.ratebeer.com/beer/el-gaitero-spanish-cider-sidra-pure-apple/89589/
 https://www.ratebeer.com/beer/jolly-pumpkin-weizen-bam/89680/
 https://www.ratebeer.com/beer/stone-20th-anniversary-encore-series-12th-anniv-bitter-chocolate-oatmeal-stout/89707/
 https://www.ratebeer.com/beer/stone-20th-anniversary-encore-series-080808-vertical-epic-ale/89709/
+https://www.ratebeer.com/beer/bayreuther-aktien-landbier-frankisch-dunkel/89762/
 https://www.ratebeer.com/beer/russian-river-happy-hops/89822/
 https://www.ratebeer.com/beer/thomas-hooker-watermelon-ale/89824/
 https://www.ratebeer.com/beer/nova-paka-podkrkonossky-speci-al-tmavy/89833/
@@ -4016,6 +4227,8 @@ https://www.ratebeer.com/beer/southern-tier-blackwater-series-creme-brulee-stout
 https://www.ratebeer.com/beer/budweiser-american-ale/90235/
 https://www.ratebeer.com/beer/bush-triple-ambree/90371/
 https://www.ratebeer.com/beer/schlitz-classic-1960s-formula/90494/
+https://www.ratebeer.com/beer/prater-lager-schwarz/90527/
+https://www.ratebeer.com/beer/prater-pils/90528/
 https://www.ratebeer.com/beer/wals-trippel/90535/
 https://www.ratebeer.com/beer/timmermans-oude-gueuze/90645/
 https://www.ratebeer.com/beer/bruery-terreux-hottenroth-berliner-weisse/90689/
@@ -4054,6 +4267,7 @@ https://www.ratebeer.com/beer/robinsons-old-tom-with-ginger-ginger-tom-bottle/91
 https://www.ratebeer.com/beer/zlaty-bazant-tmave-10/91581/
 https://www.ratebeer.com/beer/deschutes-the-dissident/91678/
 https://www.ratebeer.com/beer/hair-of-the-dog-cherry-adam-from-the-wood/91682/
+https://www.ratebeer.com/beer/wedge-paynes-pale-ale/91820/
 https://www.ratebeer.com/beer/wedge-witbier/91821/
 https://www.ratebeer.com/beer/moa-st-josephs-tripel/91900/
 https://www.ratebeer.com/beer/wells-waggledance-bottle/91971/
@@ -4126,6 +4340,7 @@ https://www.ratebeer.com/beer/widmer-brothers-brrr-seasonal-ale/94464/
 https://www.ratebeer.com/beer/desperados-red/94499/
 https://www.ratebeer.com/beer/simpler-times-pilsner/94515/
 https://www.ratebeer.com/beer/mclaren-vale-ale/94527/
+https://www.ratebeer.com/beer/birrone-punto-g/94555/
 https://www.ratebeer.com/beer/green-flash-palate-wrecker/94561/
 https://www.ratebeer.com/beer/mahrs-brau-eta-hoffmann-dunkles-lagerbier/94568/
 https://www.ratebeer.com/beer/brewdog-zeitgeist/94573/
@@ -4180,6 +4395,7 @@ https://www.ratebeer.com/beer/three-floyds-apocalypse-cow/95886/
 https://www.ratebeer.com/beer/tyranena-painted-ladies-pumpkin-spice-ale/95902/
 https://www.ratebeer.com/beer/sadler39s-mud-city-stout/96060/
 https://www.ratebeer.com/beer/aviator-devils-tramping-ground-tripel/96071/
+https://www.ratebeer.com/beer/krenkerup-juleol/96087/
 https://www.ratebeer.com/beer/rittmayer-willersdorfer-hausbrau/96136/
 https://www.ratebeer.com/beer/samuel-adams-imperial-series-imperial-white/96143/
 https://www.ratebeer.com/beer/lefebvre-hopus/96146/
@@ -4268,6 +4484,7 @@ https://www.ratebeer.com/beer/hoppin39-frog-outta-kilter-wee-heavy-scotch-red-al
 https://www.ratebeer.com/beer/gruut-blond/99412/
 https://www.ratebeer.com/beer/gruut-bruin/99413/
 https://www.ratebeer.com/beer/birra-del-borgo-my-antonia/99437/
+https://www.ratebeer.com/beer/lambrate-ortiga/99441/
 https://www.ratebeer.com/beer/brickstone-apa/99472/
 https://www.ratebeer.com/beer/ska-modus-hoperandi-ipa/99487/
 https://www.ratebeer.com/beer/atwater-teufel-bock/99490/
@@ -4275,6 +4492,7 @@ https://www.ratebeer.com/beer/bell39s-roundhouse-ira/99505/
 https://www.ratebeer.com/beer/independence-brewing-convict-hill-imperial-oatmeal-stout/99574/
 https://www.ratebeer.com/beer/cigar-city-maduro-brown-ale/99593/
 https://www.ratebeer.com/beer/mikkeller-usalive/99698/
+https://www.ratebeer.com/beer/struise-alvinne-keralensis/99765/
 https://www.ratebeer.com/beer/midnight-sun-brewtality/99800/
 https://www.ratebeer.com/beer/le-trou-du-diable-grivoise-de-noel/99847/
 https://www.ratebeer.com/beer/philadelphia-shackamaximum-stout/99868/
@@ -4313,6 +4531,7 @@ https://www.ratebeer.com/beer/collesi-imper-ale-nera-maior/101141/
 https://www.ratebeer.com/beer/captain-lawrence-flaming-fury/101155/
 https://www.ratebeer.com/beer/jackie-o39s-wood-ya-honey/101327/
 https://www.ratebeer.com/beer/firestone-walker-805/101335/
+https://www.ratebeer.com/beer/guldkallan-48/101465/
 https://www.ratebeer.com/beer/goose-island-sofie/101468/
 https://www.ratebeer.com/beer/hangar-24-chocolate-bomber/101471/
 https://www.ratebeer.com/beer/karl-strauss-tower-10-ipa/101530/
@@ -4375,6 +4594,7 @@ https://www.ratebeer.com/beer/feral-boris-the-russian-imperial-stout/103864/
 https://www.ratebeer.com/beer/black-diamond-jagged-edge-ipa/103908/
 https://www.ratebeer.com/beer/arrogant-bastard-ale-bourbon-barrel/103977/
 https://www.ratebeer.com/beer/cigar-city-cubano-style-espresso-brown-ale/104018/
+https://www.ratebeer.com/beer/krenkerup-classic/104033/
 https://www.ratebeer.com/beer/old-forge-celestial-blond-ale/104065/
 https://www.ratebeer.com/beer/iron-horse-high-five-hefe/104133/
 https://www.ratebeer.com/beer/old-schoolhouse-ruud-awakening-ipa/104179/
@@ -4393,6 +4613,7 @@ https://www.ratebeer.com/beer/fremont-interurban-ipa/104576/
 https://www.ratebeer.com/beer/thuisbrunner-elch-brau-pils-naturbelassen/104612/
 https://www.ratebeer.com/beer/le-saint-bock-rip/104633/
 https://www.ratebeer.com/beer/black-isle-organic-export-scotch-ale/104659/
+https://www.ratebeer.com/beer/collesi-imper-ale-ambrata-fiat-lux/104823/
 https://www.ratebeer.com/beer/allagash-fluxus-2009/104833/
 https://www.ratebeer.com/beer/ottos-triple-d-ipa/104920/
 https://www.ratebeer.com/beer/rush-river-double-bubble-imperial-ipa/104973/
@@ -4404,6 +4625,7 @@ https://www.ratebeer.com/beer/firestone-walker-double-dba/105099/
 https://www.ratebeer.com/beer/great-river-organic-farmer-brown-ale/105138/
 https://www.ratebeer.com/beer/schorschbrau-schorschweizen-13/105216/
 https://www.ratebeer.com/beer/telegraph-rhinoceros/105260/
+https://www.ratebeer.com/beer/lervig-white-dog-brand/105262/
 https://www.ratebeer.com/beer/cocoa-beach-pale-ale/105282/
 https://www.ratebeer.com/beer/toccalmatto-grooving-hop/105373/
 https://www.ratebeer.com/beer/wainwright-bottle/105382/
@@ -4413,6 +4635,7 @@ https://www.ratebeer.com/beer/papegaei/105495/
 https://www.ratebeer.com/beer/ganstaller-brau-zoigl/105521/
 https://www.ratebeer.com/beer/white-rabbit-dark-ale/105561/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-kellerbier/105613/
+https://www.ratebeer.com/beer/collesi-imper-ale-rossa-ubi/105615/
 https://www.ratebeer.com/beer/la-trouffette-rousse/105642/
 https://www.ratebeer.com/beer/la-trouffette-belle-d39ete/105643/
 https://www.ratebeer.com/beer/upslope-brown-ale/105653/
@@ -4420,6 +4643,7 @@ https://www.ratebeer.com/beer/founders-bourbon-barrel-imperial-stout/105659/
 https://www.ratebeer.com/beer/de-molen-vuur-vlam-fire-flames/105663/
 https://www.ratebeer.com/beer/the-duck-rabbit-duck-rabbator-dopplebock/105689/
 https://www.ratebeer.com/beer/mother-earth-sisters-of-the-moon-ipa/105763/
+https://www.ratebeer.com/beer/mother-earth-weeping-willow-wit/105764/
 https://www.ratebeer.com/beer/full-sail-session-dark-lager/105772/
 https://www.ratebeer.com/beer/la-trappe-isid39or/105788/
 https://www.ratebeer.com/beer/tri-city-hells-half-mile/105852/
@@ -4473,6 +4697,7 @@ https://www.ratebeer.com/beer/dark-horse-smells-like-a-safety-meeting-ipa/107403
 https://www.ratebeer.com/beer/mary-rose-premium-red-ale/107488/
 https://www.ratebeer.com/beer/bud-light-golden-wheat/107512/
 https://www.ratebeer.com/beer/great-divide-hoss-rye-lager/107550/
+https://www.ratebeer.com/beer/ebeltoft-aeble-cider/107560/
 https://www.ratebeer.com/beer/samuel-adams-noble-pils/107598/
 https://www.ratebeer.com/beer/trois-dames-oud-bruin/107626/
 https://www.ratebeer.com/beer/badass-redneck-lager/107633/
@@ -4518,6 +4743,7 @@ https://www.ratebeer.com/beer/hoppin39-frog-frog39s-hollow-double-pumpkin-ale/10
 https://www.ratebeer.com/beer/avery-dugana/108921/
 https://www.ratebeer.com/beer/jackie-o39s-dark-apparition-bourbon-barrel-aged/108924/
 https://www.ratebeer.com/beer/jackie-o39s-mystic-mama-ipa/108926/
+https://www.ratebeer.com/beer/sapporo-premium-lager/108945/
 https://www.ratebeer.com/beer/oud-beersel-bersalis-kadet/109002/
 https://www.ratebeer.com/beer/dormaal-blond/109003/
 https://www.ratebeer.com/beer/greenport-harbor-black-duck-porter/109038/
@@ -4526,7 +4752,9 @@ https://www.ratebeer.com/beer/emerson39s-southern-clam-stout/109106/
 https://www.ratebeer.com/beer/great-divide-hibernation-ale-barrel-aged/109180/
 https://www.ratebeer.com/beer/hopworks-ace-of-spades/109367/
 https://www.ratebeer.com/beer/adriaen-brouwer-dark-gold/109439/
+https://www.ratebeer.com/beer/herslev-okologisk-ipa/109463/
 https://www.ratebeer.com/beer/aegir-tors-hammer-tors-hammar/109495/
+https://www.ratebeer.com/beer/apollo-4-korns-ol/109528/
 https://www.ratebeer.com/beer/shipyard-smashed-pumpkin-pugsley39s-signature-series/109542/
 https://www.ratebeer.com/beer/three-floyds-arctic-panzer-wolf/109607/
 https://www.ratebeer.com/beer/bush-peche-mel/109635/
@@ -4554,6 +4782,7 @@ https://www.ratebeer.com/beer/devils-backbone-danzig-baltic-porter/110483/
 https://www.ratebeer.com/beer/aecht-schlenkerla-eiche-doppelbock/110514/
 https://www.ratebeer.com/beer/greene-king-royal-london-cask/110549/
 https://www.ratebeer.com/beer/estrella-de-navidad/110551/
+https://www.ratebeer.com/beer/gotlands-sitting-bulldog-ipa/110577/
 https://www.ratebeer.com/beer/hoppin39-frog-fresh-frog-raw-hop-imperial-pale-ale/110621/
 https://www.ratebeer.com/beer/north-peak-diabolical-ipa/110687/
 https://www.ratebeer.com/beer/ocean-goteborgsporter/110692/
@@ -4575,7 +4804,9 @@ https://www.ratebeer.com/beer/bell39s-quinannan-falls-special-lager/111363/
 https://www.ratebeer.com/beer/original-sin-pear-cider/111409/
 https://www.ratebeer.com/beer/jolly-pumpkin-baudelaire-beer-io-saison/111461/
 https://www.ratebeer.com/beer/new-glarus-thumbprint-series-cran-bic-ale/111480/
+https://www.ratebeer.com/beer/litovel-premium-dark-schwarzbier/111522/
 https://www.ratebeer.com/beer/white-birch-barrel-aged-tripel/111530/
+https://www.ratebeer.com/beer/lobkowicz-premium/111561/
 https://www.ratebeer.com/beer/menabrea-original/111569/
 https://www.ratebeer.com/beer/jackie-o39s-firefly-amber/111588/
 https://www.ratebeer.com/beer/evolution-craft-lot-no-3-ipa/111599/
@@ -4645,6 +4876,7 @@ https://www.ratebeer.com/beer/point-whole-hog-russian-imperial-stout/113788/
 https://www.ratebeer.com/beer/hosl-whiskey-weisse/113798/
 https://www.ratebeer.com/beer/amarcord-volpina/113846/
 https://www.ratebeer.com/beer/10-barrel-apocalypse-ipa/113855/
+https://www.ratebeer.com/beer/gotlands-wisby-julbrygd-2009-/113872/
 https://www.ratebeer.com/beer/moor-hoppiness/113882/
 https://www.ratebeer.com/beer/evolution-craft-rise-up-stout/113898/
 https://www.ratebeer.com/beer/thornbridge-wild-raven/113934/
@@ -4807,6 +5039,7 @@ https://www.ratebeer.com/beer/black-diamond-rampage-imperial-ipa/119042/
 https://www.ratebeer.com/beer/freigeist-abraxxxas/119090/
 https://www.ratebeer.com/beer/destihl-raspberry-wheat/119092/
 https://www.ratebeer.com/beer/big-muddy-saluki-dunkeldog-dark-amber/119111/
+https://www.ratebeer.com/beer/beer-here-ammestout/119163/
 https://www.ratebeer.com/beer/struise-st-amatus-oostvleteren-12/119174/
 https://www.ratebeer.com/beer/den-triest-blond/119212/
 https://www.ratebeer.com/beer/antigoon/119235/
@@ -4856,6 +5089,7 @@ https://www.ratebeer.com/beer/islena/120782/
 https://www.ratebeer.com/beer/hill-farmstead-edward/120812/
 https://www.ratebeer.com/beer/rogue-farms-oregasmic-ale/120837/
 https://www.ratebeer.com/beer/cucap-a-la-migra-imperial-stout/121035/
+https://www.ratebeer.com/beer/brockhouse-classic-lager/121042/
 https://www.ratebeer.com/beer/kaiserdom-german-dark-lager/121047/
 https://www.ratebeer.com/beer/karl-strauss-pintail-pale-ale/121068/
 https://www.ratebeer.com/beer/pyramid-outburst-imperial-ipa/121081/
@@ -4894,6 +5128,7 @@ https://www.ratebeer.com/beer/8-wired-istout/122165/
 https://www.ratebeer.com/beer/maiella-cluviae/122170/
 https://www.ratebeer.com/beer/mikkeller-beer-geek-bacon/122174/
 https://www.ratebeer.com/beer/mikkeller-vesterbro-pilsner/122195/
+https://www.ratebeer.com/beer/mikkeller-vesterbro-wit/122196/
 https://www.ratebeer.com/beer/amager-mikkeller-hr-frederiksens-vaesel-brunch/122197/
 https://www.ratebeer.com/beer/stone-dogfish-head-victory-saison-du-buff/122227/
 https://www.ratebeer.com/beer/swannay-old-norway/122236/
@@ -4918,6 +5153,7 @@ https://www.ratebeer.com/beer/hopworks-galactic-imperial-red/122820/
 https://www.ratebeer.com/beer/castle-hung-drawn-and-slaughtered/122836/
 https://www.ratebeer.com/beer/yeastie-boys-pot-kettle-black/122854/
 https://www.ratebeer.com/beer/scheldebrouwerij-hop-ruiter/122890/
+https://www.ratebeer.com/beer/norrlands-guld-ljus/122900/
 https://www.ratebeer.com/beer/hair-of-the-dog-cherry-fred-from-the-wood/122909/
 https://www.ratebeer.com/beer/loverbeer-papessa/122937/
 https://www.ratebeer.com/beer/stone-20th-anniversary-encore-series-14th-anniversary-emperial-ipa/123010/
@@ -4987,6 +5223,7 @@ https://www.ratebeer.com/beer/new-england-668-neighbor-of-the-beast/124934/
 https://www.ratebeer.com/beer/block-15-ferme-de-la-ville/125025/
 https://www.ratebeer.com/beer/baxter-pamola-xtra-pale-ale/125060/
 https://www.ratebeer.com/beer/moor-raw/125074/
+https://www.ratebeer.com/beer/zhiguli-barnoe-zhiguly-restaurant/125094/
 https://www.ratebeer.com/beer/sierra-nevada-30th-anniversary-jack-ken39s-ale/125099/
 https://www.ratebeer.com/beer/olde-hickory-irish-walker-2010-/125115/
 https://www.ratebeer.com/beer/epic-wit-beer/125141/
@@ -5016,9 +5253,11 @@ https://www.ratebeer.com/beer/nogne-o-two-captains-double-ipa/125773/
 https://www.ratebeer.com/beer/lumberyard-flagstaff-india-pale-ale/125776/
 https://www.ratebeer.com/beer/kuhnhenn-american-barley-wine/125784/
 https://www.ratebeer.com/beer/lumberyard-humphrey39s-hefe/125789/
+https://www.ratebeer.com/beer/skagen-sandmilen/125794/
 https://www.ratebeer.com/beer/north-peak-archangel-summer-wheat/125844/
 https://www.ratebeer.com/beer/cheddar-bitter-bully/125852/
 https://www.ratebeer.com/beer/elysian-men39s-room-original-red/125866/
+https://www.ratebeer.com/beer/noteckie-ciemne-eire/125871/
 https://www.ratebeer.com/beer/holy-mackerel-panic-attack/125884/
 https://www.ratebeer.com/beer/bitter-root-huckleberry-honey-ale/125900/
 https://www.ratebeer.com/beer/avery-liliko39i-kepolo/125959/
@@ -5075,6 +5314,7 @@ https://www.ratebeer.com/beer/camden-town-camden-hells-lager/127856/
 https://www.ratebeer.com/beer/weed-biere-au-chanvre/127959/
 https://www.ratebeer.com/beer/strange-cherry-kriek/128006/
 https://www.ratebeer.com/beer/toppling-goliath-dorothy39s-new-world-lager/128151/
+https://www.ratebeer.com/beer/dansk-mjod-ribe-mjod/128194/
 https://www.ratebeer.com/beer/klein-duimpje-elf-en-een-half/128305/
 https://www.ratebeer.com/beer/hop-valley-alpha-centauri-binary-ipa/128415/
 https://www.ratebeer.com/beer/camba-bavaria-pale-ale/128475/
@@ -5088,6 +5328,7 @@ https://www.ratebeer.com/beer/hornbeer-hophorn/128655/
 https://www.ratebeer.com/beer/cantillon-mamouche/128676/
 https://www.ratebeer.com/beer/aegir-witbier/128776/
 https://www.ratebeer.com/beer/maine-beer-mean-old-tom/128833/
+https://www.ratebeer.com/beer/kormoran-orkiszowe-z-miodem/128842/
 https://www.ratebeer.com/beer/grimm-brothers-snow-drop/129095/
 https://www.ratebeer.com/beer/3-fonteinen-straffe-winter/129113/
 https://www.ratebeer.com/beer/aegir-natt-imperial-porter/129139/
@@ -5098,6 +5339,7 @@ https://www.ratebeer.com/beer/du-lac-saint-jean-frappabord/129407/
 https://www.ratebeer.com/beer/oceanside-ale-works-dude-dipa/129452/
 https://www.ratebeer.com/beer/birrificio-del-ducato-la-prima-luna/129476/
 https://www.ratebeer.com/beer/chandres-l39eurelienne-triple/129490/
+https://www.ratebeer.com/beer/jacobsen-pale-ale/129552/
 https://www.ratebeer.com/beer/cigar-city-tocobaga-red-ale/129561/
 https://www.ratebeer.com/beer/narragansett-fest-marzen-lager/129595/
 https://www.ratebeer.com/beer/two-brothers-atom-smasher/129659/
@@ -5108,6 +5350,7 @@ https://www.ratebeer.com/beer/hornbeer-helge/129784/
 https://www.ratebeer.com/beer/grunbacher-urweisse-hell/129871/
 https://www.ratebeer.com/beer/elysian-savant-ipa/130063/
 https://www.ratebeer.com/beer/odd-side-ales-morningwood/130075/
+https://www.ratebeer.com/beer/gusswerk-jakobsgold/130095/
 https://www.ratebeer.com/beer/melvin-2x4/130122/
 https://www.ratebeer.com/beer/melvin-ipa/130123/
 https://www.ratebeer.com/beer/millstream-back-road-stout/130132/
@@ -5156,6 +5399,7 @@ https://www.ratebeer.com/beer/nynashamns-valsviken-vinterporter/131306/
 https://www.ratebeer.com/beer/new-belgium-love-felix-oscar-blend-blackberry-whiskey-barrel/131347/
 https://www.ratebeer.com/beer/sixpoint-the-crisp-pilsner/131381/
 https://www.ratebeer.com/beer/sainsbury39s-india-pale-ale-ipa/131382/
+https://www.ratebeer.com/beer/st-eriks-ipa/131494/
 https://www.ratebeer.com/beer/kurzer-alt/131532/
 https://www.ratebeer.com/beer/cycle-rare-dos/131539/
 https://www.ratebeer.com/beer/hill-farmstead-arthur/131594/
@@ -5167,6 +5411,7 @@ https://www.ratebeer.com/beer/kormoran-miodne/131799/
 https://www.ratebeer.com/beer/avery-rumpkin/131832/
 https://www.ratebeer.com/beer/jopen-johannieter/131923/
 https://www.ratebeer.com/beer/sierra-nevada-harvest-wet-hop-ipa-northern-hemisphere/131958/
+https://www.ratebeer.com/beer/bagge-bockol/132084/
 https://www.ratebeer.com/beer/oskar-blues-hotbox-coffee-porter/132098/
 https://www.ratebeer.com/beer/ramses-bier-den-dorstige-tijger/132237/
 https://www.ratebeer.com/beer/duits-lauret-houtgerijpte-rook-dubbelbock/132239/
@@ -5231,6 +5476,7 @@ https://www.ratebeer.com/beer/hair-of-the-dog-peach-fred-from-the-wood/134252/
 https://www.ratebeer.com/beer/bruery-terreux-oude-tart-cherries/134287/
 https://www.ratebeer.com/beer/pretty-things-our-finest-regards/134397/
 https://www.ratebeer.com/beer/sheppy39s-somerset-draught-cider/134436/
+https://www.ratebeer.com/beer/zatec-celia/134459/
 https://www.ratebeer.com/beer/peak-organic-winter-session-ale/134466/
 https://www.ratebeer.com/beer/epic-imperial-stout/134507/
 https://www.ratebeer.com/beer/zwetbe/134551/
@@ -5281,6 +5527,7 @@ https://www.ratebeer.com/beer/achel-blond-extra/135870/
 https://www.ratebeer.com/beer/short39s-pineapple-pilsner/135883/
 https://www.ratebeer.com/beer/short39s-half-acre-freedom-of-3978/135887/
 https://www.ratebeer.com/beer/french-broad-anvil-porter/135889/
+https://www.ratebeer.com/beer/coisbo-5th-avenue/135898/
 https://www.ratebeer.com/beer/olde-hickory-the-event-horizon/135913/
 https://www.ratebeer.com/beer/howe-sound-megadestroyer-imperial-licorice-stout/135914/
 https://www.ratebeer.com/beer/mikkeller-koppi-tomahawk-x-guji-natural-coffee-ipa/135975/
@@ -5306,6 +5553,7 @@ https://www.ratebeer.com/beer/rising-tide-ursa-minor/136567/
 https://www.ratebeer.com/beer/braufactum-colonia/136579/
 https://www.ratebeer.com/beer/braufactum-indra/136580/
 https://www.ratebeer.com/beer/braufactum-marzus/136583/
+https://www.ratebeer.com/beer/braufactum-roog/136584/
 https://www.ratebeer.com/beer/left-coast-voo-doo-american-stout/136586/
 https://www.ratebeer.com/beer/ommegang-gnomegang/136621/
 https://www.ratebeer.com/beer/mont-blanc-la-rousse/136625/
@@ -5336,10 +5584,12 @@ https://www.ratebeer.com/beer/les-brasseurs-du-temps-la-saison-basse/137353/
 https://www.ratebeer.com/beer/driftwood-singularity-russian-imperial-stout/137363/
 https://www.ratebeer.com/beer/haymarket-speakerswagon-pilsner/137413/
 https://www.ratebeer.com/beer/the-kernel-india-pale-ale-citra/137414/
+https://www.ratebeer.com/beer/krenkerup-rauch-bier/137426/
 https://www.ratebeer.com/beer/le-trou-du-diable-dubai-pillee/137453/
 https://www.ratebeer.com/beer/left-coast-trestles-ipa/137552/
 https://www.ratebeer.com/beer/2nd-shift-art-of-neurosis/137562/
 https://www.ratebeer.com/beer/beer-here-kama-citra/137570/
+https://www.ratebeer.com/beer/haymarket-mathias-imperial-ipa/137626/
 https://www.ratebeer.com/beer/bronckhorster-nightporter/137655/
 https://www.ratebeer.com/beer/uinta-dubhe-imperial-black-ipa/137681/
 https://www.ratebeer.com/beer/mike-hess-solis-occasus-westcoaster-ipa/137741/
@@ -5417,7 +5667,9 @@ https://www.ratebeer.com/beer/williams-brothers-march-of-the-penguins/139938/
 https://www.ratebeer.com/beer/kinn-slatteol/140060/
 https://www.ratebeer.com/beer/great-lakes-brewery-karma-citra/140085/
 https://www.ratebeer.com/beer/hopfenstark-boson-de-higgs/140090/
+https://www.ratebeer.com/beer/albani-odense-1859-four-malt/140097/
 https://www.ratebeer.com/beer/brouwerij-west-9-belgian-tripel/140119/
+https://www.ratebeer.com/beer/spendrups-bistro-lager/140128/
 https://www.ratebeer.com/beer/laughing-dog-anubis-imperial-coffee-porter/140139/
 https://www.ratebeer.com/beer/troubadour-speciale/140206/
 https://www.ratebeer.com/beer/de-dochter-van-de-korenaar-embrasse-peated-oak-aged-whiskey-cask/140210/
@@ -5492,6 +5744,7 @@ https://www.ratebeer.com/beer/dc-brau-the-citizen/142611/
 https://www.ratebeer.com/beer/rivertown-lambic/142646/
 https://www.ratebeer.com/beer/millevertus-la-safranaise/142667/
 https://www.ratebeer.com/beer/konstancin-pszeniczne-pszeniczny/142669/
+https://www.ratebeer.com/beer/stiegl-weisse-naturtrub/142684/
 https://www.ratebeer.com/beer/midtfyns-rough-snuff-ii/142763/
 https://www.ratebeer.com/beer/verzet-rebel-local/142793/
 https://www.ratebeer.com/beer/sadler39s-hop-bomb/142795/
@@ -5528,6 +5781,7 @@ https://www.ratebeer.com/beer/logsdon-seizoen-bretta/143868/
 https://www.ratebeer.com/beer/mikkeller-porter/143896/
 https://www.ratebeer.com/beer/the-bruery-the-wanderer/144034/
 https://www.ratebeer.com/beer/st-feuillien-grand-cru/144092/
+https://www.ratebeer.com/beer/corona-extra-32/144125/
 https://www.ratebeer.com/beer/midnight-sun-open-container/144154/
 https://www.ratebeer.com/beer/rock-bottom-white-ale/144202/
 https://www.ratebeer.com/beer/funky-buddha-nikolai-vorlauf-russian-imperial-stout/144346/
@@ -5554,6 +5808,7 @@ https://www.ratebeer.com/beer/muskoka-mad-tom-ipa/145152/
 https://www.ratebeer.com/beer/bruery-terreux-tart-of-darkness/145153/
 https://www.ratebeer.com/beer/mikkeller-spontancassis/145222/
 https://www.ratebeer.com/beer/maine-beer-lunch/145241/
+https://www.ratebeer.com/beer/waitrose-organic-vintage-cider/145350/
 https://www.ratebeer.com/beer/dry-dock-hop-abomination-ipa/145360/
 https://www.ratebeer.com/beer/vicaris-quinto/145365/
 https://www.ratebeer.com/beer/vintage-bourbon-barrel-max-stout/145443/
@@ -5602,6 +5857,7 @@ https://www.ratebeer.com/beer/aecht-schlenkerla-krausen/146702/
 https://www.ratebeer.com/beer/brasseurs-du-monde-l39interdite-90-minutes/146780/
 https://www.ratebeer.com/beer/hopfenstark-end-of-the-trail/146807/
 https://www.ratebeer.com/beer/four-peaks-pitchfork-pale-ale/146813/
+https://www.ratebeer.com/beer/licorne-black/146834/
 https://www.ratebeer.com/beer/tamamura-honten-yamabushi-saison-1-aged-in-oak-barrels/146861/
 https://www.ratebeer.com/beer/wold-top-angler39s-reward/146884/
 https://www.ratebeer.com/beer/thornbridge-sequoia/146999/
@@ -5644,6 +5900,7 @@ https://www.ratebeer.com/beer/jack39s-abby-hoponius-union/148148/
 https://www.ratebeer.com/beer/jack39s-abby-smoke-dagger/148149/
 https://www.ratebeer.com/beer/starr-hill-boxcarr-pumpkin-porter/148182/
 https://www.ratebeer.com/beer/emelisse-black-ipa/148236/
+https://www.ratebeer.com/beer/darling-brew-bone-crusher/148308/
 https://www.ratebeer.com/beer/boneyard-bone-a-fide/148310/
 https://www.ratebeer.com/beer/schneider-weisse-tap-x-mein-nelson-sauvin/148420/
 https://www.ratebeer.com/beer/the-kernel-india-pale-ale-nelson-sauvin/148431/
@@ -5656,6 +5913,7 @@ https://www.ratebeer.com/beer/beachwood-melrose-ipa/148604/
 https://www.ratebeer.com/beer/founders-backstage-series-1-blushing-monk/148616/
 https://www.ratebeer.com/beer/warsteiner-premium-radler-grapefruit/148646/
 https://www.ratebeer.com/beer/founders-10k-ipa/148683/
+https://www.ratebeer.com/beer/stortebeker-1402-35/148743/
 https://www.ratebeer.com/beer/australian-brewery-the-pale-ale/148772/
 https://www.ratebeer.com/beer/sainte-helene-simcoe-lager/148803/
 https://www.ratebeer.com/beer/flying-dog-the-fear-imperial-pumpkin-ale/148868/
@@ -5674,6 +5932,7 @@ https://www.ratebeer.com/beer/hideji-hyuganatsu-lager/149489/
 https://www.ratebeer.com/beer/yokohama-lager/149491/
 https://www.ratebeer.com/beer/la-socarrada-cervesa-artesanal-premium/149591/
 https://www.ratebeer.com/beer/toppling-goliath-naughty-temple/149627/
+https://www.ratebeer.com/beer/norrebro-forars-bock-okologisk/149704/
 https://www.ratebeer.com/beer/oakham-green-devil-ipa/149716/
 https://www.ratebeer.com/beer/magic-rock-human-cannonball/149746/
 https://www.ratebeer.com/beer/new-day-south-cider/149757/
@@ -5691,11 +5950,13 @@ https://www.ratebeer.com/beer/hawkshead-nzpa/149925/
 https://www.ratebeer.com/beer/brodies-hackney-red-ipa/150005/
 https://www.ratebeer.com/beer/wilderen-goud/150011/
 https://www.ratebeer.com/beer/wilderen-tripel-kanunnik/150012/
+https://www.ratebeer.com/beer/wisconsin-dells-rustic-red/150017/
 https://www.ratebeer.com/beer/saugatuck-neapolitan-milk-stout/150040/
 https://www.ratebeer.com/beer/bandwagon-belly-river-oatmeal-stout/150050/
 https://www.ratebeer.com/beer/market-garden-progress-pilsner/150081/
 https://www.ratebeer.com/beer/market-garden-prosperity-wheat/150082/
 https://www.ratebeer.com/beer/ballast-point-indra-kunindra/150262/
+https://www.ratebeer.com/beer/welbeck-abbey-red-feather/150275/
 https://www.ratebeer.com/beer/sound-humulo-nimbus-double-ipa/150282/
 https://www.ratebeer.com/beer/caldera-hop-hash-ipa/150386/
 https://www.ratebeer.com/beer/evil-twin-molotov-cocktail/150395/
@@ -5738,6 +5999,7 @@ https://www.ratebeer.com/beer/oxbow-farmhouse-pale-ale/151698/
 https://www.ratebeer.com/beer/liberty-citra-double-ipa/151705/
 https://www.ratebeer.com/beer/hargreaves-hill-russian-imperial-stout/151763/
 https://www.ratebeer.com/beer/beck-brau-kellerbier-naturtrub/151793/
+https://www.ratebeer.com/beer/adnams-southwold-bitter-bottle-can/151794/
 https://www.ratebeer.com/beer/toppling-goliath-mornin39-delight/151817/
 https://www.ratebeer.com/beer/driftwood-twenty-pounder-double-ipa/151875/
 https://www.ratebeer.com/beer/buxton-wild-boar/151883/
@@ -5851,7 +6113,9 @@ https://www.ratebeer.com/beer/hill-farmstead-mikkeller-daybreak/155470/
 https://www.ratebeer.com/beer/double-mountain-killer-red/155515/
 https://www.ratebeer.com/beer/bruery-elysian-stone-la-citrueille-celeste-de-citracado/155631/
 https://www.ratebeer.com/beer/to-ol-snowball-saison/155636/
+https://www.ratebeer.com/beer/brutal-brewing-pistonhead-kustom-lager/155646/
 https://www.ratebeer.com/beer/le-trou-du-diable-l39imperatrice-fut-de-bourbon-americain/155654/
+https://www.ratebeer.com/beer/arboga-mork-lager/155800/
 https://www.ratebeer.com/beer/stallhagen-us-red-ale/155825/
 https://www.ratebeer.com/beer/la-fabrique-patriote/155826/
 https://www.ratebeer.com/beer/orscheler-urtrunk/155841/
@@ -5888,6 +6152,7 @@ https://www.ratebeer.com/beer/highland-thunderstruck-coffee-porter/157131/
 https://www.ratebeer.com/beer/benediktiner-weissbier/157144/
 https://www.ratebeer.com/beer/menaresta-2-di-picche/157246/
 https://www.ratebeer.com/beer/half-acre-lager-town/157278/
+https://www.ratebeer.com/beer/kiss-destroyer/157327/
 https://www.ratebeer.com/beer/broadhead-dark-horse-stout/157335/
 https://www.ratebeer.com/beer/leavenworth-bakke-hill-black-lager/157429/
 https://www.ratebeer.com/beer/piwo-grodziskie-gratzer-ale/157564/
@@ -5919,6 +6184,8 @@ https://www.ratebeer.com/beer/fiddlehead-india-pale-ale/158321/
 https://www.ratebeer.com/beer/zillertal-weissbier-bock/158324/
 https://www.ratebeer.com/beer/sapporo-mugi-to-hoppu-kuro/158355/
 https://www.ratebeer.com/beer/vilniaus-tamsusis-alus/158385/
+https://www.ratebeer.com/beer/norrebro-ravnsborg-rod-okologisk/158391/
+https://www.ratebeer.com/beer/innis-gunn-spiced-rum-finish/158405/
 https://www.ratebeer.com/beer/stone-111111-vertical-epic-ale/158413/
 https://www.ratebeer.com/beer/hangar-24-barrel-roll-no-03-pugachev39s-cobra-barrel-aged-imperial-stout/158417/
 https://www.ratebeer.com/beer/lagunitas-sucks/158433/
@@ -5957,11 +6224,14 @@ https://www.ratebeer.com/beer/red-brick-hoplanta/159519/
 https://www.ratebeer.com/beer/verzet-moose-blues/159593/
 https://www.ratebeer.com/beer/verhaeghe-barbe-noire-barbe-black/159639/
 https://www.ratebeer.com/beer/van-eecke-cuvee-de-watou/159640/
+https://www.ratebeer.com/beer/norrebro-bombay-pale-ale-okologisk/159658/
 https://www.ratebeer.com/beer/baladin-zucca/159682/
 https://www.ratebeer.com/beer/birrificio-del-ducato-machete-double-ipa/159684/
+https://www.ratebeer.com/beer/norrebro-kings-county-brown-ale-okologisk/159694/
 https://www.ratebeer.com/beer/greenbush-apathy-oatmeal-stout/159699/
 https://www.ratebeer.com/beer/greenbush-mammoth-weizenbock/159701/
 https://www.ratebeer.com/beer/great-lakes-brewery-lake-effect-ipa/159705/
+https://www.ratebeer.com/beer/norrebro-bohmer-pilsner-okologisk/159842/
 https://www.ratebeer.com/beer/stillwater-hof-ten-dormaal-bronze-age/159846/
 https://www.ratebeer.com/beer/paw-paw-jake39s-vanilla-bean-porter/159865/
 https://www.ratebeer.com/beer/hardywood-gingerbread-stout/159917/
@@ -6162,6 +6432,7 @@ https://www.ratebeer.com/beer/moor-nor39hop/166528/
 https://www.ratebeer.com/beer/ottos-pallet-jack-pale-ale/166569/
 https://www.ratebeer.com/beer/stortebeker-atlantik-ale/166614/
 https://www.ratebeer.com/beer/stockholm-india-pale-ale/166628/
+https://www.ratebeer.com/beer/st-eriks-apa/166725/
 https://www.ratebeer.com/beer/rince-cochon/166743/
 https://www.ratebeer.com/beer/elevator-ghost-scorpion-lager/166744/
 https://www.ratebeer.com/beer/schoppe-xpa-x-berg-pale-ale/166757/
@@ -6173,6 +6444,7 @@ https://www.ratebeer.com/beer/ricklinger-porsebier/167182/
 https://www.ratebeer.com/beer/avery-uncle-jacob39s-stout/167223/
 https://www.ratebeer.com/beer/de-dochter-van-de-korenaar-charbon/167236/
 https://www.ratebeer.com/beer/lwowek-wroclawskie/167359/
+https://www.ratebeer.com/beer/saku-karl-friedrich/167400/
 https://www.ratebeer.com/beer/belhaven-black-scottish-stout-bottle-can-keg/167429/
 https://www.ratebeer.com/beer/bas-bieren-karikatuur-wild-ale/167447/
 https://www.ratebeer.com/beer/de-la-senne-band-of-brothers/167460/
@@ -6217,6 +6489,7 @@ https://www.ratebeer.com/beer/elav-techno-double-ipa/168502/
 https://www.ratebeer.com/beer/elav-progressive-barley-wine/168503/
 https://www.ratebeer.com/beer/elav-aeresis/168548/
 https://www.ratebeer.com/beer/breakside-salted-caramel-stout/168592/
+https://www.ratebeer.com/beer/birrificio-del-ducato-wedding-rauch/168597/
 https://www.ratebeer.com/beer/hardknott-colonial-mayhem/168600/
 https://www.ratebeer.com/beer/wold-top-headland-red/168654/
 https://www.ratebeer.com/beer/lost-abbey-box-set-track-3-hell39s-bells/168666/
@@ -6244,6 +6517,7 @@ https://www.ratebeer.com/beer/three-floyds-half-acre-mutiny-and-the-mollusk/1693
 https://www.ratebeer.com/beer/lost-coast-belgian-tripel-ipa/169416/
 https://www.ratebeer.com/beer/cornish-orchards-heritage-cider-bottle/169505/
 https://www.ratebeer.com/beer/propeller-double-ipa/169519/
+https://www.ratebeer.com/beer/brutal-brewing-sir-taste-a-lot/169523/
 https://www.ratebeer.com/beer/kane-overhead/169534/
 https://www.ratebeer.com/beer/mikkeller-mexas-ranger/169618/
 https://www.ratebeer.com/beer/the-beer-diviner-got-your-back-coffee-oatmeal-stout/169707/
@@ -6256,6 +6530,7 @@ https://www.ratebeer.com/beer/widmer-brothers-reserve-raspberry-russian-imperial
 https://www.ratebeer.com/beer/asahi-super-dry-black/169964/
 https://www.ratebeer.com/beer/brutal-brewing-hale-to-nothing-eco-ale/169966/
 https://www.ratebeer.com/beer/elysian-split-shot/170006/
+https://www.ratebeer.com/beer/saku-pilsner/170139/
 https://www.ratebeer.com/beer/omnipollo-mazarin-oatmeal-pale-ale/170159/
 https://www.ratebeer.com/beer/fruh-radler/170167/
 https://www.ratebeer.com/beer/magic-hat-elder-betty/170192/
@@ -6486,6 +6761,7 @@ https://www.ratebeer.com/beer/lost-abbey-box-set-track-6-highway-to-hell/176969/
 https://www.ratebeer.com/beer/fuller39s-wild-river/177003/
 https://www.ratebeer.com/beer/neshaminy-creek-mudbank-milk-stout/177093/
 https://www.ratebeer.com/beer/neshaminy-creek-county-line-ipa/177094/
+https://www.ratebeer.com/beer/macivors-traditional-dry-cider-bottle/177149/
 https://www.ratebeer.com/beer/finch-fascist-pig/177166/
 https://www.ratebeer.com/beer/jopen-kruistocht-van-thomas/177308/
 https://www.ratebeer.com/beer/nickel-brook-le-paysan-saison-farmhouse-ale/177347/
@@ -6524,6 +6800,7 @@ https://www.ratebeer.com/beer/ore-dock-porter/178740/
 https://www.ratebeer.com/beer/pfriem-belgian-style-dark-ale/178755/
 https://www.ratebeer.com/beer/leinenkugels-lemon-berry-shandy/178772/
 https://www.ratebeer.com/beer/mammoth-blondibock/178773/
+https://www.ratebeer.com/beer/eibauer-zwickl-naturtrub/178819/
 https://www.ratebeer.com/beer/hof-ten-dormaal-barrel-aged-project-no-1-jenever/178822/
 https://www.ratebeer.com/beer/ommegang-biere-d39hougoumont/178832/
 https://www.ratebeer.com/beer/borg-snorri-nr-10/178856/
@@ -6556,6 +6833,7 @@ https://www.ratebeer.com/beer/perennial-fantastic-voyage/179670/
 https://www.ratebeer.com/beer/hammerheart-olaf-the-stout/179798/
 https://www.ratebeer.com/beer/vliet-tripel/179861/
 https://www.ratebeer.com/beer/lervig-hoppy-joe/179927/
+https://www.ratebeer.com/beer/ugly-duck-simcoe-chinook-ipa/179930/
 https://www.ratebeer.com/beer/acdc-beer-rock-or-bust/179971/
 https://www.ratebeer.com/beer/toppling-goliath-intergalactic-warrior-ipa/179986/
 https://www.ratebeer.com/beer/rivertown-ojos-negros/180084/
@@ -6619,6 +6897,7 @@ https://www.ratebeer.com/beer/oxbow-loretta/182359/
 https://www.ratebeer.com/beer/jack39s-abby-copper-legend/182391/
 https://www.ratebeer.com/beer/crooked-stave-surette-reserva/182420/
 https://www.ratebeer.com/beer/8-wired-bumaye/182537/
+https://www.ratebeer.com/beer/yakka-yapale/182544/
 https://www.ratebeer.com/beer/b94-santoronzo/182575/
 https://www.ratebeer.com/beer/evil-twin-wet-dream/182660/
 https://www.ratebeer.com/beer/allagash-james-bean/182704/
@@ -6732,6 +7011,7 @@ https://www.ratebeer.com/beer/sainte-crucienne-orange-mecanique/186854/
 https://www.ratebeer.com/beer/the-brew-kettle-black-rajah/186857/
 https://www.ratebeer.com/beer/druthers-all-in-ipa/186883/
 https://www.ratebeer.com/beer/birrificio-del-ducato-vieille-ville/186896/
+https://www.ratebeer.com/beer/backyard-brew-bomble-bee-17/186924/
 https://www.ratebeer.com/beer/maximus-highhops/186977/
 https://www.ratebeer.com/beer/funky-buddha-sweet-potato-casserole/186985/
 https://www.ratebeer.com/beer/funkwerks-tropic-king/187000/
@@ -6758,6 +7038,7 @@ https://www.ratebeer.com/beer/the-kernel-table-beer/187863/
 https://www.ratebeer.com/beer/firestone-walker-16-xvi-sixteenth-anniversary-ale/187890/
 https://www.ratebeer.com/beer/titletown-green-19-ipa/187904/
 https://www.ratebeer.com/beer/emerson39s-bird-dog-ipa/187908/
+https://www.ratebeer.com/beer/brutal-brewing-pistonhead-christmas-carol/187984/
 https://www.ratebeer.com/beer/avery-barrel-aged-series-13-odio-equum/188016/
 https://www.ratebeer.com/beer/aftershock-jess-y-james-imperial-stout/188091/
 https://www.ratebeer.com/beer/burleigh-figjam-ipa/188103/
@@ -6825,9 +7106,11 @@ https://www.ratebeer.com/beer/sante-adairius-love39s-armor/190573/
 https://www.ratebeer.com/beer/wild-beer-madness-ipa/190587/
 https://www.ratebeer.com/beer/creemore-springs-mad-noisy-hops-bolts-india-pale-lager/190635/
 https://www.ratebeer.com/beer/iron-fist-nelson-the-impaler/190673/
+https://www.ratebeer.com/beer/omnipollo-moebius-iipa/190748/
 https://www.ratebeer.com/beer/moon-under-water-potts-pils-unfiltered/190750/
 https://www.ratebeer.com/beer/cromarty-aka-ipa/190761/
 https://www.ratebeer.com/beer/draught-works-last-rites-mexican-chocolate-porter/190874/
+https://www.ratebeer.com/beer/everards-regimental-ipa/190915/
 https://www.ratebeer.com/beer/jester-king-ru-55/190975/
 https://www.ratebeer.com/beer/evil-genius-black-eye-pa/191003/
 https://www.ratebeer.com/beer/saranac-4059-porter/191047/
@@ -6855,6 +7138,7 @@ https://www.ratebeer.com/beer/great-lakes-brewery-x-amsterdam-ezra/191680/
 https://www.ratebeer.com/beer/moor-arbor-dark-alliance/191719/
 https://www.ratebeer.com/beer/lost-abbey-box-set-track-11-devil-went-down-to-georgia/191741/
 https://www.ratebeer.com/beer/shepherd-neame-india-pale-ale-bottle/191772/
+https://www.ratebeer.com/beer/banger-el-heffe/191789/
 https://www.ratebeer.com/beer/begyle-blonde/191824/
 https://www.ratebeer.com/beer/pipeworks-citra-imperial-ipa/191833/
 https://www.ratebeer.com/beer/sapporo-hokkaido-premium/191876/
@@ -6867,6 +7151,7 @@ https://www.ratebeer.com/beer/hill-farmstead-juicy/192014/
 https://www.ratebeer.com/beer/yo-ho-suiyoubi-no-neko/192034/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-reserve-de-noel/192157/
 https://www.ratebeer.com/beer/elevation-little-mo39-porter/192176/
+https://www.ratebeer.com/beer/norrebro-stjernestund-klosterol/192250/
 https://www.ratebeer.com/beer/mikkeller-george-barrel-aged-calvados-edition/192282/
 https://www.ratebeer.com/beer/du-bocq-saison-1858/192444/
 https://www.ratebeer.com/beer/block-15-kriek/192460/
@@ -6899,6 +7184,7 @@ https://www.ratebeer.com/beer/the-bruery-griffon-bruxellois-2012/193487/
 https://www.ratebeer.com/beer/the-bruery-bourbon-barrel-aged-4-calling-birds/193488/
 https://www.ratebeer.com/beer/21st-amendment-marooned-on-hog-island/193529/
 https://www.ratebeer.com/beer/moon-dog-love-tap/193550/
+https://www.ratebeer.com/beer/san-miguel-europe/193647/
 https://www.ratebeer.com/beer/tatton-obscure/193683/
 https://www.ratebeer.com/beer/against-the-grain-mac-fannybaw/193729/
 https://www.ratebeer.com/beer/wasatch-ghostrider-white-ipa/193744/
@@ -6977,6 +7263,7 @@ https://www.ratebeer.com/beer/prairie-prairie-hop/196472/
 https://www.ratebeer.com/beer/cycle-cream-sugar-please/196476/
 https://www.ratebeer.com/beer/confluence-thomas-beck-black-ipa/196560/
 https://www.ratebeer.com/beer/almanac-biere-de-chocolat/196572/
+https://www.ratebeer.com/beer/camden-town-pale-ale-bottled/196580/
 https://www.ratebeer.com/beer/wicked-weed-freak-of-nature-double-ipa/196612/
 https://www.ratebeer.com/beer/belhaven-scottish-ale-us-version/196655/
 https://www.ratebeer.com/beer/singlecut-billy-18-watt-ipa/196656/
@@ -6996,6 +7283,7 @@ https://www.ratebeer.com/beer/nickel-brook-cuvee-2008-2014/197377/
 https://www.ratebeer.com/beer/wild-beer-ninkasi/197379/
 https://www.ratebeer.com/beer/red-brick-the-lost-years/197415/
 https://www.ratebeer.com/beer/great-divide-orabelle/197420/
+https://www.ratebeer.com/beer/ugly-duck-amarillo-citra-ipa/197451/
 https://www.ratebeer.com/beer/hijos-de-rivera-1906-red-vintage/197453/
 https://www.ratebeer.com/beer/dragoon-scout-porter/197482/
 https://www.ratebeer.com/beer/tallgrass-vanilla-bean-buffalo-sweat/197569/
@@ -7015,6 +7303,7 @@ https://www.ratebeer.com/beer/st-florian39s-california-common-lager/198140/
 https://www.ratebeer.com/beer/anchorage-a-deal-with-the-devil-barleywine/198143/
 https://www.ratebeer.com/beer/exile-ruthie/198183/
 https://www.ratebeer.com/beer/bridge-road-nogne-o-aurora-australis/198208/
+https://www.ratebeer.com/beer/jacobsen-weissbier/198218/
 https://www.ratebeer.com/beer/warsteiner-herb/198240/
 https://www.ratebeer.com/beer/agua-mala-marea-roja/198339/
 https://www.ratebeer.com/beer/henniker-amber-apparition/198349/
@@ -7026,6 +7315,7 @@ https://www.ratebeer.com/beer/loncium-weizenbock/198703/
 https://www.ratebeer.com/beer/sixpoint-3beans/198732/
 https://www.ratebeer.com/beer/toppling-goliath-pompeii-ipa/198739/
 https://www.ratebeer.com/beer/great-rhythm-resonation-pale-ale/198786/
+https://www.ratebeer.com/beer/poppels-nya-varldens-india-pale-ale/198799/
 https://www.ratebeer.com/beer/beachwood-amalgamator/198910/
 https://www.ratebeer.com/beer/garage-project-day-of-the-dead/198945/
 https://www.ratebeer.com/beer/greene-king-yardbird-bottle-keg/199067/
@@ -7107,6 +7397,7 @@ https://www.ratebeer.com/beer/three-heads-rochestafarian-wee-heavy-ale/202383/
 https://www.ratebeer.com/beer/alesmith-decadence-2011-barrel-aged/202443/
 https://www.ratebeer.com/beer/white-birch-first-sparrow/202503/
 https://www.ratebeer.com/beer/garage-project-baltic-porter/202539/
+https://www.ratebeer.com/beer/mikkeller-vesterbro-spontanale/202549/
 https://www.ratebeer.com/beer/great-lakes-brewery-25th-anniversary-bourbon-barrel-aged-russian-imperial-stout/202562/
 https://www.ratebeer.com/beer/evil-twin-femme-fatale-noir/202606/
 https://www.ratebeer.com/beer/oud-beersel-bzart-oude-geuze/202633/
@@ -7127,6 +7418,7 @@ https://www.ratebeer.com/beer/hill-farmstead-society-solitude-6/203117/
 https://www.ratebeer.com/beer/heater-allen-lenzbock/203118/
 https://www.ratebeer.com/beer/wolverine-state-barista-coffee-lager/203198/
 https://www.ratebeer.com/beer/la-voie-maltee-pure-laine/203250/
+https://www.ratebeer.com/beer/foti-zwickl/203278/
 https://www.ratebeer.com/beer/volga-88°/203295/
 https://www.ratebeer.com/beer/victory-white-monkey/203327/
 https://www.ratebeer.com/beer/pipeworks-unicorn39s-revenge/203341/
@@ -7249,6 +7541,7 @@ https://www.ratebeer.com/beer/pfriem-saison/207925/
 https://www.ratebeer.com/beer/the-dudes-double-trunk/207947/
 https://www.ratebeer.com/beer/to-ol-dangerously-close-to-stupid/207950/
 https://www.ratebeer.com/beer/kinn-gamleguten/207987/
+https://www.ratebeer.com/beer/stone-arch-vanilla-stout/208003/
 https://www.ratebeer.com/beer/kasteel-barista-chocolate-quad/208012/
 https://www.ratebeer.com/beer/crux-cast-out-formerly-outcast-ipa/208062/
 https://www.ratebeer.com/beer/thiriez-la-triple/208071/
@@ -7291,6 +7584,7 @@ https://www.ratebeer.com/beer/pizza-boy-rye-beer-sucks/209285/
 https://www.ratebeer.com/beer/poppels-american-pale-ale/209340/
 https://www.ratebeer.com/beer/boulevard-hibiscus-gose/209365/
 https://www.ratebeer.com/beer/hill-farmstead-edith-2013-/209393/
+https://www.ratebeer.com/beer/eriksberg-karaktar/209427/
 https://www.ratebeer.com/beer/san-servolo-svijetlo-pivo/209465/
 https://www.ratebeer.com/beer/stone-imperial-russian-stout-espresso/209480/
 https://www.ratebeer.com/beer/coccinelle/209488/
@@ -7305,6 +7599,8 @@ https://www.ratebeer.com/beer/omission-gluten-free-ipa/210025/
 https://www.ratebeer.com/beer/blue-bee-charred-ordinary/210239/
 https://www.ratebeer.com/beer/3-fonteinen-intense-red-oude-kriek/210269/
 https://www.ratebeer.com/beer/la-fontaine-belle-elegante-blond/210272/
+https://www.ratebeer.com/beer/south-plains-how-honey-oat-wheat/210278/
+https://www.ratebeer.com/beer/south-plains-ipa/210285/
 https://www.ratebeer.com/beer/elav-la-regina-d39inverno/210291/
 https://www.ratebeer.com/beer/saint-archer-ipa/210298/
 https://www.ratebeer.com/beer/voss-vpa-vossa-pale-ale/210302/
@@ -7315,6 +7611,7 @@ https://www.ratebeer.com/beer/marks-spencer-single-variety-hop-citra-ipa/210447/
 https://www.ratebeer.com/beer/short39s-thirstie-mutilator/210539/
 https://www.ratebeer.com/beer/eel-river-emerald-triangle-ipa/210555/
 https://www.ratebeer.com/beer/pinta-oto-mata-ipa/210582/
+https://www.ratebeer.com/beer/gotlands-sleepy-bulldog-best-bitter/210586/
 https://www.ratebeer.com/beer/great-lakes-hop-madness/210605/
 https://www.ratebeer.com/beer/weiherer-landbier/210822/
 https://www.ratebeer.com/beer/garage-project-hops-on-pointe/210860/
@@ -7368,6 +7665,7 @@ https://www.ratebeer.com/beer/kentucky-ipa/212718/
 https://www.ratebeer.com/beer/alebrowar-king-of-hop/212791/
 https://www.ratebeer.com/beer/the-monarchy-methusalem/212801/
 https://www.ratebeer.com/beer/mcfate-candy-bar-milk-stout/212809/
+https://www.ratebeer.com/beer/electric-nurse-pale-ale/212838/
 https://www.ratebeer.com/beer/to-ol-fuck-art-this-is-advertising/212971/
 https://www.ratebeer.com/beer/crooked-stave-hop-savant/212991/
 https://www.ratebeer.com/beer/sante-adairius-brackish/213017/
@@ -7437,6 +7735,7 @@ https://www.ratebeer.com/beer/allendale-export-stout/215485/
 https://www.ratebeer.com/beer/two-roads-no-limits-hefeweizen/215502/
 https://www.ratebeer.com/beer/mother-earth-sin-tax-sintax-imperial-stout/215518/
 https://www.ratebeer.com/beer/prairie-bomb/215531/
+https://www.ratebeer.com/beer/poppels-belgisk-wit/215549/
 https://www.ratebeer.com/beer/hi-wire-lager/215573/
 https://www.ratebeer.com/beer/four-winds-ipa/215599/
 https://www.ratebeer.com/beer/alebrowar-ortodox-stout/215649/
@@ -7449,6 +7748,9 @@ https://www.ratebeer.com/beer/new-holland-incorrigible/215787/
 https://www.ratebeer.com/beer/st-austell-big-job/215810/
 https://www.ratebeer.com/beer/the-bruery-mash/215813/
 https://www.ratebeer.com/beer/the-bruery-mash-grind/215814/
+https://www.ratebeer.com/beer/greene-king-abbot-reserve-bottle/215874/
+https://www.ratebeer.com/beer/cbc-amber-weiss/215883/
+https://www.ratebeer.com/beer/cbc-pilsner/215886/
 https://www.ratebeer.com/beer/cbc-krystal-weiss/215891/
 https://www.ratebeer.com/beer/crooked-stave-st-bretta-summer/215912/
 https://www.ratebeer.com/beer/croce-di-malto-piedi-neri/215914/
@@ -7484,6 +7786,7 @@ https://www.ratebeer.com/beer/worthy-farm-out-saison/216957/
 https://www.ratebeer.com/beer/to-ol-black-malts-body-salts-black-coffee-iipa/216961/
 https://www.ratebeer.com/beer/sainte-crucienne-sex-ale-and-rock-n39roll/216981/
 https://www.ratebeer.com/beer/bertinchamps-blonde/217024/
+https://www.ratebeer.com/beer/mikkeller-drink39in-the-sun-13-03/217026/
 https://www.ratebeer.com/beer/odin-thor39s-sunstone/217093/
 https://www.ratebeer.com/beer/thirsty-dog-wulver/217127/
 https://www.ratebeer.com/beer/urban-chestnut-ku39damm/217167/
@@ -7525,6 +7828,7 @@ https://www.ratebeer.com/beer/new-planet-tread-lightly-ale-2015-/218426/
 https://www.ratebeer.com/beer/trillium-sunshower/218432/
 https://www.ratebeer.com/beer/pipeworks-orange-truffle-abduction-imperial-stout/218449/
 https://www.ratebeer.com/beer/brussels-beer-project-delta/218467/
+https://www.ratebeer.com/beer/birrificio-pontino-go-black/218481/
 https://www.ratebeer.com/beer/fyne-ales-wild-beer-cool-as-a-cucumber/218493/
 https://www.ratebeer.com/beer/terrapin-recreationale/218504/
 https://www.ratebeer.com/beer/oedipus-mama/218527/
@@ -7668,6 +7972,7 @@ https://www.ratebeer.com/beer/latitude-42-powerline-porter/224818/
 https://www.ratebeer.com/beer/de-molen-dag-dauw/224914/
 https://www.ratebeer.com/beer/hop-valley-citrus-mistress/225058/
 https://www.ratebeer.com/beer/off-color-15-feet/225180/
+https://www.ratebeer.com/beer/opperbacco-violent-shared/225250/
 https://www.ratebeer.com/beer/fano-kehrwieder-shipaa-2013-single-hop-ipa-amarillo/225258/
 https://www.ratebeer.com/beer/collective-arts-rhyme-and-reason/225270/
 https://www.ratebeer.com/beer/belching-beaver-peanut-butter-milk-stout/225289/
@@ -7709,6 +8014,7 @@ https://www.ratebeer.com/beer/animal-army-sea-lions-ipa/226479/
 https://www.ratebeer.com/beer/two-roads-roadsmary39s-baby/226486/
 https://www.ratebeer.com/beer/arizona-wilderness-refuge-ipa/226516/
 https://www.ratebeer.com/beer/bocanegra-pilsner/226563/
+https://www.ratebeer.com/beer/beerd-silvertip/226568/
 https://www.ratebeer.com/beer/dunham-kekriek/226653/
 https://www.ratebeer.com/beer/peckham39s-boysenberry-cider/226662/
 https://www.ratebeer.com/beer/founders-mosaic-promise/226680/
@@ -7726,6 +8032,7 @@ https://www.ratebeer.com/beer/arizona-wilderness-superstition-coffee-stout/22708
 https://www.ratebeer.com/beer/williams-brothers-hipsway/227095/
 https://www.ratebeer.com/beer/palo-alto-hoppy-ending/227146/
 https://www.ratebeer.com/beer/st-feuillien-green-flash-belgian-coast-ipa/227158/
+https://www.ratebeer.com/beer/ugly-duck-miami-vice/227189/
 https://www.ratebeer.com/beer/naparbier-black-rock-2013-2016/227214/
 https://www.ratebeer.com/beer/kentucky-pumpkin-barrel-ale/227218/
 https://www.ratebeer.com/beer/southern-tier-blackwater-series-warlock/227272/
@@ -7810,6 +8117,7 @@ https://www.ratebeer.com/beer/omnipollo-fatamorgana-oat-wheat-iipa/231144/
 https://www.ratebeer.com/beer/maier-triple-dorada/231149/
 https://www.ratebeer.com/beer/maier-especial/231150/
 https://www.ratebeer.com/beer/boulder-beer-dragonhosen-imperial-oktoberfest/231225/
+https://www.ratebeer.com/beer/foglie-d39erba-hot-night-at-the-village/231330/
 https://www.ratebeer.com/beer/clown-shoes-hammer-of-the-holy/231423/
 https://www.ratebeer.com/beer/schramm39s-the-statement/231438/
 https://www.ratebeer.com/beer/cinder-block-prime-extra-pale-ale/231463/
@@ -7821,6 +8129,7 @@ https://www.ratebeer.com/beer/russian-river-framboise-for-a-cure-2013-/231669/
 https://www.ratebeer.com/beer/birrificio-del-ducato-baciami-lipsia-kiss-me-lipsia/231751/
 https://www.ratebeer.com/beer/oersoep-hopfather/231754/
 https://www.ratebeer.com/beer/boatrocker-ramjet-whisky-barrel-aged-imperial-stout/231840/
+https://www.ratebeer.com/beer/krinitsa-kult-weissbier/231954/
 https://www.ratebeer.com/beer/innis-gunn-toasted-oak-ipa-bottle/231959/
 https://www.ratebeer.com/beer/goose-island-bourbon-county-barleywine/232029/
 https://www.ratebeer.com/beer/uiltje-bosuil/232053/
@@ -8001,11 +8310,14 @@ https://www.ratebeer.com/beer/caulier-28-brett/238375/
 https://www.ratebeer.com/beer/paljas-bruin/238378/
 https://www.ratebeer.com/beer/evil-twin-sante-adairius-joey-pepper/238432/
 https://www.ratebeer.com/beer/double-barley-thrilla-in-vanilla-porter/238470/
+https://www.ratebeer.com/beer/chad-beer-15-minutes-of-flame/238484/
 https://www.ratebeer.com/beer/goose-island-ten-hills/238529/
 https://www.ratebeer.com/beer/gonzo39s-biggdogg-geyser-brown-ale/238565/
 https://www.ratebeer.com/beer/brewdog-old-world-russian-imperial-stout-95/238589/
 https://www.ratebeer.com/beer/rinkuskiai-hell-on-high/238601/
+https://www.ratebeer.com/beer/sigtuna-organic-ale/238687/
 https://www.ratebeer.com/beer/tired-hands-momocoe/238695/
+https://www.ratebeer.com/beer/abro-bryggmastarens-vinterbrygd/238707/
 https://www.ratebeer.com/beer/straub-doppelbock/238724/
 https://www.ratebeer.com/beer/schonramer-imperial-stout/238780/
 https://www.ratebeer.com/beer/lost-abbey-merry-taj-ipa/238823/
@@ -8180,6 +8492,7 @@ https://www.ratebeer.com/beer/961-american-ipa/245348/
 https://www.ratebeer.com/beer/three-notch39d-tollan-rye-ipa/245366/
 https://www.ratebeer.com/beer/the-rare-barrel-wise-guise/245372/
 https://www.ratebeer.com/beer/omnipollo-hypnopompa-bourbon/245460/
+https://www.ratebeer.com/beer/greene-king-double-hop-monster-cask/245483/
 https://www.ratebeer.com/beer/prairie-birra/245497/
 https://www.ratebeer.com/beer/ollenaut-lumelausuja/245534/
 https://www.ratebeer.com/beer/muskoka-detour-session-ipa/245545/
@@ -8190,6 +8503,7 @@ https://www.ratebeer.com/beer/brassneck-stockholm-syndrome/245970/
 https://www.ratebeer.com/beer/saint-archer-coffee-brown/246153/
 https://www.ratebeer.com/beer/naparbier-napar-porter/246331/
 https://www.ratebeer.com/beer/steamworks-pilsner/246377/
+https://www.ratebeer.com/beer/jacobsen-india-pale-ale/246511/
 https://www.ratebeer.com/beer/wild-beer-somerset-wild/246569/
 https://www.ratebeer.com/beer/uiltje-fck-the-christmas-tree-is-on-fire/246580/
 https://www.ratebeer.com/beer/crooked-stave-nightmare-on-brett/246727/
@@ -8296,7 +8610,9 @@ https://www.ratebeer.com/beer/side-launch-wheat/250972/
 https://www.ratebeer.com/beer/maine-beer-a-tiny-beautiful-something/251024/
 https://www.ratebeer.com/beer/vic-ale-mumbai-indian-pale-ale/251057/
 https://www.ratebeer.com/beer/7-fjell-svartediket-black-ipa/251064/
+https://www.ratebeer.com/beer/to-ol-cloud-9-wit/251077/
 https://www.ratebeer.com/beer/drop-in-supernova-ipa/251206/
+https://www.ratebeer.com/beer/grythyttans-117-india-pale-ale-35/251303/
 https://www.ratebeer.com/beer/rhinegeist-mastodon/251306/
 https://www.ratebeer.com/beer/el-segundo-power-plant/251325/
 https://www.ratebeer.com/beer/against-the-grain-brett-the-hipman-hop/251378/
@@ -8342,8 +8658,10 @@ https://www.ratebeer.com/beer/raudonu-plytu-btganti-kopa/252996/
 https://www.ratebeer.com/beer/short39s-vintage-premium-lager/253064/
 https://www.ratebeer.com/beer/jester-king-montmorency-vs-balaton/253086/
 https://www.ratebeer.com/beer/perennial-sump/253118/
+https://www.ratebeer.com/beer/high-nose-brew-twisted-twin-dipa-ish/253141/
 https://www.ratebeer.com/beer/vedett-extra-ordinary-ipa/253212/
 https://www.ratebeer.com/beer/poppels-dipa-double-india-pale-ale/253252/
+https://www.ratebeer.com/beer/ugly-duck-hop-devil/253254/
 https://www.ratebeer.com/beer/duclaw-dirty-little-freak/253256/
 https://www.ratebeer.com/beer/wasatch-black-o39-lantern/253270/
 https://www.ratebeer.com/beer/hilldevils-hilldevil-india-pale-ale/253280/
@@ -8380,6 +8698,7 @@ https://www.ratebeer.com/beer/hong-kong-beer-co-sevens-stout/254183/
 https://www.ratebeer.com/beer/hong-kong-beer-co-big-wave-bay-ipa/254184/
 https://www.ratebeer.com/beer/hong-kong-beer-co-dragon39s-back-pale-ale/254185/
 https://www.ratebeer.com/beer/19°-norte-mateo39s-dakota-stout/254201/
+https://www.ratebeer.com/beer/belhaven-craft-pilsner/254228/
 https://www.ratebeer.com/beer/flying-monkeys-shoulders-of-giants/254236/
 https://www.ratebeer.com/beer/big-grove-arms-race-pale-ale/254426/
 https://www.ratebeer.com/beer/crazy-mountain-neomexicanus-native-pale-ale/254499/
@@ -8493,6 +8812,7 @@ https://www.ratebeer.com/beer/against-the-grain-citra-ass-down/258430/
 https://www.ratebeer.com/beer/joalda-jonisk279lio-respublika-1919-filtruotas-sviesusis-alus/258447/
 https://www.ratebeer.com/beer/dundulis-kovarni371-stautas/258451/
 https://www.ratebeer.com/beer/volfas-engelman-balta-pinta/258452/
+https://www.ratebeer.com/beer/nya-carnegiebryggeriet-kellerbier/258491/
 https://www.ratebeer.com/beer/mother-earth-park-day-bohemian-style-pilsner/258541/
 https://www.ratebeer.com/beer/millstone-cellars-farmgate/258557/
 https://www.ratebeer.com/beer/kostritzer-meisterwerke-pale-ale/258580/
@@ -8533,6 +8853,7 @@ https://www.ratebeer.com/beer/siren-cigar-city-caribbean-chocolate-cake/260237/
 https://www.ratebeer.com/beer/prearis-belma/260238/
 https://www.ratebeer.com/beer/jolly-pumpkin-saison-x/260320/
 https://www.ratebeer.com/beer/paulaner-weissbier-zitrone/260362/
+https://www.ratebeer.com/beer/nils-oscar-bordslager/260378/
 https://www.ratebeer.com/beer/jack39s-abby-hopstitution-xpl-3-calyptra/260421/
 https://www.ratebeer.com/beer/mikkeller-three-floyds-majsgoop/260476/
 https://www.ratebeer.com/beer/konrad-kapucin/260498/
@@ -8614,6 +8935,7 @@ https://www.ratebeer.com/beer/bfm-abbaye-de-saint-bon-chien-2013/263937/
 https://www.ratebeer.com/beer/sante-adairius-quality-of-life/263957/
 https://www.ratebeer.com/beer/cantillon-cuvee-florian/263976/
 https://www.ratebeer.com/beer/modern-times-booming-rollers/263977/
+https://www.ratebeer.com/beer/nogne-o-vic-secret-ipa/264072/
 https://www.ratebeer.com/beer/steynemolen/264221/
 https://www.ratebeer.com/beer/trillium-sprang/264256/
 https://www.ratebeer.com/beer/jurajskie-z-ostropestem/264274/
@@ -8626,6 +8948,7 @@ https://www.ratebeer.com/beer/flying-dog-dead-rise/264577/
 https://www.ratebeer.com/beer/blackrocks-barbaric-yawp/264595/
 https://www.ratebeer.com/beer/young-master-mo39-mo39-wit-2279926085406364063621860/264621/
 https://www.ratebeer.com/beer/gulpener-ur-hop/264634/
+https://www.ratebeer.com/beer/siren-white-tips/264635/
 https://www.ratebeer.com/beer/oec-exilis/264662/
 https://www.ratebeer.com/beer/5-rabbit-yodo-con-leche/264699/
 https://www.ratebeer.com/beer/woodshed-ipa/264772/
@@ -8665,6 +8988,7 @@ https://www.ratebeer.com/beer/abbazia-tre-fontane-tripel/266145/
 https://www.ratebeer.com/beer/anthem-arjuna/266180/
 https://www.ratebeer.com/beer/anthem-uroboros-stout/266181/
 https://www.ratebeer.com/beer/4-hands-passion-fruit-prussia/266221/
+https://www.ratebeer.com/beer/la-virgen-360/266250/
 https://www.ratebeer.com/beer/base-camp-hop-in-the-39pool-late-hop-helles/266253/
 https://www.ratebeer.com/beer/stillwater-gose-gone-wild/266266/
 https://www.ratebeer.com/beer/rockmill-petite-saison/266357/
@@ -8679,6 +9003,7 @@ https://www.ratebeer.com/beer/steamworks-jasmine-ipa/266887/
 https://www.ratebeer.com/beer/quest-imperial-smoking-mirror-porter-rum-barrel-aged/267058/
 https://www.ratebeer.com/beer/alesmith-san-diego-pale-ale-394/267066/
 https://www.ratebeer.com/beer/munkebo-alstaerk-bourbon/267172/
+https://www.ratebeer.com/beer/tuborg-ra/267276/
 https://www.ratebeer.com/beer/kuka-ginger-mango-ipa/267322/
 https://www.ratebeer.com/beer/mad-hatter-toxteth-ipa/267324/
 https://www.ratebeer.com/beer/drygate-outaspace-apple-ale/267331/
@@ -8700,6 +9025,7 @@ https://www.ratebeer.com/beer/gainsbourg-cote-ouest-ipa/267940/
 https://www.ratebeer.com/beer/kern-river-8th-anniversary-double-white-ipa-shuttle-bunny/267992/
 https://www.ratebeer.com/beer/orpheus-transmigration-of-souls/268002/
 https://www.ratebeer.com/beer/parallel-49-1-8-7-on-a-mother-fin39-hop/268028/
+https://www.ratebeer.com/beer/konrad-vratislavicky-lez-ak-11°/268044/
 https://www.ratebeer.com/beer/jolly-pumpkin-anchorage-calabaza-boreal/268098/
 https://www.ratebeer.com/beer/sahtipaja-rott-men-inte-sott/268176/
 https://www.ratebeer.com/beer/pump-house-biere-de-garde/268313/
@@ -8963,6 +9289,7 @@ https://www.ratebeer.com/beer/bell39s-planet-series-mars-the-bringer-of-war/2807
 https://www.ratebeer.com/beer/chris-banker-insurgente-stone-xocoveza-mocha-stout/280743/
 https://www.ratebeer.com/beer/garage-project-beer/280752/
 https://www.ratebeer.com/beer/tupiniquim-monjolo-imperial-porter/280815/
+https://www.ratebeer.com/beer/ska-rudie-session-ipa/280927/
 https://www.ratebeer.com/beer/clock-clock-12-°-american-pale-ale/280974/
 https://www.ratebeer.com/beer/omnipollo-buxton-yellow-belly-peanut-butter-biscuit-stout/280975/
 https://www.ratebeer.com/beer/alaskan-pilot-series-imperial-rye/280977/
@@ -9051,6 +9378,7 @@ https://www.ratebeer.com/beer/zmajska-pivovara-pale-ale/285531/
 https://www.ratebeer.com/beer/zmajska-pivovara-porter/285532/
 https://www.ratebeer.com/beer/distrikt-beer-nnbeer-naive-new-beer/285536/
 https://www.ratebeer.com/beer/camden-town-india-hells-lager/285553/
+https://www.ratebeer.com/beer/orbaek-fionia-nyborg-the-bitter-end-organic-ipa/285660/
 https://www.ratebeer.com/beer/coppertail-unholy-belgian-tripel-trippel/285693/
 https://www.ratebeer.com/beer/st-florian39s-flashover-ipa/285823/
 https://www.ratebeer.com/beer/lord-chambray-blue-lagoon/285876/
@@ -9126,6 +9454,7 @@ https://www.ratebeer.com/beer/pivovara-medvedgrad-fakin-ipa/289527/
 https://www.ratebeer.com/beer/pohjala-saak/289535/
 https://www.ratebeer.com/beer/slaapmutske-flemish-old-style-sour-ale-floss/289555/
 https://www.ratebeer.com/beer/buxton-nth-cloud/289564/
+https://www.ratebeer.com/beer/gotlands-great-white-bulldog-wheat-ale/289661/
 https://www.ratebeer.com/beer/buxton-omnipollo-pomperipossa-sour-cherry-stout/289695/
 https://www.ratebeer.com/beer/big-ditch-hayburner-american-ipa/289747/
 https://www.ratebeer.com/beer/steamworks-heroica-red-ale/289839/
@@ -9291,6 +9620,7 @@ https://www.ratebeer.com/beer/thisted-limfjords-porter-ekstra-lakrids/297339/
 https://www.ratebeer.com/beer/south-street-anastasia39s-chocolate-fantasy-2014-/297448/
 https://www.ratebeer.com/beer/hoppin39-frog-king-gose-home/297460/
 https://www.ratebeer.com/beer/jennings-cumberland-bottle/297534/
+https://www.ratebeer.com/beer/mikkeller-x-mas-porter-2014-fra-til-via-from-to-via/297575/
 https://www.ratebeer.com/beer/river-north-big-city-quad/297646/
 https://www.ratebeer.com/beer/driftwood-new-growth-pale-ale/297657/
 https://www.ratebeer.com/beer/munkebo-munin/297679/
@@ -9431,6 +9761,7 @@ https://www.ratebeer.com/beer/pohjala-virmalised-gf-grapefruit-edition/303076/
 https://www.ratebeer.com/beer/right-brain-barrel-aged-ceo-stout/303132/
 https://www.ratebeer.com/beer/right-brain-imperial-ceo-stout/303149/
 https://www.ratebeer.com/beer/black-c/303169/
+https://www.ratebeer.com/beer/high-nose-brew-african-pale-ale/303259/
 https://www.ratebeer.com/beer/neshaminy-creek-juicy-ale-with-nugget-jawn/303297/
 https://www.ratebeer.com/beer/torpah-30/303379/
 https://www.ratebeer.com/beer/torpah-60/303381/
@@ -9596,6 +9927,7 @@ https://www.ratebeer.com/beer/duvel-tripel-hop-2015-equinox/311086/
 https://www.ratebeer.com/beer/laugar-aupa-tovarisch/311137/
 https://www.ratebeer.com/beer/steel-reserve-alloy-series-hard-pineapple-211/311207/
 https://www.ratebeer.com/beer/steel-reserve-alloy-series-margarita-211/311208/
+https://www.ratebeer.com/beer/oppigards-dalalager/311376/
 https://www.ratebeer.com/beer/ego-plankebaerer/311380/
 https://www.ratebeer.com/beer/wolf39s-ridge-dire-wolf-pepper/311448/
 https://www.ratebeer.com/beer/free-will-the-kragle-ipa/311474/
@@ -9779,6 +10111,8 @@ https://www.ratebeer.com/beer/j-wakefield-harbinger/319034/
 https://www.ratebeer.com/beer/crooked-stave-st-bretta-autumn-citrus-wildbier/319087/
 https://www.ratebeer.com/beer/trzech-kumpli-pan-ipani/319141/
 https://www.ratebeer.com/beer/birbant-miss-big-foot/319143/
+https://www.ratebeer.com/beer/mission-el-conquistador-session-ipa/319153/
+https://www.ratebeer.com/beer/mikkeller-drink39in-berliner/319174/
 https://www.ratebeer.com/beer/great-basin-mayan-maybe-not/319187/
 https://www.ratebeer.com/beer/odell-brombeere-blackberry-gose/319220/
 https://www.ratebeer.com/beer/platform-speed-merchant/319263/
@@ -9900,6 +10234,7 @@ https://www.ratebeer.com/beer/west-sixth-every-little-bean-they-roast-is-magic/3
 https://www.ratebeer.com/beer/knoblach-schammelsdorfer-ungspund39s-lagerbier-bottle/323915/
 https://www.ratebeer.com/beer/brewfist-galaxie-chardonnay-barrel/323916/
 https://www.ratebeer.com/beer/ramses-bier-de-bebaarde-brouwer-z39onder-baard/323992/
+https://www.ratebeer.com/beer/riot-valve-ipa/324009/
 https://www.ratebeer.com/beer/boulevard-heavy-lifting-ipa/324029/
 https://www.ratebeer.com/beer/kirin-ichiban-shibori-komugi-no-umami/324034/
 https://www.ratebeer.com/beer/magic-hat-electric-peel/324049/
@@ -10016,6 +10351,7 @@ https://www.ratebeer.com/beer/artezan-mera-ipa/328927/
 https://www.ratebeer.com/beer/sante-adairius-four-legs-good/328938/
 https://www.ratebeer.com/beer/boundary-export-stout/328953/
 https://www.ratebeer.com/beer/de-dochter-van-de-korenaar-la-renaissance-gold-1-1-2-year-barrel-aged/328960/
+https://www.ratebeer.com/beer/grain-d39orge-sans-gluten-bio-gluten-free-glutenfri/328974/
 https://www.ratebeer.com/beer/profesja-bard/328977/
 https://www.ratebeer.com/beer/de-dochter-van-de-korenaar-passe-partout/328986/
 https://www.ratebeer.com/beer/steamworks-killer-cucumber-ale/329085/
@@ -10024,6 +10360,7 @@ https://www.ratebeer.com/beer/le-grand-bison-tribale/329165/
 https://www.ratebeer.com/beer/marks-spencer-battersea-rye/329180/
 https://www.ratebeer.com/beer/short39s-melt-my-brain/329323/
 https://www.ratebeer.com/beer/birbant-old-ale/329343/
+https://www.ratebeer.com/beer/oppigards-session-pale-ale/329356/
 https://www.ratebeer.com/beer/van-moll-doerak/329358/
 https://www.ratebeer.com/beer/oosteke-het-vijfde-seizoen/329383/
 https://www.ratebeer.com/beer/hof-ten-dormaal-kriek/329397/
@@ -10070,6 +10407,7 @@ https://www.ratebeer.com/beer/fabryka-piwa-deep-space/330684/
 https://www.ratebeer.com/beer/de-prael-dipa-nachtvlinder/330808/
 https://www.ratebeer.com/beer/les-brasseurs-du-temps-dumduminatrice/330856/
 https://www.ratebeer.com/beer/loncium-india-pale-ale/330879/
+https://www.ratebeer.com/beer/nisos-all-day-lager-organic/331038/
 https://www.ratebeer.com/beer/bax-bier-hiphopper/331075/
 https://www.ratebeer.com/beer/oxbow-cross-fade/331112/
 https://www.ratebeer.com/beer/de-garde-imperial-marion-bu/331170/
@@ -10169,6 +10507,7 @@ https://www.ratebeer.com/beer/trzech-kumpli-otwarcie-sezonu/335360/
 https://www.ratebeer.com/beer/tree-house-eureka-mosaic/335418/
 https://www.ratebeer.com/beer/around-the-bend-silk-road/335426/
 https://www.ratebeer.com/beer/melvin-drunken-master/335431/
+https://www.ratebeer.com/beer/schiotz-bohemian-pils/335458/
 https://www.ratebeer.com/beer/schiotz-gylden-ipa/335461/
 https://www.ratebeer.com/beer/superstition-straw-berry-white/335470/
 https://www.ratebeer.com/beer/jester-king-live-oak-foudreweizen/335486/
@@ -10224,6 +10563,7 @@ https://www.ratebeer.com/beer/bruery-terreux-beret/337671/
 https://www.ratebeer.com/beer/begyle-coffee-tough-guy/337675/
 https://www.ratebeer.com/beer/new-holland-tasmanian-hatter/337848/
 https://www.ratebeer.com/beer/de-koninck-wild-jo/337975/
+https://www.ratebeer.com/beer/banger-morning-joe/338091/
 https://www.ratebeer.com/beer/modern-times-mega-black-house/338106/
 https://www.ratebeer.com/beer/mikkeller-vibskov-den-plettede-gris/338148/
 https://www.ratebeer.com/beer/crooked-stave-hop-savant-citra/338187/
@@ -10381,6 +10721,7 @@ https://www.ratebeer.com/beer/to-ol-gose-to-hollywood/344615/
 https://www.ratebeer.com/beer/prairie-brett-c/344666/
 https://www.ratebeer.com/beer/mikkeller-session-ipa-citra/344770/
 https://www.ratebeer.com/beer/barley-john39s-wild-brunette-wild-rice-brown-ale/344782/
+https://www.ratebeer.com/beer/barley-john39s-little-barley-session-ale/344785/
 https://www.ratebeer.com/beer/barley-john39s-old-8-porter/344786/
 https://www.ratebeer.com/beer/pig-minds-always-the-hard-way/344811/
 https://www.ratebeer.com/beer/dikke-jan-tripel/344819/
@@ -10572,6 +10913,7 @@ https://www.ratebeer.com/beer/bruery-terreux-sans-pagaie-2015-/355465/
 https://www.ratebeer.com/beer/bruery-terreux-sour-in-the-rye-peaches/355491/
 https://www.ratebeer.com/beer/bruery-terreux-humulus-terreux-motueka/355492/
 https://www.ratebeer.com/beer/de-garde-roseberry/355498/
+https://www.ratebeer.com/beer/skelderwikens-this-ale-is-irish-red/355583/
 https://www.ratebeer.com/beer/doctor-brew-little-molly/355606/
 https://www.ratebeer.com/beer/alesmith-decadence-2015/355673/
 https://www.ratebeer.com/beer/shipyard-little-horror-of-hops/355677/
@@ -10708,7 +11050,9 @@ https://www.ratebeer.com/beer/insel-brauerei-baltic-tripel/362761/
 https://www.ratebeer.com/beer/garage-project-cabbages-and-kings/362781/
 https://www.ratebeer.com/beer/uinta-crooked-line-jacked-b-nimble/362865/
 https://www.ratebeer.com/beer/cannery-darkling-oatmeal-stout/362879/
+https://www.ratebeer.com/beer/designbrew-tres-belle-chic/362977/
 https://www.ratebeer.com/beer/ommegang-rosetta/362980/
+https://www.ratebeer.com/beer/brygghuset-finn-winter-special/362985/
 https://www.ratebeer.com/beer/crooked-stave-nightmare-on-brett-cherry/363011/
 https://www.ratebeer.com/beer/de-landing-ikarus/363023/
 https://www.ratebeer.com/beer/hedonis-excuse-me-while-i-kiss-my-stout-2016/363037/
@@ -10718,6 +11062,7 @@ https://www.ratebeer.com/beer/kompaan-45-vrijbuiter-vintage-filliers-ba/363109/
 https://www.ratebeer.com/beer/guinness-nitro-ipa/363236/
 https://www.ratebeer.com/beer/cervisiam-satanic-panic/363259/
 https://www.ratebeer.com/beer/green-flash-pacific-gem-single-hop-pale-ale/363325/
+https://www.ratebeer.com/beer/landgang-amerikanischer-traum/363333/
 https://www.ratebeer.com/beer/de-molen-bommen-granaten-rioja-ba/363400/
 https://www.ratebeer.com/beer/oedipus-hosanna/363454/
 https://www.ratebeer.com/beer/piwoteka-ucho-od-346ledzia/363498/
@@ -10741,6 +11086,7 @@ https://www.ratebeer.com/beer/prairie-3rd-anniversary-ale/364077/
 https://www.ratebeer.com/beer/brooklyn-the-defender-2015/364105/
 https://www.ratebeer.com/beer/almanac-saison-de-brettaville/364123/
 https://www.ratebeer.com/beer/caldera-mogli-bourbon-barrel-aged/364130/
+https://www.ratebeer.com/beer/electric-nurse-winter-brown-ale/364162/
 https://www.ratebeer.com/beer/coronado-stingray-imperial-ipa/364226/
 https://www.ratebeer.com/beer/monday-night-blood-orange-blind-pirate/364275/
 https://www.ratebeer.com/beer/anderson-valley-briney-melon-gose/364300/
@@ -10949,6 +11295,7 @@ https://www.ratebeer.com/beer/sza322piw-ribesium-nigrum-arcanum/373072/
 https://www.ratebeer.com/beer/ballast-point-nitro-red-velvet/373132/
 https://www.ratebeer.com/beer/coppertail-oktoberfest/373179/
 https://www.ratebeer.com/beer/saint-archer-hoppy-pilsner/373216/
+https://www.ratebeer.com/beer/helsingborgs-bryggare-peters-julol/373281/
 https://www.ratebeer.com/beer/wolf-trezart/373370/
 https://www.ratebeer.com/beer/samuel-adams-rebel-ipa-grapefruit/373393/
 https://www.ratebeer.com/beer/fernson-wagonplane-porter/373423/
@@ -11016,6 +11363,7 @@ https://www.ratebeer.com/beer/wicked-weed-lieutenant-dank/376159/
 https://www.ratebeer.com/beer/union-truelaipa/376164/
 https://www.ratebeer.com/beer/la-trappe-quadrupel-oak-aged-batch-22/376201/
 https://www.ratebeer.com/beer/steel-string-brett-mon/376220/
+https://www.ratebeer.com/beer/trekhgornoe-original-2015-/376274/
 https://www.ratebeer.com/beer/nogne-o-dark-horizon-45/376351/
 https://www.ratebeer.com/beer/stillwater-moneytree/376377/
 https://www.ratebeer.com/beer/stillwater-tenacity-t601712nas601d275-/376381/
@@ -11267,6 +11615,7 @@ https://www.ratebeer.com/beer/deschutes-the-abyss-rye-whiskey/387593/
 https://www.ratebeer.com/beer/new-belgium-glutiny-golden-ale/387614/
 https://www.ratebeer.com/beer/new-belgium-glutiny-pale-ale/387615/
 https://www.ratebeer.com/beer/libertine-saison-fonce/387637/
+https://www.ratebeer.com/beer/zwiebel-westphalian-pale-ale/387750/
 https://www.ratebeer.com/beer/sante-adairius-empty-sea/387799/
 https://www.ratebeer.com/beer/flying-dog-imperial-ipa-hbc-291-single-hop/387816/
 https://www.ratebeer.com/beer/blackberry-farm-cellar-reserve-plum-basil-saison/387840/
@@ -11431,6 +11780,7 @@ https://www.ratebeer.com/beer/de-dolle-evil-arabier/394329/
 https://www.ratebeer.com/beer/melvin-dready-copper/394383/
 https://www.ratebeer.com/beer/against-the-grain-morada-stave-it-for-later-series-one-brazillion-dollars/394486/
 https://www.ratebeer.com/beer/sibbarps-rye-india-pale-ale/394586/
+https://www.ratebeer.com/beer/brooklyn-hecla-iron-ale/394628/
 https://www.ratebeer.com/beer/eddyline-grapefruit-yanker/394653/
 https://www.ratebeer.com/beer/riverbend-vin-d39orge/394663/
 https://www.ratebeer.com/beer/cranker39s-aphrodisiac/394675/
@@ -11512,6 +11862,7 @@ https://www.ratebeer.com/beer/avery-barrel-aged-series-33-lunctis-viribus/397629
 https://www.ratebeer.com/beer/amundsen-lemondrop/397638/
 https://www.ratebeer.com/beer/strongbow-elderflower/397644/
 https://www.ratebeer.com/beer/clown-shoes-american-monastic/397718/
+https://www.ratebeer.com/beer/beck39s-red-ale/397741/
 https://www.ratebeer.com/beer/jan-olbracht-rzemie347lniczy-kord-bourbon-barrel-aged/397743/
 https://www.ratebeer.com/beer/beavertown-caravan-coffee-spresso-2016-edition/397770/
 https://www.ratebeer.com/beer/brutal-brewing-cirrus/397780/
@@ -11647,6 +11998,7 @@ https://www.ratebeer.com/beer/grutte-pier-tripel-uit-de-ton/402794/
 https://www.ratebeer.com/beer/kleine-beer-de-toer-de-tour/402807/
 https://www.ratebeer.com/beer/aslin-stellar-parallax/402836/
 https://www.ratebeer.com/beer/dutch-bargain-imperial-pale-ale/402919/
+https://www.ratebeer.com/beer/brygghuset-finn-session-ale/402942/
 https://www.ratebeer.com/beer/san-servolo-apa/403081/
 https://www.ratebeer.com/beer/collective-arts-collective-project-black-ipa/403272/
 https://www.ratebeer.com/beer/alpine-beer-company-plaid-the-imp39ale39er/403345/
@@ -11697,12 +12049,14 @@ https://www.ratebeer.com/beer/ginette-natural-triple/405284/
 https://www.ratebeer.com/beer/cardena/405293/
 https://www.ratebeer.com/beer/maryensztadt-jack-strong/405303/
 https://www.ratebeer.com/beer/maryensztadt-raisa/405305/
+https://www.ratebeer.com/beer/celt-experience-castro-mosaic/405328/
 https://www.ratebeer.com/beer/gebrouwen-door-vrouwen-bloesem-blond/405447/
 https://www.ratebeer.com/beer/long-trail-green-blaze-ipa/405477/
 https://www.ratebeer.com/beer/benelux-chronique-de-mars/405517/
 https://www.ratebeer.com/beer/brew-by-numbers-14-03-tripel-ella/405593/
 https://www.ratebeer.com/beer/la-pirata-pohjala-crema-catalana/405612/
 https://www.ratebeer.com/beer/lehe-saatana-magustoit/405619/
+https://www.ratebeer.com/beer/kehrwieder-elbe-gose/405628/
 https://www.ratebeer.com/beer/sori-delirious/405631/
 https://www.ratebeer.com/beer/pinta-tanker-all-ryed/405638/
 https://www.ratebeer.com/beer/mi322os322aw-witbier/405744/
@@ -11755,6 +12109,7 @@ https://www.ratebeer.com/beer/le-bockale-a20/408123/
 https://www.ratebeer.com/beer/mahou-maestra/408148/
 https://www.ratebeer.com/beer/arthur39s-legacy-06-belle-helene/408159/
 https://www.ratebeer.com/beer/bidassoa-larrun/408161/
+https://www.ratebeer.com/beer/remmarlov-the-bonneville/408177/
 https://www.ratebeer.com/beer/tempest-mango-berlinner/408216/
 https://www.ratebeer.com/beer/birbant-hopsbant-fresh-ipa/408292/
 https://www.ratebeer.com/beer/roch-balios/408310/
@@ -11830,6 +12185,7 @@ https://www.ratebeer.com/beer/hitachino-nest-red-rice-ale-sakura-barrel/410949/
 https://www.ratebeer.com/beer/le-castor-brett-zeste-saison/410954/
 https://www.ratebeer.com/beer/beer-farm-brown-ale/410972/
 https://www.ratebeer.com/beer/crabbelaer-hommage-a-iii/411156/
+https://www.ratebeer.com/beer/brutal-brewing-session-series-session-pale-ale/411169/
 https://www.ratebeer.com/beer/insurgente-buho-rompeolas/411200/
 https://www.ratebeer.com/beer/alvinne-pays-d39erpigny/411215/
 https://www.ratebeer.com/beer/vennehoeve-godisvremd/411217/
@@ -12039,6 +12395,7 @@ https://www.ratebeer.com/beer/earth-eagle-gold-digger/419666/
 https://www.ratebeer.com/beer/boulder-beer-pulp-fusion-blood-orange-ipa/419739/
 https://www.ratebeer.com/beer/mikkeller-nelson-sauvin-brut-dry-hopped/419833/
 https://www.ratebeer.com/beer/brooklyn-kiwis-playhouse/419839/
+https://www.ratebeer.com/beer/albani-mosaic-ipa/419840/
 https://www.ratebeer.com/beer/nebraska-pils/419845/
 https://www.ratebeer.com/beer/coronado-guava-islander-ipa/419965/
 https://www.ratebeer.com/beer/moonraker-yojo/420066/
@@ -12084,6 +12441,8 @@ https://www.ratebeer.com/beer/destihl-wild-sour-series-synchopathic/421187/
 https://www.ratebeer.com/beer/destihl-wild-sour-series-synchopathic-apricot/421189/
 https://www.ratebeer.com/beer/sixpoint-puff/421224/
 https://www.ratebeer.com/beer/halmstad-tjuvahalans-lager/421275/
+https://www.ratebeer.com/beer/skelderwikens-american-pale-ale/421285/
+https://www.ratebeer.com/beer/to-ol-berliner-vice/421290/
 https://www.ratebeer.com/beer/against-the-grain-gnight-ryder/421337/
 https://www.ratebeer.com/beer/o-o-muscles/421344/
 https://www.ratebeer.com/beer/six-degrees-north-de-ranke-atc-11-islay/421356/
@@ -12188,6 +12547,7 @@ https://www.ratebeer.com/beer/jakobsland-kaleidoscope-membrillo/425353/
 https://www.ratebeer.com/beer/lion-rock-wheat-lover-weizen/425372/
 https://www.ratebeer.com/beer/lion-rock-oriental-pearl-oatmeal-stout/425373/
 https://www.ratebeer.com/beer/bereta-39ai-pi-iei/425381/
+https://www.ratebeer.com/beer/garage-project-hakituri-new-zealand-pilsner/425428/
 https://www.ratebeer.com/beer/vandestreek-playground-series-wip-white-ipa/425432/
 https://www.ratebeer.com/beer/yorocco-black-sword-ipa/425455/
 https://www.ratebeer.com/beer/les-trois-mousquetaires-ipa/425456/
@@ -12440,8 +12800,10 @@ https://www.ratebeer.com/beer/weyerbacher-mellow-monks/435850/
 https://www.ratebeer.com/beer/weyerbacher-sunday-mole-stout/435852/
 https://www.ratebeer.com/beer/flying-dog-imperial-ipa-azacca-single-hop/435854/
 https://www.ratebeer.com/beer/odd13-thirdeen-cent/435911/
+https://www.ratebeer.com/beer/vestfyen-willemoes-bbq-golden-ale/435939/
 https://www.ratebeer.com/beer/renegade-summer-tan/436115/
 https://www.ratebeer.com/beer/montseny-estival/436191/
+https://www.ratebeer.com/beer/helsingborgs-evil-red/436194/
 https://www.ratebeer.com/beer/transient-pineapple-salarium/436280/
 https://www.ratebeer.com/beer/saranac-cold-brew-coffee-lager/436353/
 https://www.ratebeer.com/beer/oskar-blues-passion-fruit-pinner/436427/
@@ -12518,6 +12880,7 @@ https://www.ratebeer.com/beer/samuel-adams-20-pounds-of-pumpkin/439827/
 https://www.ratebeer.com/beer/19°-norte-caramelo/439879/
 https://www.ratebeer.com/beer/big-lake-citra-session/439938/
 https://www.ratebeer.com/beer/het-anker-maneblusser-wit/439993/
+https://www.ratebeer.com/beer/landgang-helle-aufregung/440017/
 https://www.ratebeer.com/beer/james-river-tuber-ipa/440142/
 https://www.ratebeer.com/beer/nogne-o-sunturnblend/440169/
 https://www.ratebeer.com/beer/pipeworks-old-irving-holloway/440308/
@@ -13029,6 +13392,7 @@ https://www.ratebeer.com/beer/deer-bear-let39s-cook-gose-z-morela-i-limonka/4613
 https://www.ratebeer.com/beer/ecusson-cidre-cerise/461331/
 https://www.ratebeer.com/beer/brokreacja-imperialny-nafciarz/461417/
 https://www.ratebeer.com/beer/new-holland-hoptronix/461489/
+https://www.ratebeer.com/beer/brasserie-de-monaco-fruits-rouges/461613/
 https://www.ratebeer.com/beer/new-glarus-thumbprint-series-spotted-cow-grand-cru/461614/
 https://www.ratebeer.com/beer/epic-oak-and-orchard-the-pinot/461734/
 https://www.ratebeer.com/beer/golem-lilith/461756/
@@ -13790,6 +14154,7 @@ https://www.ratebeer.com/beer/victory-blackboard-series-6-peach-belgian-blonde-w
 https://www.ratebeer.com/beer/nogne-o-eternal-rest-2017/491621/
 https://www.ratebeer.com/beer/hof-ten-dormaal-troebel-in-paradise/491622/
 https://www.ratebeer.com/beer/troegs-when-in-doubt/491633/
+https://www.ratebeer.com/beer/anchor-los-gigantes/491651/
 https://www.ratebeer.com/beer/raduga-kassiopeya/491655/
 https://www.ratebeer.com/beer/coronado-cigar-city-conquista/491681/
 https://www.ratebeer.com/beer/captain-lawrence-autumn-blaze/491711/
