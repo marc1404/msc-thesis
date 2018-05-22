@@ -27,6 +27,8 @@ export default async function queryReviews(url, insert, db) {
         await insert(beerReviews, db);
     } while (last);
 
+    await db`UPDATE beers SET scraped = 1 WHERE id = ${id};`;
+
     return allReviews;
 }
 
