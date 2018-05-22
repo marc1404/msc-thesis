@@ -19,6 +19,7 @@ export default async function extractPlaceBeers(url, insert, db) {
     const placeBeers = beerIds.map(beerId => ({ placeId, beerId }));
 
     await insert(placeBeers, db);
+    await db`UPDATE places SET scraped_beers = 1 WHERE id = ${placeId};`;
 
     return placeBeers;
 }
