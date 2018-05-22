@@ -8,7 +8,7 @@ import prompts from 'prompts';
 import consola from 'consola';
 import getBeers from './getBeers';
 
-const concurrency = 10;
+const concurrency = 100;
 const progress = {
     current: 0,
     total: 0
