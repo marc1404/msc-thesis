@@ -1,8 +1,8 @@
 import fs from 'fs';
 import pLimit from 'p-limit';
-import { extractPlace, extractBeer, extractReviews, queryBeer, queryReviews } from './extract';
-import { insertPlace, insertBeer, insertReviews } from './insert';
-import { shouldSkipPlace, shouldSkipBeer, shouldSkipReviews } from './skip';
+import { extractPlace, extractBeer, extractReviews, queryBeer, queryReviews, extractPlaceBeers } from './extract';
+import { insertPlace, insertBeer, insertReviews, insertPlaceBeers } from './insert';
+import { shouldSkipPlace, shouldSkipBeer, shouldSkipReviews, shouldSkipPlaceBeers } from './skip';
 import { connect } from './mysql';
 import prompts from 'prompts';
 import consola from 'consola';
@@ -18,6 +18,11 @@ const taskFunctions = {
         extract: extractPlace,
         insert: insertPlace,
         shouldSkip: shouldSkipPlace
+    },
+    placeBeers: {
+        extract: extractPlaceBeers,
+        insert: insertPlaceBeers,
+        shouldSkip: shouldSkipPlaceBeers
     },
     beers: {
         extract: extractBeer,
@@ -60,6 +65,7 @@ const taskFunctions = {
             message: 'What should be scraped?',
             choices: [
                 { title: 'Places 📍', value: 'places' },
+                { title: 'Place Beers 📍🍺', value: 'placeBeers' },
                 { title: 'Beers 🍺', value: 'beers' },
                 { title: 'Reviews ⭐', value: 'reviews' },
                 { title: 'Beers GraphQL 🍺', value: 'beersGraphQL' },
