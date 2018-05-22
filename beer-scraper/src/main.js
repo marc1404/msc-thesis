@@ -1,6 +1,6 @@
 import fs from 'fs';
 import pLimit from 'p-limit';
-import { extractPlace, extractBeer, extractReviews, queryBeer } from './extract';
+import { extractPlace, extractBeer, extractReviews, queryBeer, queryReviews } from './extract';
 import { insertPlace, insertBeer, insertReviews } from './insert';
 import { shouldSkipPlace, shouldSkipBeer, shouldSkipReviews } from './skip';
 import { connect } from './mysql';
@@ -8,7 +8,7 @@ import prompts from 'prompts';
 import consola from 'consola';
 import getBeers from './getBeers';
 
-const concurrency = 100;
+const concurrency = 10;
 const progress = {
     current: 0,
     total: 0
@@ -33,6 +33,11 @@ const taskFunctions = {
         extract: queryBeer,
         insert: insertBeer,
         shouldSkip: shouldSkipBeer
+    },
+    reviewsGraphQL: {
+        extract: queryReviews,
+        insert: insertReviews,
+        shouldSkip: shouldSkipReviews
     }
 };
 
@@ -45,7 +50,8 @@ const taskFunctions = {
             choices: [
                 { title: 'World 🌍', value: '../data/beers.txt' },
                 { title: 'The Netherlands 🇳🇱', value: '../data/beers_NL.txt' },
-                { title: 'Places 📍', value: '../data/places.txt' }
+                { title: 'Places 📍', value: '../data/places.txt' },
+                { title: 'Beers with long reviews 🍺', value: '../data/beers_long_reviews.txt' }
             ]
         },
         {
@@ -57,6 +63,7 @@ const taskFunctions = {
                 { title: 'Beers 🍺', value: 'beers' },
                 { title: 'Reviews ⭐', value: 'reviews' },
                 { title: 'Beers GraphQL 🍺', value: 'beersGraphQL' },
+                { title: 'Reviews GraphQL ⭐', value: 'reviewsGraphQL' },
             ]
         },
         {
