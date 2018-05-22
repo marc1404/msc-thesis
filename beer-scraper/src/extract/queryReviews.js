@@ -4,7 +4,6 @@ import { Review, ReviewRating, User } from '../models';
 import consola from 'consola';
 
 export default async function queryReviews(url, insert, db) {
-    let allReviews = [];
     const id = getIdFromUrl(url);
     let last = null;
 
@@ -17,7 +16,6 @@ export default async function queryReviews(url, insert, db) {
 
         last = result.last;
         const reviews = result.items.map(mapToModel);
-        allReviews = allReviews.concat(reviews);
 
         const beerReviews = {
             id: id,
@@ -29,7 +27,7 @@ export default async function queryReviews(url, insert, db) {
 
     await db`UPDATE beers SET scraped = 1 WHERE id = ${id};`;
 
-    return allReviews;
+    return null;
 }
 
 function mapToModel(item) {
