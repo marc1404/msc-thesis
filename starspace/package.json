@@ -1,0 +1,24 @@
+{
+  "name": "starspace",
+  "version": "0.0.1",
+  "description": "StarSpace",
+  "main": "index.js",
+  "repository": "git@github.com:marc1404/msc-thesis.git",
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@rich_harris/sql": "1.2.0",
+    "consola": "1.4.1",
+    "dotenv": "5.0.1",
+    "esm": "3.0.40",
+    "mysql2": "1.5.3",
+    "natural": "0.6.1",
+    "newline-remove": "1.0.2",
+    "stopword": "0.1.10",
+    "striptags": "3.1.1"
+  }
+}
