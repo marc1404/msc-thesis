@@ -38,8 +38,9 @@ function cleanText(text) {
     text = removeUpdatedPrefix(text);
     const tokens = tokenizer.tokenize(text);
     const cleanedTokens = stopword.removeStopwords(tokens);
+    const stemmedTokens = cleanedTokens.map(token => stem(token));
 
-    return cleanedTokens.join(' ');
+    return stemmedTokens.join(' ');
 }
 
 function removeDigits(text) {
@@ -52,4 +53,8 @@ function removeUpdatedPrefix(text) {
     }
 
     return text;
+}
+
+function stem(token) {
+    return natural.PorterStemmer.stem(token);
 }
