@@ -1,7 +1,7 @@
 {
-  "name": "starspace",
+  "name": "embedding",
   "version": "0.0.1",
-  "description": "StarSpace",
+  "description": "Embedding",
   "main": "index.js",
   "repository": "git@github.com:marc1404/msc-thesis.git",
   "author": "Marc Vornetran",
