@@ -15,6 +15,7 @@
     "consola": "1.4.1",
     "dotenv": "6.0.0",
     "esm": "3.0.48",
+    "minimist": "1.2.0",
     "mysql2": "1.5.3",
     "natural": "0.6.1",
     "newline-remove": "1.0.2",

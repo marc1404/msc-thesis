@@ -1,4 +1,5 @@
 import { connect } from '../../beer-scraper/src/mysql';
+import minimist from 'minimist';
 import consola from 'consola';
 import removeNewlines from 'newline-remove';
 import stopword from 'stopword';
@@ -6,6 +7,9 @@ import striptags from 'striptags';
 import natural from 'natural';
 import fs from 'fs';
 
+const argv = minimist(process.argv.slice(2));
+const isGloVe = argv.embedding === 'glove';
+const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
 const tokenizer = new natural.WordTokenizer();
 
 (async () => {
@@ -26,7 +30,7 @@ const tokenizer = new natural.WordTokenizer();
 
     await db.close();
 
-    const data = reviews.join('\n');
+    const data = reviews.join(separator);
 
     fs.writeFileSync('./data/train.txt', data);
 })().catch(error => consola.error(error));
