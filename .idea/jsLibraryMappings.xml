@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/beer-scraper" libraries="{msc-thesis/beer-scraper/node_modules}" />
+    <file url="file://$PROJECT_DIR$/text-import" libraries="{msc-thesis/text-import/node_modules}" />
+    <file url="file://$PROJECT_DIR$/embedding" libraries="{msc-thesis/embedding/node_modules}" />
     <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
