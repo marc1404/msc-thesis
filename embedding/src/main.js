@@ -36,14 +36,15 @@ const tokenizer = new natural.WordTokenizer();
 })().catch(error => consola.error(error));
 
 function cleanText(text) {
+    text = text.toLowerCase();
     text = removeNewlines(text);
     text = striptags(text);
     text = removeDigits(text);
     text = removeUpdatedPrefix(text);
     let tokens = tokenizer.tokenize(text);
     tokens = stopword.removeStopwords(tokens);
-    tokens = tokens.map(americanify);
     tokens = tokens.map(token => stem(token));
+    tokens = tokens.map(americanify);
 
     return tokens.join(' ');
 }
@@ -53,8 +54,8 @@ function removeDigits(text) {
 }
 
 function removeUpdatedPrefix(text) {
-    if (text.startsWith('Updated')) {
-        return text.replace('Updated', '');
+    if (text.startsWith('updated')) {
+        return text.replace('updated', '');
     }
 
     return text;
@@ -67,7 +68,8 @@ function stem(token) {
 function americanify(token) {
     const variations = {
         colour: 'color',
-        flavour: 'flavor'
+        flavour: 'flavor',
+        favourit: 'favorit'
     };
 
     return variations[token] || token;
