@@ -42,8 +42,8 @@ function cleanText(text) {
     text = removeUpdatedPrefix(text);
     let tokens = tokenizer.tokenize(text);
     tokens = stopword.removeStopwords(tokens);
-    tokens = tokens.map(token => stem(token));
     tokens = tokens.map(americanify);
+    tokens = tokens.map(token => stem(token));
 
     return tokens.join(' ');
 }
@@ -65,9 +65,10 @@ function stem(token) {
 }
 
 function americanify(token) {
-    if (token === 'colour') {
-        return 'color';
-    }
+    const variations = {
+        colour: 'color',
+        flavour: 'flavor'
+    };
 
-    return token;
+    return variations[token] || token;
 }
