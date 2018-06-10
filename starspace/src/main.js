@@ -36,11 +36,12 @@ function cleanText(text) {
     text = striptags(text);
     text = removeDigits(text);
     text = removeUpdatedPrefix(text);
-    const tokens = tokenizer.tokenize(text);
-    const cleanedTokens = stopword.removeStopwords(tokens);
-    const stemmedTokens = cleanedTokens.map(token => stem(token));
+    let tokens = tokenizer.tokenize(text);
+    tokens = stopword.removeStopwords(tokens);
+    tokens = tokens.map(token => stem(token));
+    tokens = tokens.map(americanify);
 
-    return stemmedTokens.join(' ');
+    return tokens.join(' ');
 }
 
 function removeDigits(text) {
@@ -57,4 +58,12 @@ function removeUpdatedPrefix(text) {
 
 function stem(token) {
     return natural.PorterStemmer.stem(token);
+}
+
+function americanify(token) {
+    if (token === 'colour') {
+        return 'color';
+    }
+
+    return token;
 }
