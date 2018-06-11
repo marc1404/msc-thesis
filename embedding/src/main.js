@@ -14,25 +14,29 @@ const tokenizer = new natural.WordTokenizer();
 
 (async () => {
     const db = await connect();
-    const { rows } = await db`SELECT * FROM reviews WHERE beer_id = 2360;`;
+    const { rows } = await db`SELECT id, text FROM reviews WHERE beer_id = 2360;`;
+    const ids = [];
     const reviews = [];
 
     for (const row of rows) {
-        const { text } = row;
+        const { id, text } = row;
         const cleanedText = cleanText(text);
 
         if (!cleanedText) {
             continue;
         }
 
+        ids.push(id);
         reviews.push(cleanedText);
     }
 
     await db.close();
 
-    const data = reviews.join(separator);
+    const trainIdsData = ids.join('\n');
+    const trainData = reviews.join(separator);
 
-    fs.writeFileSync('./data/train.txt', data);
+    fs.writeFileSync('./data/train_ids.txt', trainIdsData);
+    fs.writeFileSync('./data/train.txt', trainData);
 })().catch(error => consola.error(error));
 
 function cleanText(text) {
