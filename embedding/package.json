@@ -14,7 +14,7 @@
     "@rich_harris/sql": "1.2.0",
     "consola": "1.4.1",
     "dotenv": "6.0.0",
-    "esm": "3.0.48",
+    "esm": "3.0.49",
     "minimist": "1.2.0",
     "mysql2": "1.5.3",
     "natural": "0.6.1",
