@@ -4,7 +4,7 @@ import sys
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv(dotenv_path='.env')
 
 embedding = sys.argv[1]
 data = pickle.load(open('kmeans.pckl', 'rb'))
