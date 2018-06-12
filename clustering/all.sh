@@ -7,5 +7,5 @@ python mysql_import.py word2vec
 python keyed_vectors.py fasttext
 python mysql_import.py fasttext
 
-python starspace
+python starspace.py
 python mysql_import.py starspace
