@@ -1,33 +1,49 @@
 import gensim
+from itertools import chain
 from sklearn.cluster import KMeans
+import numpy as np
+from sklearn.metrics import pairwise_distances_argmin_min
+import pickle
 
-K = 5
+K = 3
 
 print('Loading word2vec model...')
 model = gensim.models.Word2Vec.load('model')
 print('Done.')
 
-word_vectors = model.wv.syn0
-n_words = word_vectors.shape[0]
-vec_size = word_vectors.shape[1]
+wv = model.wv
 
-print(n_words)
-print(vec_size)
+def vectorize(line):
+    words = line.split()
+    vectors = []
 
-print('Starting k-means clustering...')
+    for word in words:
+        if word in wv.vocab:
+            vectors.append(wv[word])
+
+    return list(chain.from_iterable(vectors))
+
+file = open('train.txt')
+X = [vectorize(line) for line in file]
+
+file.close()
+
+lengths = [len(vector) for vector in X]
+max_length = max(lengths)
+X = [np.pad(vector, (0, max_length - len(vector)), mode='constant') for vector in X]
+
+print('Running k-means...')
 kmeans = KMeans(n_clusters=K, n_jobs=-1, random_state=0)
-idx = kmeans.fit_predict(word_vectors)
+idx = kmeans.fit_predict(X)
 print('Done.')
 
-word_centroid_list = list(zip(model.wv.index2word, idx))
-word_centroid_list_sort = sorted(word_centroid_list, key=lambda el: el[1], reverse=False)
+print('Finding cluster centroids...')
+closest, _ = pairwise_distances_argmin_min(kmeans.cluster_centers_, X)
+print('Done.')
 
-file_out = open('kmeans.txt', 'w')
+print(idx)
+print(closest)
 
-file_out.write('WORD\tCLUSTER_ID\n')
+data = [idx, closest]
 
-for word_centroid in word_centroid_list_sort:
-    line = word_centroid[0] + '\t' + str(word_centroid[1]) + '\n'
-    file_out.write(line)
-
-file_out.close()
+pickle.dump(data, open('kmeans.pckl', 'wb'))
