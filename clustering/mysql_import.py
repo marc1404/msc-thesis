@@ -2,6 +2,7 @@ import mysql.connector
 import pickle
 import sys
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
