@@ -1,6 +1,9 @@
 import mysql.connector
 import pickle
 import sys
+from dotenv import load_dotenv
+
+load_dotenv()
 
 embedding = sys.argv[1]
 data = pickle.load(open('kmeans.pckl', 'rb'))
@@ -10,10 +13,10 @@ print(idx, closest)
 
 print('Connecting to MySQL database...')
 config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',
-    'database': 'beerlytics'
+    'host': os.getenv('MYSQL_HOST'),
+    'user': os.getenv('MYSQL_USER',
+    'password': os.getenv('MYSQL_PASSWORD',
+    'database': os.getenv('MYSQL_DATABASE'
 }
 cnx = mysql.connector.connect(**config)
 cursor = cnx.cursor()
