@@ -9,4 +9,4 @@ for line in file:
 
 model = gensim.models.Word2Vec(sentences, workers=4)
 
-model.save('model')
+model.save('models/word2vec')
