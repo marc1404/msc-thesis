@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.metrics import pairwise_distances_argmin_min
 import pickle
 
-K = 3
+K = 5
 
 def run(X):
     lengths = [len(vector) for vector in X]
