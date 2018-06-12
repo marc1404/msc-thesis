@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 python keyed_vectors.py glove
 python mysql_import.py glove
 
