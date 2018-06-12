@@ -2,6 +2,7 @@ from itertools import chain
 from sklearn.metrics import pairwise_distances_argmin_min
 import load_word2vec
 import load_fasttext
+import load_glove
 import kmeans
 import sys
 
@@ -14,6 +15,8 @@ if embedding == 'word2vec':
     model = load_word2vec.load()
 elif embedding == 'fasttext':
     model = load_fasttext.load()
+elif embedding == 'glove':
+    model = load_glove.load()
 else:
     raise Exception('Unknown embedding: %s!' % embedding)
 
