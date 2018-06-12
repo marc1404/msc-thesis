@@ -1,0 +1,25 @@
+{
+  "name": "beerlytics-api",
+  "version": "0.0.1",
+  "description": "Beerlytics API",
+  "main": "index.js",
+  "repository": "git@github.com:marc1404/msc-thesis.git",
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "dependencies": {
+    "@rich_harris/sql": "1.2.0",
+    "dotenv": "6.0.0",
+    "esm": "3.0.49",
+    "micro": "9.3.2",
+    "microrouter": "3.1.3",
+    "mysql2": "1.5.3"
+  },
+  "devDependencies": {
+    "micro-dev": "3.0.0"
+  }
+}
