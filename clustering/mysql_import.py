@@ -27,7 +27,6 @@ file.close()
 for i, cluster in enumerate(idx):
     review_id = review_ids[i]
     is_centroid = i == closest[cluster]
-    if i == 3744: print(cluster, review_id, is_centroid)
     values = (int(review_id), embedding, int(cluster), bool(is_centroid), int(cluster), bool(is_centroid))
     
     cursor.execute("INSERT INTO review_clusters (review_id, embedding, cluster, is_centroid) VALUES (%s, %s, %s, %s) ON DUPLICATE KEY UPDATE cluster = %s, is_centroid = %s;", values)
