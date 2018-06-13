@@ -2,7 +2,6 @@
   "name": "beerlytics-api",
   "version": "0.0.1",
   "description": "Beerlytics API",
-  "main": "index.js",
   "repository": "git@github.com:marc1404/msc-thesis.git",
   "author": "Marc Vornetran",
   "license": "MIT",
