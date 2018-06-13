@@ -1,10 +1,10 @@
 <template>
     <div>
-        <h1 class="title">
+        <h1 class="title is-size-1">
             Beerlytics
         </h1>
 
-        <ul>
+        <ul class="is-size-5">
             <li>
                 <nuxt-link to="/beer/2360">
                     Rochefort Trappistes 10

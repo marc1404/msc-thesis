@@ -1,3 +1,9 @@
+<style>
+    body {
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+    }
+</style>
+
 <template>
     <section class="section">
         <div class="container">

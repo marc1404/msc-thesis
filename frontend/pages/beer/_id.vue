@@ -1,12 +1,144 @@
+<style scoped>
+    .mb-1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .mb-half {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pre-line {
+        white-space: pre-line;
+    }
+</style>
+
 <template>
-    <div>
-        <h1 class="title">
-            {{ beer.name }}
-        </h1>
+    <div class="columns" v-show="!isLoading">
+        <div class="column is-8">
+            <h1 class="title is-size-1 mb-1">
+                {{ beer.name }}
+            </h1>
+
+            <div class="field is-grouped mb-1">
+                <div class="control">
+                    <div class="tags has-addons">
+                        <span class="tag is-dark is-medium">Style</span>
+                        <span class="tag is-light is-medium">
+                            {{ beer.style }}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="control">
+                    <div class="tags has-addons">
+                        <span class="tag is-dark is-medium">Brewery</span>
+                        <span class="tag is-light is-medium">
+                            {{ beer.brewery }}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="control">
+                    <div class="tags has-addons">
+                        <span class="tag is-dark is-medium">Location</span>
+                        <span class="tag is-light is-medium">
+                            {{ beer.location }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="is-size-5 mb-1">
+                {{ beer.description }}
+            </p>
+
+            <div class="mb-1">
+                <h2 class="title is-size-3 mb-half">
+                   Tags
+                </h2>
+                <div class="tags">
+                    <span class="tag" v-for="tag in beer.tags">
+                        {{ tag }}
+                    </span>
+                </div>
+            </div>
+
+            <div class="mb-1">
+                <div class="header mb-half">
+                    <h2 class="title is-size-3 is-marginless is-inline-block">
+                        Reviews
+                    </h2>
+                    <div class="select is-rounded is-inline-block">
+                        <select v-model="embedding">
+                            <option value="glove">GloVe</option>
+                            <option value="word2vec">word2vec</option>
+                            <option value="fasttext">fastText</option>
+                            <option value="starspace">StarSpace</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="box" v-for="review in filteredReviews">
+                    <div class="header">
+                        <span>
+                            <strong>
+                                {{ review.user.name }}
+                            </strong>
+                            <span class="tag is-rounded is-light">
+                                {{ review.user.ratings }}
+                            </span>
+                        </span>
+                        <span class="has-text-grey">
+                            {{ review.timeAgo }} ago
+                        </span>
+                    </div>
+                    <p class="pre-line">
+                        {{ review.text }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column is-4">
+            <div class="columns">
+                <div class="column has-text-right">
+                    <img :src="beer.image" :alt="beer.name">
+                </div>
+                <div class="column is-size-5">
+                    <div v-if="beer.abv">
+                        <strong>
+                            {{ beer.abv }}%
+                        </strong>
+                        alcohol
+                    </div>
+                    <div v-if="beer.ibu">
+                        <strong>
+                            {{ beer.ibu}}
+                        </strong>
+                        <a rel="noopener" href="https://en.wikipedia.org/wiki/Beer_measurement#Bitterness">
+                            IBU
+                        </a>
+                    </div>
+                    <div v-if="beer.calories">
+                        <strong>
+                            {{ beer.calories }}
+                        </strong>
+                        calories
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
+    import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
     import apiService from '~/src/apiService';
 
     export default {
@@ -18,25 +150,53 @@
         },
         data() {
             return {
+                isLoading: true,
                 beer: {},
-                reviews: []
+                reviews: [],
+                embedding: 'starspace'
             };
+        },
+        computed: {
+            filteredReviews() {
+                return this.reviews.filter(review => review.embedding === this.embedding);
+            }
         },
         methods: {
             async loadBeer(id) {
-                this.beer = await apiService.beer(id);
+                const beer = await apiService.beer(id);
+
+                if (beer.abv) {
+                    beer.abv = beer.abv.toFixed(1);
+                }
+
+                this.beer = beer;
             },
             async loadReviews(id) {
-                this.reviews = await apiService.reviews(id);
+                const reviews = await apiService.reviews(id);
+
+                for (const review of reviews) {
+                    review.timeAgo = distanceInWordsToNow(review.date);
+                    review.text = review.text
+                        .trim()
+                        .replace(/[\n]+/g, '\n');
+                }
+
+                this.reviews = reviews;
             }
         },
         async mounted() {
+            this.$nextTick(() => this.$nuxt.$loading.start());
+
             const { id } = this.$route.params;
 
             await Promise.all([
                 this.loadBeer(id),
-                //this.loadReviews(id)
+                this.loadReviews(id)
             ]);
+
+            this.isLoading = false;
+
+            this.$nuxt.$loading.finish();
         }
     };
 </script>

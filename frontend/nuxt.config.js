@@ -14,7 +14,8 @@ module.exports = {
             return title ? `${title} | Beerlytics` : 'Beerlytics';
         },
         link: [
-            { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+            { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+            { rel: 'stylesheet', href: '/fonts/fonts.min.css' }
         ]
     },
     css: [
