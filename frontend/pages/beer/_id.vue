@@ -35,7 +35,7 @@
 
             await Promise.all([
                 this.loadBeer(id),
-                this.loadReviews(id)
+                //this.loadReviews(id)
             ]);
         }
     };
