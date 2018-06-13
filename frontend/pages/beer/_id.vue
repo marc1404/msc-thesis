@@ -16,6 +16,10 @@
     .pre-line {
         white-space: pre-line;
     }
+
+    .is-size-larger {
+        font-size: larger;
+    }
 </style>
 
 <template>
@@ -85,7 +89,7 @@
                 </div>
 
                 <div class="box" v-for="review in filteredReviews">
-                    <div class="header">
+                    <div class="header mb-half is-size-larger">
                         <span>
                             <strong>
                                 {{ review.user.name }}
@@ -98,9 +102,7 @@
                             {{ review.timeAgo }} ago
                         </span>
                     </div>
-                    <p class="pre-line">
-                        {{ review.text }}
-                    </p>
+                    <p class="pre-line" v-html="review.text"></p>
                 </div>
             </div>
         </div>
@@ -178,7 +180,8 @@
                     review.timeAgo = distanceInWordsToNow(review.date);
                     review.text = review.text
                         .trim()
-                        .replace(/[\n]+/g, '\n');
+                        .replace(/[\n]+/g, '\n')
+                        .replace(/([a-z]+:)/gi, '<strong>$1</strong>');
                 }
 
                 this.reviews = reviews;
