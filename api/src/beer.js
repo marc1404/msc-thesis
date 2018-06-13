@@ -18,6 +18,15 @@ export default async function beer(request) {
 
     return {
         name: beer.name,
+        location: beer.location,
+        image: beer.image,
+        description: beer.description,
+        overall: beer.overall,
+        average: beer.weighted_average,
+        ratings: beer.total_ratings,
+        ibu: beer.ibu,
+        calories: beer.calories,
+        abv: beer.abv,
         style: style.name,
         brewery: brewery.name,
         places: places,
