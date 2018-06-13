@@ -1,0 +1,18 @@
+{
+  "name": "beerlytics-frontend",
+  "version": "0.0.1",
+  "description": "Beerlytics Frontend",
+  "repository": "git@github.com:marc1404/msc-thesis.git",
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nuxt start",
+    "dev": "nuxt",
+    "build": "nuxt build"
+  },
+  "dependencies": {
+    "bulma": "0.7.1",
+    "nuxt": "1.4.1"
+  }
+}

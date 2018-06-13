@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "micro",
-    "dev": "micro-dev"
+    "start": "micro --listen tcp://0.0.0.0:3001",
+    "dev": "micro-dev --listen tcp://0.0.0.0:3001"
   },
   "dependencies": {
     "@rich_harris/sql": "1.2.0",
