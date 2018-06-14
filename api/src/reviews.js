@@ -34,6 +34,7 @@ async function loadReviews(id, db) {
 
     for (const user of users) {
         userMap.set(user.id, {
+            id: user.id,
             name: user.name,
             ratings: user.total_ratings
         });
