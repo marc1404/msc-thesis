@@ -1,5 +1,5 @@
 <template>
-    <div class="columns" v-show="!isLoading">
+    <div class="columns" v-if="!isLoading">
         <div class="column is-8">
             <h1 class="title is-size-1 mb-1">
                 {{ beer.name }}
@@ -96,6 +96,13 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <h2 class="title is-size-3 mb-half">
+                    Places
+                </h2>
+                <PlacesMap :places="beer.places" />
+            </div>
         </div>
     </div>
 </template>
@@ -104,11 +111,13 @@
     import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
     import apiService from '~/src/apiService';
     import Review from '~/src/Review';
+    import PlacesMap from '~/src/PlacesMap';
 
     export default {
         name: 'Beer',
         components: {
-            Review
+            Review,
+            PlacesMap
         },
         head() {
             return {

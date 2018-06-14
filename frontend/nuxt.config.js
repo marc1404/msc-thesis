@@ -23,5 +23,8 @@ module.exports = {
     ],
     router: {
         linkActiveClass: 'is-active'
-    }
+    },
+    modules: [
+        '@nuxtjs/dotenv'
+    ]
 };
