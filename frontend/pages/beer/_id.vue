@@ -101,7 +101,7 @@
                 <h2 class="title is-size-3 mb-half">
                     Places
                 </h2>
-                <PlacesMap :places="beer.places" />
+                <PlacesMap :places="places" />
             </div>
         </div>
     </div>
@@ -129,6 +129,7 @@
                 isLoading: true,
                 beer: {},
                 reviews: [],
+                places: [],
                 embedding: 'starspace'
             };
         },
@@ -159,6 +160,10 @@
                 }
 
                 this.reviews = reviews;
+            },
+            async loadPlaces(id) {
+                const places = await apiService.places(id);
+                this.places = places;
             }
         },
         async mounted() {
@@ -168,7 +173,8 @@
 
             await Promise.all([
                 this.loadBeer(id),
-                this.loadReviews(id)
+                this.loadReviews(id),
+                this.loadPlaces(id)
             ]);
 
             this.isLoading = false;

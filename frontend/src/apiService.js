@@ -22,6 +22,12 @@ class ApiService {
         return this.get(url);
     }
 
+    async places(id) {
+        const url = this.apiUrl(`/beer/${id}/places`);
+
+        return this.get(url);
+    }
+
     apiUrl(url) {
         return this.apiHost + url;
     }

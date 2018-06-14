@@ -11,6 +11,7 @@
     "dev": "micro-dev --port 3001"
   },
   "dependencies": {
+    "@google/maps": "0.4.6",
     "@rich_harris/sql": "1.2.0",
     "dotenv": "6.0.0",
     "esm": "3.0.49",

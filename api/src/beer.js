@@ -5,9 +5,8 @@ export default async function beer(request) {
     const db = await connect();
     const { id } = request.params;
 
-    const [beer, places, tags] = await Promise.all([
+    const [beer, tags] = await Promise.all([
         loadBeer(id, db),
-        loadPlaces(id, db),
         loadTags(id, db)
     ]);
 
@@ -31,7 +30,6 @@ export default async function beer(request) {
         abv: beer.abv,
         style: style.name,
         brewery: brewery.name,
-        places: places,
         tags: tags
     };
 }
@@ -52,19 +50,6 @@ async function loadBrewery(id, db) {
     const { rows } = await db`SELECT name FROM breweries WHERE id = ${id} LIMIT 1;`;
 
     return firstRow(rows);
-}
-
-async function loadPlaces(id, db) {
-    const { rows } = await db`SELECT place_id FROM beer_places WHERE beer_id = ${id};`;
-    const placeIds = rows.map(row => row.place_id);
-
-    const tasks = placeIds.map(placeId => {
-        return db`SELECT name, type, street, locality, region, country, postal_code, rating_count, rating_value, facebook_url, twitter_url, website_url, telephone, opening_times, image_url FROM places WHERE id = ${placeId} LIMIT 1;`;
-    });
-
-    const results = await Promise.all(tasks);
-
-    return results.map(result => firstRow(result.rows));
 }
 
 async function loadTags(id, db) {
