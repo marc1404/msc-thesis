@@ -7,8 +7,13 @@
         <address class="mb-half" v-html="address"></address>
 
         <div class="mb-half" v-if="place.opening_times">
-            <strong>Opening Times</strong><br>
-            <code>{{ place.opening_times }}</code>
+            <strong>
+                Opening Times
+            </strong>
+            <br>
+            <code class="is-inline-block">
+                {{ place.opening_times }}
+            </code>
         </div>
 
         <ul>
@@ -33,7 +38,7 @@
                     <span class="icon has-text-dark">
                         <i class="fi fi-twitter"></i>
                     </span>
-                    Homepage
+                    Twitter
                 </a>
             </li>
             <li v-if="telephone">
