@@ -19,7 +19,8 @@ module.exports = {
         ]
     },
     css: [
-        'bulma/css/bulma.css'
+        'bulma/css/bulma.css',
+        'fontisto/css/fontisto/fontisto.css'
     ],
     router: {
         linkActiveClass: 'is-active'

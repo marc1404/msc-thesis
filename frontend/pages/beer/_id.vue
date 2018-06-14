@@ -97,12 +97,7 @@
                 </div>
             </div>
 
-            <div>
-                <h2 class="title is-size-3 mb-half">
-                    Places
-                </h2>
-                <PlacesMap :places="places" />
-            </div>
+            <Places :places="places" />
         </div>
     </div>
 </template>
@@ -111,13 +106,13 @@
     import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
     import apiService from '~/src/apiService';
     import Review from '~/src/Review';
-    import PlacesMap from '~/src/PlacesMap';
+    import Places from '~/src/Places';
 
     export default {
         name: 'Beer',
         components: {
             Review,
-            PlacesMap
+            Places
         },
         head() {
             return {
@@ -162,8 +157,7 @@
                 this.reviews = reviews;
             },
             async loadPlaces(id) {
-                const places = await apiService.places(id);
-                this.places = places;
+                this.places = await apiService.places(id);
             }
         },
         async mounted() {
