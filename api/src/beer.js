@@ -1,8 +1,8 @@
-import getDb from './getDb';
+import { connect } from '../../beer-scraper/src/mysql';
 import firstRow from './firstRow';
 
 export default async function beer(request) {
-    const db = await getDb();
+    const db = await connect();
     const { id } = request.params;
 
     const [beer, places, tags] = await Promise.all([
@@ -15,6 +15,8 @@ export default async function beer(request) {
         loadStyle(beer.style_id, db),
         loadBrewery(beer.brewery_id, db)
     ]);
+
+    await db.close();
 
     return {
         name: beer.name,

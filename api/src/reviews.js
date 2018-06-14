@@ -1,11 +1,14 @@
-import getDb from './getDb';
+import { connect } from '../../beer-scraper/src/mysql';
 import firstRow from './firstRow';
 
 export default async function beer(request) {
-    const db = await getDb();
+    const db = await connect();
     const { id } = request.params;
+    const reviews = await loadReviews(id, db);
 
-    return await loadReviews(id, db);
+    await db.close();
+
+    return reviews;
 }
 
 async function loadReviews(id, db) {
