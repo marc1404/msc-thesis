@@ -13,7 +13,7 @@ export default async function beer(request) {
 
 async function loadReviews(id, db) {
     const { rows } = await db`
-        SELECT reviews.user_id, reviews.date, reviews.location, reviews.text, reviews.score, reviews.aroma, reviews.appearance, reviews.taste, reviews.palate, reviews.overall, review_clusters.embedding, review_clusters.cluster
+        SELECT reviews.id, reviews.user_id, reviews.date, reviews.location, reviews.text, reviews.score, reviews.aroma, reviews.appearance, reviews.taste, reviews.palate, reviews.overall, review_clusters.embedding, review_clusters.cluster
         FROM reviews
         INNER JOIN review_clusters
         ON reviews.beer_id = ${id} AND reviews.id = review_clusters.review_id AND review_clusters.is_centroid = 1;

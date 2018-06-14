@@ -1,27 +1,3 @@
-<style scoped>
-    .mb-1 {
-        margin-bottom: 1rem !important;
-    }
-
-    .mb-half {
-        margin-bottom: 0.5rem !important;
-    }
-
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .pre-line {
-        white-space: pre-line;
-    }
-
-    .is-size-larger {
-        font-size: larger;
-    }
-</style>
-
 <template>
     <div class="columns" v-show="!isLoading">
         <div class="column is-8">
@@ -88,22 +64,7 @@
                     </div>
                 </div>
 
-                <div class="box" v-for="review in filteredReviews">
-                    <div class="header mb-half is-size-larger">
-                        <span>
-                            <strong>
-                                {{ review.user.name }}
-                            </strong>
-                            <span class="tag is-rounded is-light">
-                                {{ review.user.ratings }}
-                            </span>
-                        </span>
-                        <span class="has-text-grey">
-                            {{ review.timeAgo }} ago
-                        </span>
-                    </div>
-                    <p class="pre-line" v-html="review.text"></p>
-                </div>
+                <Review :key="review.id" :review="review" v-for="review in filteredReviews" />
             </div>
         </div>
 
@@ -142,9 +103,13 @@
 <script>
     import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
     import apiService from '~/src/apiService';
+    import Review from '~/src/Review';
 
     export default {
         name: 'Beer',
+        components: {
+            Review
+        },
         head() {
             return {
                 title: this.beer.name
