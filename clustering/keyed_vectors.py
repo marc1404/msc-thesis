@@ -1,5 +1,4 @@
 from itertools import chain
-from sklearn.metrics import pairwise_distances_argmin_min
 import load_word2vec
 import load_fasttext
 import load_glove
@@ -24,6 +23,7 @@ print('Done.')
 
 wv = model.wv
 
+
 def vectorize(line):
     words = line.split()
     vectors = []
@@ -33,6 +33,7 @@ def vectorize(line):
             vectors.append(wv[word])
 
     return list(chain.from_iterable(vectors))
+
 
 file = open('train.txt')
 X = [vectorize(line) for line in file]
