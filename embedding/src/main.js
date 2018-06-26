@@ -1,7 +1,7 @@
 import { connect } from '../../beer-scraper/src/mysql';
 import minimist from 'minimist';
 import consola from 'consola';
-import cleanText from './cleanText';
+import cleanText, { getDictionary } from './cleanText';
 import fs from 'fs';
 
 const argv = minimist(process.argv.slice(2));
@@ -26,6 +26,7 @@ const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
         reviews.push(cleanedText);
     }
 
+    await saveDictionary(db);
     await db.close();
 
     const trainIdsData = ids.join('\n');
@@ -34,3 +35,19 @@ const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
     fs.writeFileSync('./data/train_ids.txt', trainIdsData);
     fs.writeFileSync('./data/train.txt', trainData);
 })().catch(error => consola.error(error));
+
+async function saveDictionary(db) {
+    const dictionary = getDictionary();
+    const tasks = [];
+
+    for (const [originalToken, cleanedToken] of dictionary) {
+        const task = db`
+            INSERT IGNORE INTO token_dictionary (original_token, cleaned_token)
+            VALUES (${originalToken}, ${cleanedToken});
+        `;
+
+        tasks.push(task);
+    }
+
+    await Promise.all(tasks);
+}
