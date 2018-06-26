@@ -17,6 +17,7 @@ export default async function nn(request) {
     await db.close();
 
     for (const row of rows) {
+        row.similarity = parseFloat(row.similarity);
         row.neighbors = dictionary.get(row.neighbor);
     }
 
