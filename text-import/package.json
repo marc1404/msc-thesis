@@ -8,12 +8,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "import-nn": "node -r esm src/nn.js"
   },
   "dependencies": {
-    "@rich_harris/sql": "1.1.0",
-    "dotenv": "5.0.1",
-    "esm": "3.0.31",
-    "split-lines": "1.1.0"
+    "@rich_harris/sql": "1.2.1",
+    "dotenv": "6.0.0",
+    "esm": "3.0.55",
+    "mysql2": "1.5.3",
+    "split-lines": "2.0.0"
   }
 }

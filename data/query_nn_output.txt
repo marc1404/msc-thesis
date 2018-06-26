@@ -1,0 +1,128 @@
+Start to load a trained starspace model.
+STARSPACE-2017-2
+Model loaded.
+------Loaded model args:
+Arguments: 
+lr: 0.01
+dim: 100
+epoch: 5
+maxTrainTime: 8640000
+saveEveryEpoch: 0
+loss: hinge
+margin: 0.05
+similarity: cosine
+maxNegSamples: 10
+negSearchLimit: 50
+thread: 10
+minCount: 1
+minCountLabel: 1
+label: __label__
+ngrams: 1
+bucket: 2000000
+adagrad: 1
+trainMode: 5
+fileFormat: fastText
+normalizeText: 0
+dropoutLHS: 0
+dropoutRHS: 0
+Enter some text: tast 1
+sweet 0.799274
+alcohol 0.672944
+caramel 0.624998
+fruit 0.585183
+aroma 0.581233
+flavor 0.566039
+complex 0.557343
+raisin 0.550555
+malt 0.538791
+Enter some text: palat 1
+smooth 0.600063
+bodi 0.536089
+full 0.519338
+creami 0.509433
+carbon 0.504073
+medium 0.434606
+vinuouson 0.426024
+thick 0.418198
+opag 0.417596
+Enter some text: overal 1
+ruim 0.548842
+good 0.495899
+witht 0.490848
+richest 0.477869
+great 0.456809
+evalu 0.447485
+beer 0.4351
+emit 0.405213
+enrich 0.402674
+Enter some text: aroma 1
+raisin 0.73459
+plum 0.723449
+fruit 0.689168
+malt 0.687691
+caramel 0.684993
+head 0.614733
+sweet 0.597689
+tast 0.581233
+dark 0.578344
+Enter some text: appear 1
+scho 0.548846
+dad 0.518542
+adark 0.458121
+stylish 0.447697
+cloudi 0.428266
+beerish 0.423883
+brownaroma 0.419779
+foggi 0.41642
+withstand 0.411137
+Enter some text: pour 0.999999
+brown 0.801381
+color 0.741378
+bottl 0.7368
+deep 0.601873
+tan 0.580178
+cloudi 0.505958
+hazi 0.470712
+murki 0.464701
+thick 0.463643
+Enter some text: bottl 1
+pour 0.7368
+ml 0.617148
+cl 0.537441
+deep 0.455538
+hazi 0.447309
+cloudi 0.429308
+oz 0.417671
+tizzlejizzl 0.408695
+leap 0.389694
+Enter some text: price 1
+worth 0.566153
+usd 0.522789
+paid 0.507121
+elsewher 0.479438
+tag 0.478382
+andi 0.456885
+gimm 0.456329
+totalt 0.453261
+pai 0.427287
+Enter some text: color 1
+brown 0.860931
+pour 0.741378
+tan 0.702553
+beig 0.605674
+head 0.534405
+deep 0.50059
+thick 0.49008
+dark 0.470636
+small 0.410926
+Enter some text: smell 1
+gonig 0.452853
+massag 0.42953
+soso 0.427099
+hungri 0.403474
+worm 0.398373
+sedimenti 0.393757
+greyish 0.381229
+underpow 0.376651
+hasa 0.371237
+Enter some text: 
