@@ -1,42 +1,22 @@
-from itertools import chain
 import load_word2vec
 import load_fasttext
 import load_glove
-import kmeans
 import sys
 
-embedding = sys.argv[1]
-model = None
 
-print('Loading %s model...' % embedding)
+def load():
+    if len(sys.argv) != 2:
+        raise Exception('Missing embedding CLI argument! (word2vec, fasttext, glove)')
 
-if embedding == 'word2vec':
-    model = load_word2vec.load()
-elif embedding == 'fasttext':
-    model = load_fasttext.load()
-elif embedding == 'glove':
-    model = load_glove.load()
-else:
-    raise Exception('Unknown embedding: %s!' % embedding)
+    embedding = sys.argv[1]
 
-print('Done.')
+    print('Loading %s model...' % embedding)
 
-wv = model.wv
-
-
-def vectorize(line):
-    words = line.split()
-    vectors = []
-
-    for word in words:
-        if word in wv.vocab:
-            vectors.append(wv[word])
-
-    return list(chain.from_iterable(vectors))
-
-
-file = open('train.txt')
-X = [vectorize(line) for line in file]
-
-file.close()
-kmeans.run(X)
+    if embedding == 'word2vec':
+        return load_word2vec.load()
+    elif embedding == 'fasttext':
+        return load_fasttext.load()
+    elif embedding == 'glove':
+        return load_glove.load()
+    else:
+        raise Exception('Unknown embedding: %s!' % embedding)
