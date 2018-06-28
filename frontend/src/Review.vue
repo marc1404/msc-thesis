@@ -19,23 +19,44 @@
 
         <hr>
 
-        <RatingRadarChart
-            :aroma="review.aroma"
-            :appearance="review.appearance"
-            :taste="review.taste"
-            :palate="review.palate"
-            :overall="review.overall"
-        />
+        <div class="columns">
+            <div class="column">
+
+                <strong class="is-size-larger">
+                    Rating
+                </strong>
+
+                <RatingRadarChart
+                        :aroma="review.aroma"
+                        :appearance="review.appearance"
+                        :taste="review.taste"
+                        :palate="review.palate"
+                        :overall="review.overall"
+                />
+
+            </div>
+            <div class="column">
+
+                <strong class="is-size-larger">
+                    User Reviews Heatmap
+                </strong>
+
+                <UserHeatmap :userId="review.user.id" />
+
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
     import RatingRadarChart from './RatingRadarChart';
+    import UserHeatmap from './UserHeatmap';
 
     export default {
         name: 'Review',
         components: {
-            RatingRadarChart
+            RatingRadarChart,
+            UserHeatmap
         },
         props: {
             review: {

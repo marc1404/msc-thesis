@@ -34,6 +34,12 @@ class ApiService {
         return this.get(url);
     }
 
+    async userLocations(userId) {
+        const url = this.apiUrl(`/user/${userId}/locations`);
+
+        return this.get(url);
+    }
+
     apiUrl(url) {
         return this.apiHost + url;
     }
