@@ -1,5 +1,14 @@
 <template>
     <div class="columns" v-if="!isLoading">
+        <div class="select is-small" style="position: fixed; top: 0; right: 0">
+            <select v-model="embedding" style="border: none">
+                <option value="glove">GloVe</option>
+                <option value="word2vec">word2vec</option>
+                <option value="fasttext">fastText</option>
+                <option value="starspace">StarSpace</option>
+            </select>
+        </div>
+
         <div class="column is-8">
             <h1 class="title is-size-1 mb-1">
                 {{ beer.name }}
@@ -54,14 +63,7 @@
                     <h2 class="title is-size-3 is-marginless is-inline-block">
                         Reviews
                     </h2>
-                    <div class="select is-rounded is-inline-block">
-                        <select v-model="embedding">
-                            <option value="glove">GloVe</option>
-                            <option value="word2vec">word2vec</option>
-                            <option value="fasttext">fastText</option>
-                            <option value="starspace">StarSpace</option>
-                        </select>
-                    </div>
+
                 </div>
 
                 <Review :key="review.id" :review="review" v-for="review in filteredReviews" />
@@ -97,7 +99,13 @@
                 </div>
             </div>
 
-            <Places :places="places" />
+            <section class="mb-1">
+                <NN :nn="filteredNN" />
+            </section>
+
+            <section class="mb-1">
+                <Places :places="places" />
+            </section>
         </div>
     </div>
 </template>
@@ -107,12 +115,14 @@
     import apiService from '~/src/apiService';
     import Review from '~/src/Review';
     import Places from '~/src/Places';
+    import NN from '~/src/NN';
 
     export default {
         name: 'Beer',
         components: {
             Review,
-            Places
+            Places,
+            NN
         },
         head() {
             return {
@@ -125,12 +135,16 @@
                 beer: {},
                 reviews: [],
                 places: [],
+                nn: [],
                 embedding: 'starspace'
             };
         },
         computed: {
             filteredReviews() {
                 return this.reviews.filter(review => review.embedding === this.embedding);
+            },
+            filteredNN() {
+                return this.nn.filter(nn => nn.embedding === this.embedding);
             }
         },
         methods: {
@@ -158,6 +172,9 @@
             },
             async loadPlaces(id) {
                 this.places = await apiService.places(id);
+            },
+            async loadNN(id) {
+                this.nn = await apiService.nn(id);
             }
         },
         async mounted() {
@@ -168,7 +185,8 @@
             await Promise.all([
                 this.loadBeer(id),
                 this.loadReviews(id),
-                this.loadPlaces(id)
+                this.loadPlaces(id),
+                this.loadNN(id)
             ]);
 
             this.isLoading = false;

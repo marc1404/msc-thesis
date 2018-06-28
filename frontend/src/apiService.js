@@ -28,6 +28,12 @@ class ApiService {
         return this.get(url);
     }
 
+    async nn(id) {
+        const url = this.apiUrl(`/beer/${id}/nn`);
+
+        return this.get(url);
+    }
+
     apiUrl(url) {
         return this.apiHost + url;
     }

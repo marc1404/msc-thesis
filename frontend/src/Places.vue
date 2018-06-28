@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2 class="title is-size-3 mb-half">
-            Places
+            Where it can be found
         </h2>
 
         <PlacesMap class="mb-1" :places="places" @place="onPlace" />
