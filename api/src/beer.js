@@ -22,7 +22,10 @@ export default async function beer(request) {
         location: beer.location,
         image: beer.image,
         description: beer.description,
-        overall: beer.overall,
+        rating: {
+            overall: beer.overall,
+            style: beer.style
+        },
         average: beer.weighted_average,
         ratings: beer.total_ratings,
         ibu: beer.ibu,
