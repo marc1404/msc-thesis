@@ -13,10 +13,11 @@ def file_len(file):
     return count
 
 
-with open(f'models/{beer_id}/starspace.tsv', 'r') as input, open(f'models/{beer_id}/starspace.txt', 'w') as output:
-    line_count = file_len(input)
+with open(f'models/{beer_id}/starspace.tsv', 'r') as input_file, open(f'models/{beer_id}/starspace.txt', 'w') as output_file:
+    line_count = file_len(input_file)
     dimensions = 100
-    output.write(' '.join([str(line_count), str(dimensions)]) + '\n')
-    for line in input:
+    input_file.seek(0)
+    output_file.write(' '.join([str(line_count), str(dimensions)]) + '\n')
+    for line in input_file:
         words = line.strip().split()
-        output.write(' '.join(words) + '\n')
+        output_file.write(' '.join(words) + '\n')
