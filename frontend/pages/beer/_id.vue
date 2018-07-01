@@ -66,7 +66,7 @@
 
                 </div>
 
-                <Review :key="review.id" :review="review" v-for="review in filteredReviews" />
+                <Review :key="review.id" :review="review" v-for="review in sortedReviews" />
             </div>
         </div>
 
@@ -142,6 +142,9 @@
         computed: {
             filteredReviews() {
                 return this.reviews.filter(review => review.embedding === this.embedding);
+            },
+            sortedReviews() {
+                return this.filteredReviews.sort((a, b) => b.user.ratings - a.user.ratings);
             },
             filteredNN() {
                 return this.nn.filter(nn => nn.embedding === this.embedding);
