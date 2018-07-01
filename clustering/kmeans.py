@@ -1,10 +1,10 @@
-from itertools import chain
 from sklearn.cluster import KMeans
 import numpy as np
 from sklearn.metrics import pairwise_distances_argmin_min
 import pickle
 
 K = 5
+
 
 def run(X):
     lengths = [len(vector) for vector in X]
