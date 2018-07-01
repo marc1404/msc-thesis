@@ -9,7 +9,7 @@ idx, closest = data
 print(idx, closest)
 
 cnx, cursor = mysql_helper.connect()
-file = open('train_ids.txt')
+file = open('data/train_ids.txt')
 review_ids = [int(line) for line in file]
 
 file.close()

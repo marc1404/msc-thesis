@@ -1,7 +1,7 @@
 import gensim
 
 sentences = []
-file = open('train.txt')
+file = open('data/train.txt')
 
 for line in file:
     sentence = line.split()

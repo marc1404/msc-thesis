@@ -17,7 +17,7 @@ def vectorize(line):
     return list(chain.from_iterable(vectors))
 
 
-file = open('train.txt')
+file = open('data/train.txt')
 X = [vectorize(line) for line in file]
 
 file.close()
