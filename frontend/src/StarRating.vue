@@ -26,15 +26,15 @@
         },
         computed: {
             stars() {
-                return Math.floor(this.rating);
+                return Math.floor(this.displayRating);
             },
             hasHalfStar() {
-                const fraction = this.rating - Math.floor(this.rating);
+                const fraction = this.displayRating - this.stars;
 
                 return fraction >= 0.5;
             },
             displayRating() {
-                return this.rating.toFixed(1);
+                return parseFloat(this.rating.toFixed(1));
             }
         }
     };
