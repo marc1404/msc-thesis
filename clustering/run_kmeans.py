@@ -1,8 +1,13 @@
 from itertools import chain
 import kmeans
 import keyed_vectors
+from dotenv import load_dotenv
+import os
 
-model = keyed_vectors.load()
+load_dotenv(dotenv_path='.env')
+
+beer_id = os.getenv('BEER_ID')
+model = keyed_vectors.load(beer_id)
 wv = model.wv
 
 
@@ -17,7 +22,7 @@ def vectorize(line):
     return list(chain.from_iterable(vectors))
 
 
-file = open('data/train.txt')
+file = open(f'data/{beer_id}/train.txt')
 X = [vectorize(line) for line in file]
 
 file.close()

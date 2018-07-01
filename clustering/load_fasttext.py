@@ -1,5 +1,5 @@
 from gensim.models import KeyedVectors
 
 
-def load():
-    return KeyedVectors.load_word2vec_format('models/fasttext.vec', binary=False)
+def load(beer_id):
+    return KeyedVectors.load_word2vec_format(f'models/{beer_id}/fasttext.vec', binary=False)

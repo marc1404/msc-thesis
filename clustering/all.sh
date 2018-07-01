@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-python keyed_vectors.py glove
+python run_kmeans.py glove
 python mysql_import.py glove
 
-python keyed_vectors.py word2vec
+python run_kmeans.py word2vec
 python mysql_import.py word2vec
 
-python keyed_vectors.py fasttext
+python run_kmeans.py fasttext
 python mysql_import.py fasttext
 
-python keyed_vectors.py starspace
+python run_kmeans.py starspace
 python mysql_import.py starspace

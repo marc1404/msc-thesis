@@ -1,4 +1,5 @@
 from gensim.models import Word2Vec
 
-def load():
-    return Word2Vec.load('models/word2vec')
+
+def load(beer_id):
+    return Word2Vec.load(f'models/{beer_id}/word2vec')
