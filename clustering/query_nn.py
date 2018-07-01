@@ -1,12 +1,16 @@
 import keyed_vectors
 import mysql_helper
 import sys
+from dotenv import load_dotenv
+import os
 
-beer_id = 2360
+load_dotenv(dotenv_path='.env')
+
+beer_id = os.getenv('BEER_ID')
 embedding = sys.argv[1]
 
 cnx, cursor = mysql_helper.connect()
-model = keyed_vectors.load()
+model = keyed_vectors.load(beer_id)
 queries = ['tast', 'palat', 'overal', 'aroma', 'appear', 'pour', 'bottl', 'price', 'color', 'smell']
 
 for query in queries:

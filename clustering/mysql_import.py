@@ -1,6 +1,7 @@
 import pickle
 import sys
 import mysql_helper
+import os
 
 embedding = sys.argv[1]
 data = pickle.load(open('kmeans.pckl', 'rb'))
@@ -9,7 +10,8 @@ idx, closest = data
 print(idx, closest)
 
 cnx, cursor = mysql_helper.connect()
-file = open('data/train_ids.txt')
+beer_id = os.getenv('BEER_ID')
+file = open(f'data/{beer_id}/train_ids.txt')
 review_ids = [int(line) for line in file]
 
 file.close()

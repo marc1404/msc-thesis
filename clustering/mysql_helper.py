@@ -2,9 +2,10 @@ import mysql.connector
 from dotenv import load_dotenv
 import os
 
+load_dotenv(dotenv_path='.env')
+
 
 def connect():
-    load_dotenv(dotenv_path='.env')
     print('Connecting to MySQL database...')
 
     config = {
