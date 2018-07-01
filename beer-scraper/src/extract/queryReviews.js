@@ -49,10 +49,6 @@ function mapToModel(item) {
         overall: overall
     });
 
-    if (location.length) {
-        console.log(location, location.length);
-    }
-
     return new Review({
         rating: rating,
         user: user,

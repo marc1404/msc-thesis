@@ -28,7 +28,6 @@ async function loadDictionary(cleanedTokens, db) {
     const values = Array.from(cleanedTokens)
         .map(token => `'${token}'`)
         .join(',');
-    console.log(values);
     const statement = `SELECT original_token, cleaned_token FROM token_dictionary WHERE cleaned_token IN (${values});`;
     const { rows } = await db.run(statement, []);
     const dictionary = new Map();
