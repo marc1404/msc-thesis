@@ -10,89 +10,73 @@
         </div>
 
         <div class="column is-8">
-            <h1 class="title is-size-1 mb-1">
-                {{ beer.name }}
-            </h1>
+            <section class="mb-1">
+                <h1 class="title is-size-1 is-marginless">
+                    {{ beer.name }}
+                </h1>
 
-            <div class="field is-grouped mb-1">
-                <div class="control">
-                    <div class="tags has-addons">
-                        <span class="tag is-dark is-medium">Style</span>
-                        <span class="tag is-light is-medium">
-                            {{ beer.style }}
-                        </span>
-                    </div>
+                <div class="is-size-4">
+                    <Rating :average="beer.average" :rating="beer.rating" />
                 </div>
+            </section>
 
-                <div class="control">
-                    <div class="tags has-addons">
-                        <span class="tag is-dark is-medium">Brewery</span>
-                        <span class="tag is-light is-medium">
-                            {{ beer.brewery }}
-                        </span>
-                    </div>
-                </div>
+            <section class="mb-1">
+                <p class="is-size-5">
+                    {{ beer.description }}
+                </p>
 
-                <div class="control">
-                    <div class="tags has-addons">
-                        <span class="tag is-dark is-medium">Location</span>
-                        <span class="tag is-light is-medium">
-                            {{ beer.location }}
-                        </span>
-                    </div>
-                </div>
-            </div>
+                <p class="is-size-5">
+                    Brewed by {{ beer.brewery }} in {{ beer.location }}.
+                </p>
+            </section>
 
-            <p class="is-size-5 mb-1">
-                {{ beer.description }}
-            </p>
-
-            <div class="mb-1">
-                <h2 class="title is-size-3 mb-half">
-                   Tags
-                </h2>
-                <div class="tags">
-                    <span class="tag" v-for="tag in beer.tags">
-                        {{ tag }}
-                    </span>
-                </div>
-            </div>
-
-            <div class="mb-1">
-                <div class="header mb-half">
-                    <h2 class="title is-size-3 is-marginless is-inline-block">
-                        Reviews
-                    </h2>
-
-                </div>
-
+            <section class="mb-1">
                 <Review :key="review.id" :review="review" v-for="review in sortedReviews" />
-            </div>
+            </section>
         </div>
 
         <div class="column is-4">
             <div class="columns">
-                <div class="column is-size-5">
-                    <div v-if="beer.abv">
+                <div class="column">
+
+                    <section class="mb-1">
+                        <div>
+                            <strong>
+                                Style:
+                            </strong>
+                            {{ beer.style }}
+                        </div>
+                        <div v-if="beer.abv">
+                            <strong>
+                                {{ beer.abv }}%
+                            </strong>
+                            alcohol
+                        </div>
+                    </section>
+
+                    <section class="mb-1" v-if="beer.ibu">
                         <strong>
-                            {{ beer.abv }}%
+                            <a rel="noopener" href="https://en.wikipedia.org/wiki/Beer_measurement#Bitterness">
+                                IBU:
+                            </a>
                         </strong>
-                        alcohol
-                    </div>
-                    <div v-if="beer.ibu">
-                        <strong>
-                            {{ beer.ibu}}
-                        </strong>
-                        <a rel="noopener" href="https://en.wikipedia.org/wiki/Beer_measurement#Bitterness">
-                            <abbr title="Bitterness">IBU</abbr>
-                        </a>
-                    </div>
-                    <div v-if="beer.calories">
-                        <strong>
-                            {{ beer.calories }}
-                        </strong>
-                        calories
-                    </div>
+
+                        {{ beer.ibu }}
+
+                        <progress class="progress" :value="ibuPercent" max="100"></progress>
+                    </section>
+
+                    <section class="mb-1" v-if="beer.calories">
+                        <strong>Calories:</strong>
+
+                        {{ beer.calories }}
+
+                        <progress class="progress" :value="caloriesPercent" max="100"></progress>
+                    </section>
+
+                    <section class="mb-1">
+                        <Tags :tags="beer.tags" />
+                    </section>
                 </div>
                 <div class="column has-text-centered">
                     <img :src="beer.image" :alt="beer.name">
@@ -116,13 +100,17 @@
     import Review from '~/src/Review';
     import Places from '~/src/Places';
     import NN from '~/src/NN';
+    import Rating from '~/src/Rating';
+    import Tags from '~/src/Tags';
 
     export default {
         name: 'Beer',
         components: {
             Review,
             Places,
-            NN
+            NN,
+            Rating,
+            Tags
         },
         head() {
             return {
@@ -148,6 +136,36 @@
             },
             filteredNN() {
                 return this.nn.filter(nn => nn.embedding === this.embedding);
+            },
+            ibuPercent() {
+                const { ibu } = this.beer;
+
+                if (!ibu) {
+                    return 0;
+                }
+
+                const percent = Math.round(ibu / 300 * 100);
+
+                if (percent > 100) {
+                    return 100;
+                }
+
+                return percent;
+            },
+            caloriesPercent() {
+                const { calories } = this.beer;
+
+                if (!calories) {
+                    return 0;
+                }
+
+                const percent = Math.round(calories / 1000 * 100);
+
+                if (percent > 100) {
+                    return 100;
+                }
+
+                return percent;
             }
         },
         methods: {

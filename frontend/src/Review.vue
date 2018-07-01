@@ -41,7 +41,7 @@
                     User Reviews Heatmap
                 </strong>
 
-                <UserHeatmap :userId="review.user.id" />
+                <UserHeatmap v-if="false" :userId="review.user.id" />
 
             </div>
         </div>
