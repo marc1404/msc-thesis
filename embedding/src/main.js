@@ -4,8 +4,7 @@ import consola from 'consola';
 import cleanText, { getDictionary } from './cleanText';
 import fs from 'fs';
 
-const beerId = 2360;
-
+const beerId = Number.parseInt(process.env.BEER_ID, 10);
 const argv = minimist(process.argv.slice(2));
 const isGloVe = argv.embedding === 'glove';
 const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
