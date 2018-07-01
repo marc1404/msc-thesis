@@ -72,9 +72,6 @@
 
         <div class="column is-4">
             <div class="columns">
-                <div class="column has-text-right">
-                    <img :src="beer.image" :alt="beer.name">
-                </div>
                 <div class="column is-size-5">
                     <div v-if="beer.abv">
                         <strong>
@@ -87,7 +84,7 @@
                             {{ beer.ibu}}
                         </strong>
                         <a rel="noopener" href="https://en.wikipedia.org/wiki/Beer_measurement#Bitterness">
-                            IBU
+                            <abbr title="Bitterness">IBU</abbr>
                         </a>
                     </div>
                     <div v-if="beer.calories">
@@ -96,6 +93,9 @@
                         </strong>
                         calories
                     </div>
+                </div>
+                <div class="column has-text-centered">
+                    <img :src="beer.image" :alt="beer.name">
                 </div>
             </div>
 
