@@ -4,13 +4,15 @@ import consola from 'consola';
 import cleanText, { getDictionary } from './cleanText';
 import fs from 'fs';
 
+const beerId = 2360;
+
 const argv = minimist(process.argv.slice(2));
 const isGloVe = argv.embedding === 'glove';
 const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
 
 (async () => {
     const db = await connect();
-    const { rows } = await db`SELECT id, text FROM reviews WHERE beer_id = 2360;`;
+    const { rows } = await db`SELECT id, text FROM reviews WHERE beer_id = ${beerId};`;
     const ids = [];
     const reviews = [];
 
