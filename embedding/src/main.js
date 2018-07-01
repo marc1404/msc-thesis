@@ -1,13 +1,9 @@
 import { connect } from '../../beer-scraper/src/mysql';
-import minimist from 'minimist';
 import consola from 'consola';
 import cleanText, { getDictionary } from './cleanText';
 import fs from 'fs';
 
 const beerId = Number.parseInt(process.env.BEER_ID, 10);
-const argv = minimist(process.argv.slice(2));
-const isGloVe = argv.embedding === 'glove';
-const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
 
 (async () => {
     const db = await connect();
@@ -31,10 +27,12 @@ const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
     await db.close();
 
     const trainIdsData = ids.join('\n');
-    const trainData = reviews.join(separator);
+    const trainData = reviews.join('\n');
+    const trainGloVeData = reviews.join(' dummy dummy dummy dummy dummy ');
 
     fs.writeFileSync('./data/train_ids.txt', trainIdsData);
     fs.writeFileSync('./data/train.txt', trainData);
+    fs.writeFileSync('./data/train_glove.txt', trainGloVeData);
 })().catch(error => consola.error(error));
 
 async function saveDictionary(db) {
