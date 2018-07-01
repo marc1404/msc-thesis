@@ -6,7 +6,7 @@ import os
 
 load_dotenv(dotenv_path='.env')
 
-beer_id = os.getenv('BEER_ID')
+beer_id = int(os.getenv('BEER_ID'))
 embedding = sys.argv[1]
 
 cnx, cursor = mysql_helper.connect()
