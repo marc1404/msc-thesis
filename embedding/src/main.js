@@ -12,7 +12,7 @@ const separator = isGloVe ? ' dummy dummy dummy dummy dummy ' : '\n';
 
 (async () => {
     const db = await connect();
-    const { rows } = await db`SELECT id, text FROM reviews WHERE beer_id = ${beerId};`;
+    const { rows } = await db`SELECT id, text FROM reviews WHERE beer_id = ${beerId} AND language = 'en';`;
     const ids = [];
     const reviews = [];
 
