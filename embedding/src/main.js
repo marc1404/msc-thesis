@@ -6,8 +6,17 @@ import fs from 'fs';
 const beerId = Number.parseInt(process.env.BEER_ID, 10);
 
 (async () => {
+    consola.start('Connecting to database...');
+
     const db = await connect();
+
+    consola.success('Connected!');
+    consola.start(`Loading reviews for beer ${beerId}...`);
+
     const { rows } = await db`SELECT id, text FROM reviews WHERE beer_id = ${beerId} AND language = 'en';`;
+
+    consola.success(`Found ${rows.length} reviews!`);
+
     const ids = [];
     const reviews = [];
 
