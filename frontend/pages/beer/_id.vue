@@ -92,6 +92,10 @@
             </section>
         </div>
     </div>
+    <div class="is-size-1" v-else>
+        <i class="fi fi-spinner-refresh fi-spin"></i>
+        Loading...
+    </div>
 </template>
 
 <script>
@@ -199,20 +203,16 @@
             }
         },
         async mounted() {
-            this.$nextTick(() => this.$nuxt.$loading.start());
-
+            this.isLoading = true;
             const { id } = this.$route.params;
 
-            await Promise.all([
-                this.loadBeer(id),
-                this.loadReviews(id),
-                this.loadPlaces(id),
-                this.loadNN(id)
-            ]);
+            this.loadReviews(id).catch(error => console.error(error));
+            this.loadPlaces(id).catch(error => console.error(error));
+            this.loadNN(id).catch(error => console.error(error));
+
+            await this.loadBeer(id);
 
             this.isLoading = false;
-
-            this.$nuxt.$loading.finish();
         }
     };
 </script>
