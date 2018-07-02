@@ -9,5 +9,5 @@ export default {
     user: MYSQL_USER,
     password: MYSQL_PASSWORD,
     database: MYSQL_DATABASE,
-    connectionLimit: 100
+    connectionLimit: 10
 };
