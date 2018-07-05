@@ -18,10 +18,17 @@ async function loadReviews(id, db) {
         INNER JOIN review_clusters
         ON reviews.beer_id = ${id} AND reviews.id = review_clusters.review_id AND review_clusters.is_centroid = 1;
     `;
+
+    await loadUsers(rows, db);
+
+    return rows;
+}
+
+async function loadUsers(reviews, db) {
     const userIds = new Set();
 
-    for (const row of rows) {
-        userIds.add(row.user_id);
+    for (const review of reviews) {
+        userIds.add(review.user_id);
     }
 
     const tasks = Array.from(userIds).map(userId => {
@@ -31,19 +38,30 @@ async function loadReviews(id, db) {
     const results = await Promise.all(tasks);
     const users = results.map(result => firstRow(result.rows));
     const userMap = new Map();
+    const averageTasks = users.map(user => {
+        return db`
+            SELECT AVG(aroma) AS aroma, AVG(appearance) AS appearance, AVG(taste) AS taste, AVG(palate) as palate, AVG(overall) as overall
+            FROM reviews
+            WHERE user_id = ${user.id};
+        `;
+    });
+    const averageResults = await Promise.all(averageTasks);
+
+    for (let i = 0; i < users.length; i++) {
+        users[i].averageRating = firstRow(averageResults[i].rows);
+    }
 
     for (const user of users) {
         userMap.set(user.id, {
             id: user.id,
             name: user.name,
-            ratings: user.total_ratings
+            ratings: user.total_ratings,
+            averageRating: user.averageRating
         });
     }
 
-    for (const row of rows) {
-        row.user = userMap.get(row.user_id);
-        delete row.user_id;
+    for (const review of reviews) {
+        review.user = userMap.get(review.user_id);
+        delete review.user_id;
     }
-
-    return rows;
 }
