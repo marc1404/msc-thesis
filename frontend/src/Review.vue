@@ -6,7 +6,11 @@
                     {{ review.user.name }}
                 </strong>
                 <span class="tag is-rounded is-light">
-                    {{ review.user.ratings }}
+                    <strong>
+                        {{ ratingsFormatted }}
+                    </strong>
+                    &nbsp;
+                    reviews
                 </span>
             </span>
 
@@ -23,7 +27,7 @@
             <div class="column">
 
                 <strong class="is-size-larger">
-                    Rating
+                    {{ review.user.name }}'s Rating
                 </strong>
 
                 <RatingRadarChart
@@ -38,7 +42,7 @@
             <div class="column">
 
                 <strong class="is-size-larger">
-                    User Reviews Heatmap
+                    Where {{ review.user.name }} is active
                 </strong>
 
                 <UserHeatmap :userId="review.user.id" />
@@ -51,6 +55,7 @@
 <script>
     import RatingRadarChart from './RatingRadarChart';
     import UserHeatmap from './UserHeatmap';
+    import numeral from 'numeral';
 
     export default {
         name: 'Review',
@@ -62,6 +67,11 @@
             review: {
                 type: Object,
                 required: true
+            }
+        },
+        computed: {
+            ratingsFormatted() {
+                return numeral(this.review.user.ratings).format('0a');
             }
         }
     };

@@ -31,7 +31,7 @@ export default async function beer(request) {
         ibu: beer.ibu,
         calories: beer.calories,
         abv: beer.abv,
-        style: style.name,
+        style: style,
         brewery: brewery.name,
         tags: tags
     };
@@ -44,7 +44,7 @@ async function loadBeer(id, db) {
 }
 
 async function loadStyle(id, db) {
-    const { rows } = await db`SELECT name FROM beer_styles WHERE id = ${id} LIMIT 1;`;
+    const { rows } = await db`SELECT name, url FROM beer_styles WHERE id = ${id} LIMIT 1;`;
 
     return firstRow(rows);
 }

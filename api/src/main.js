@@ -5,10 +5,12 @@ import reviews from './reviews';
 import places from './places';
 import userLocations from './userLocations';
 import nn from './nn';
+import search from './search';
 
 const cors = microCors();
 
 export default router(
+    get('/search/(:query)', cors(search)),
     get('/beer/:id/nn', cors(nn)),
     get('/beer/:id/places', cors(places)),
     get('/beer/:id/reviews', cors(reviews)),

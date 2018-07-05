@@ -15,6 +15,7 @@
     "@rich_harris/sql": "1.2.1",
     "dotenv": "6.0.0",
     "esm": "3.0.61",
+    "lunr": "2.3.0",
     "micro": "9.3.2",
     "micro-cors": "0.1.0",
     "microrouter": "3.1.3",

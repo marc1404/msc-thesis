@@ -1,11 +1,38 @@
+<style scoped>
+    .embedding-select {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .back-button {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .is-borderless {
+        border: none;
+    }
+
+    .subtitle {
+        font-weight: normal;
+        font-size: 1rem;
+    }
+</style>
+
 <template>
     <div class="columns" v-if="!isLoading">
-        <div class="select is-small" style="position: fixed; top: 0; right: 0">
-            <select v-model="embedding" style="border: none">
-                <option value="glove">GloVe</option>
-                <option value="word2vec">word2vec</option>
-                <option value="fasttext">fastText</option>
-                <option value="starspace">StarSpace</option>
+         <button type="button" class="button back-button is-borderless" @click="$router.go(-1)">
+             <i class="fi fi-caret-left"></i>
+             Back
+         </button>
+
+        <div class="select embedding-select">
+            <select v-model="embedding" class="is-borderless">
+                <option :key="embedding.key" v-for="embedding in embeddings" :value="embedding">
+                    {{ embedding.name }}
+                </option>
             </select>
         </div>
 
@@ -31,6 +58,17 @@
             </section>
 
             <section class="mb-1">
+                <h2 class="title is-size-3 mb-half">
+                    Reviews
+
+                    <span class="subtitle is-weight-normal">
+                        Automatically selected by
+                        <a rel="noopener" :href="embedding.url">
+                            {{ embedding.name }}
+                        </a>
+                    </span>
+                </h2>
+
                 <Review :key="review.id" :review="review" v-for="review in sortedReviews" />
             </section>
         </div>
@@ -44,7 +82,9 @@
                             <strong>
                                 Style:
                             </strong>
-                            {{ beer.style }}
+                            <a rel="noopener" :href="beer.style.url">
+                                {{ beer.style.name }}
+                            </a>
                         </div>
                         <div v-if="beer.abv">
                             <strong>
@@ -55,23 +95,11 @@
                     </section>
 
                     <section class="mb-1" v-if="beer.ibu">
-                        <strong>
-                            <a rel="noopener" href="https://en.wikipedia.org/wiki/Beer_measurement#Bitterness">
-                                IBU:
-                            </a>
-                        </strong>
-
-                        {{ beer.ibu }}
-
-                        <progress class="progress" :value="ibuPercent" max="100"></progress>
+                        <IBU :ibu="beer.ibu" />
                     </section>
 
                     <section class="mb-1" v-if="beer.calories">
-                        <strong>Calories:</strong>
-
-                        {{ beer.calories }}
-
-                        <progress class="progress" :value="caloriesPercent" max="100"></progress>
+                        <Calories :calories="beer.calories" />
                     </section>
 
                     <section class="mb-1">
@@ -84,7 +112,7 @@
             </div>
 
             <section class="mb-1">
-                <NN :nn="filteredNN" />
+                <NN :nn="filteredNN" :embedding="embedding" />
             </section>
 
             <section class="mb-1">
@@ -106,6 +134,9 @@
     import NN from '~/src/NN';
     import Rating from '~/src/Rating';
     import Tags from '~/src/Tags';
+    import embeddings, { starSpace } from '~/src/embeddings';
+    import IBU from '~/src/IBU';
+    import Calories from '~/src/Calories';
 
     export default {
         name: 'Beer',
@@ -114,7 +145,9 @@
             Places,
             NN,
             Rating,
-            Tags
+            Tags,
+            IBU,
+            Calories
         },
         head() {
             return {
@@ -128,48 +161,19 @@
                 reviews: [],
                 places: [],
                 nn: [],
-                embedding: 'starspace'
+                embedding: starSpace,
+                embeddings: embeddings
             };
         },
         computed: {
             filteredReviews() {
-                return this.reviews.filter(review => review.embedding === this.embedding);
+                return this.reviews.filter(review => review.embedding === this.embedding.key);
             },
             sortedReviews() {
                 return this.filteredReviews.sort((a, b) => b.user.ratings - a.user.ratings);
             },
             filteredNN() {
-                return this.nn.filter(nn => nn.embedding === this.embedding);
-            },
-            ibuPercent() {
-                const { ibu } = this.beer;
-
-                if (!ibu) {
-                    return 0;
-                }
-
-                const percent = Math.round(ibu / 300 * 100);
-
-                if (percent > 100) {
-                    return 100;
-                }
-
-                return percent;
-            },
-            caloriesPercent() {
-                const { calories } = this.beer;
-
-                if (!calories) {
-                    return 0;
-                }
-
-                const percent = Math.round(calories / 1000 * 100);
-
-                if (percent > 100) {
-                    return 100;
-                }
-
-                return percent;
+                return this.nn.filter(nn => nn.embedding === this.embedding.key);
             }
         },
         methods: {

@@ -2,21 +2,25 @@
     .mr-1 {
         margin-right: 1rem;
     }
+
+    .is-clickable {
+        cursor: pointer;
+    }
 </style>
 
 <template>
-    <div>
+    <div class="is-clickable" @click="goToRatingsPage()">
         <span class="mr-1">
             <StarRating :rating="average" />
         </span>
 
         <span class="mr-1">
             <strong>Overall:</strong>
-            {{ rating.overall }}
+            {{ rating.overall }}/100
         </span>
 
         <strong>Style:</strong>
-        {{ rating.style }}
+        {{ rating.style }}/100
     </div>
 </template>
 
@@ -36,6 +40,11 @@
             rating: {
                 type: Object,
                 required: true
+            }
+        },
+        methods: {
+            goToRatingsPage() {
+                window.location.href = 'https://www.ratebeer.com/ratingsqa.asp';
             }
         }
     };

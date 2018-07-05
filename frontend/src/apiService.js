@@ -40,6 +40,12 @@ class ApiService {
         return this.get(url);
     }
 
+    async search(query = '') {
+        const url = this.apiUrl(`/search/${query}`);
+
+        return this.get(url);
+    }
+
     apiUrl(url) {
         return this.apiHost + url;
     }
