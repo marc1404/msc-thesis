@@ -15,6 +15,7 @@ import consola from 'consola';
             consola.error(`Error while processing beer ${beerId}!`);
             consola.error(error);
         }
+        break;
     }
 
     await db.close();
@@ -39,6 +40,7 @@ async function processBeer(beerId, db) {
         to: `BEER_ID=${beerId}`,
     });
 
+    return;
     await sleep(1000);
     await run('yarn start');
     await run(`mkdir -p ../clustering/data/${beerId}`);
