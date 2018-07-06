@@ -22,7 +22,6 @@
     "mysql2": "1.5.3",
     "natural": "0.6.1",
     "newline-remove": "1.0.2",
-    "replace-in-file": "3.4.0",
     "stopword": "0.1.10",
     "striptags": "3.1.1"
   }

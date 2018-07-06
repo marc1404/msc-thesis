@@ -1,5 +1,4 @@
 import { connect } from '../../beer-scraper/src/mysql';
-import replace from 'replace-in-file';
 import exec from 'exec-sh';
 import consola from 'consola';
 
@@ -30,17 +29,8 @@ async function processBeer(beerId, db) {
         return;
     }
 
-    await replace({
-        files: [
-            '.env',
-            '../clustering/.env'
-        ],
-        from: /BEER_ID=[0-9]*/g,
-        to: `BEER_ID=${beerId}`,
-    });
-
-    return;
-    await sleep(1000);
+    await run(`sed -i 's/BEER_ID=[0-9]*/BEER_ID=${beerId}/g' .env`);
+    await run(`sed -i 's/BEER_ID=[0-9]*/BEER_ID=${beerId}/g' ../clustering/.env`);
     await run('yarn start');
     await run(`mkdir -p ../clustering/data/${beerId}`);
     await run(`mkdir -p ../clustering/models/${beerId}`);
