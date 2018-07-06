@@ -31,6 +31,7 @@ async function processBeer(beerId, db) {
 
     await run(`sed -i 's/BEER_ID=[0-9]*/BEER_ID=${beerId}/g' .env`);
     await run(`sed -i 's/BEER_ID=[0-9]*/BEER_ID=${beerId}/g' ../clustering/.env`);
+    await sleep(10000);
     await run('yarn start');
     await run(`mkdir -p ../clustering/data/${beerId}`);
     await run(`mkdir -p ../clustering/models/${beerId}`);
