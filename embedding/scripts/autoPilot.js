@@ -33,12 +33,12 @@ async function processBeer(beerId, db) {
     await Promise.all([
         replace({
             files: '.env',
-            from: /BEER_ID=[0-9]+/g,
+            from: /BEER_ID=d*/g,
             to: `BEER_ID=${beerId}`,
         }),
         replace({
             files: '../clustering/.env',
-            from: /BEER_ID=[0-9]+/g,
+            from: /BEER_ID=d*+/g,
             to: `BEER_ID=${beerId}`,
         })
     ]);
