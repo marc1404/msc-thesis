@@ -2,8 +2,10 @@ import { connect } from '../../beer-scraper/src/mysql';
 import consola from 'consola';
 import cleanText, { getDictionary } from './cleanText';
 import fs from 'fs';
+import minimist from 'minimist';
 
-const beerId = Number.parseInt(process.env.BEER_ID, 10);
+const argv = minimist(process.argv.slice(2));
+const beerId = argv.beer || Number.parseInt(process.env.BEER_ID, 10);
 
 (async () => {
     consola.start('Connecting to database...');

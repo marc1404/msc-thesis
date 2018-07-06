@@ -29,10 +29,7 @@ async function processBeer(beerId, db) {
         return;
     }
 
-    await run(`sed -i 's/BEER_ID=[0-9]*/BEER_ID=${beerId}/g' .env`);
-    await run(`sed -i 's/BEER_ID=[0-9]*/BEER_ID=${beerId}/g' ../clustering/.env`);
-    await sleep(10000);
-    await run('yarn start');
+    await run(`yarn start --beer=${beerId}`);
     await run(`mkdir -p ../clustering/data/${beerId}`);
     await run(`mkdir -p ../clustering/models/${beerId}`);
     await run(`\\cp -f data/train.txt ../clustering/data/${beerId}/train.txt`);
@@ -43,7 +40,7 @@ async function processBeer(beerId, db) {
 
     await Promise.all([
         run('cd ../../GloVe/build && ./train.sh'),
-        run('cd ../clustering && python train_word2vec.py'),
+        run(`cd ../clustering && BEER_ID=${beerId} python train_word2vec.py`),
         run('cd ../../fastText && ./train.sh'),
         run('cd ../../StarSpace && ./train.sh')
     ]);
@@ -54,9 +51,9 @@ async function processBeer(beerId, db) {
         run(`\\cp -f ../../StarSpace/model.tsv ../clustering/models/${beerId}/starspace.tsv`)
     ]);
 
-    await run('cd ../clustering && python starspace_tsv2txt.py');
-    await run('cd ../clustering && ./query_nn.sh');
-    await run('cd ../clustering && ./all.sh');
+    await run(`cd ../clustering && BEER_ID=${beerId} python starspace_tsv2txt.py`);
+    await run(`cd ../clustering && BEER_ID=${beerId} ./query_nn.sh`);
+    await run(`cd ../clustering && BEER_ID=${beerId} ./all.sh`);
 
     await db`UPDATE beers SET processed = 1 WHERE id = ${beerId} LIMIT 1;`;
     consola.success(`Processed beer ${beerId}!`);
