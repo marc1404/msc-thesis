@@ -56,6 +56,8 @@ async function processBeer(beerId, db) {
     await run(`cd ../clustering && BEER_ID=${beerId} ./all.sh`);
 
     await db`UPDATE beers SET processed = 1 WHERE id = ${beerId} LIMIT 1;`;
+    await run(`rm -fr ../clustering/data/${beerId}`);
+    await run(`rm -fr ../clustering/models/${beerId}`);
     consola.success(`Processed beer ${beerId}!`);
 }
 
