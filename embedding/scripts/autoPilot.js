@@ -15,7 +15,6 @@ import consola from 'consola';
             consola.error(`Error while processing beer ${beerId}!`);
             consola.error(error);
         }
-        break;
     }
 
     await db.close();
