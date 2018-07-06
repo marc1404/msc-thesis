@@ -39,6 +39,7 @@ async function processBeer(beerId, db) {
         to: `BEER_ID=${beerId}`,
     });
 
+    await sleep(1000);
     await run('yarn start');
     await run(`mkdir -p ../clustering/data/${beerId}`);
     await run(`mkdir -p ../clustering/models/${beerId}`);
@@ -82,4 +83,8 @@ function run(command) {
             resolve();
         });
     });
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
