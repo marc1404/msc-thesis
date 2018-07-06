@@ -30,16 +30,14 @@ async function processBeer(beerId, db) {
         return;
     }
 
-    const replacementResult = await replace({
+    await replace({
         files: [
             '.env',
             '../clustering/.env'
         ],
-        from: /BEER_ID=d*/g,
+        from: /BEER_ID=[0-9]*/g,
         to: `BEER_ID=${beerId}`,
     });
-
-    consola.info(replacementResult);
 
     await run('yarn start');
     await run(`mkdir -p ../clustering/data/${beerId}`);
