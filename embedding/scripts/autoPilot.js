@@ -30,18 +30,16 @@ async function processBeer(beerId, db) {
         return;
     }
 
-    await Promise.all([
-        replace({
-            files: '.env',
-            from: /BEER_ID=d*/g,
-            to: `BEER_ID=${beerId}`,
-        }),
-        replace({
-            files: '../clustering/.env',
-            from: /BEER_ID=d*/g,
-            to: `BEER_ID=${beerId}`,
-        })
-    ]);
+    const replacementResult = await replace({
+        files: [
+            '.env',
+            '../clustering/.env'
+        ],
+        from: /BEER_ID=d*/g,
+        to: `BEER_ID=${beerId}`,
+    });
+
+    consola.info(replacementResult);
 
     await run('yarn start');
     await run(`mkdir -p ../clustering/data/${beerId}`);
