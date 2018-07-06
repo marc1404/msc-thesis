@@ -38,7 +38,7 @@ async function processBeer(beerId, db) {
         }),
         replace({
             files: '../clustering/.env',
-            from: /BEER_ID=d*+/g,
+            from: /BEER_ID=d*/g,
             to: `BEER_ID=${beerId}`,
         })
     ]);
