@@ -1,3 +1,9 @@
+<style scoped>
+    .mr-1 {
+        margin-right: 1rem !important;
+    }
+</style>
+
 <template>
     <div class="box">
         <div class="header mb-half is-size-larger">
@@ -10,7 +16,7 @@
                         {{ ratingsFormatted }}
                     </strong>
                     &nbsp;
-                    reviews
+                    {{ reviewsWord }}
                 </span>
             </span>
 
@@ -25,19 +31,26 @@
 
         <div class="columns">
             <div class="column">
-
-                <strong class="is-size-larger">
+                <strong class="is-size-larger is-block">
                     {{ review.user.name }}'s Rating
                 </strong>
 
-                <RatingRadarChart
-                        :aroma="review.aroma"
-                        :appearance="review.appearance"
-                        :taste="review.taste"
-                        :palate="review.palate"
-                        :overall="review.overall"
-                />
+                <div>
+                    <span class="mr-1">Compare with</span>
 
+                    <label class="checkbox mr-1">
+                        <input type="checkbox" v-model="includeAverageUserRating">
+                        avg. user rating
+                    </label>
+
+
+                    <label class="checkbox">
+                        <input type="checkbox" v-model="includeBeerRating">
+                        beer rating
+                    </label>
+                </div>
+
+                <RatingRadarChart :datasets="datasets" />
             </div>
             <div class="column">
 
@@ -67,11 +80,52 @@
             review: {
                 type: Object,
                 required: true
+            },
+            beerRating: {
+                type: Object,
+                required: true
             }
+        },
+        data() {
+            return {
+                includeAverageUserRating: false,
+                includeBeerRating: true
+            };
         },
         computed: {
             ratingsFormatted() {
                 return numeral(this.review.user.ratings).format('0a');
+            },
+            reviewsWord() {
+                return this.review.user.ratings === 1 ? 'review' : 'reviews';
+            },
+            datasets() {
+                const datasets = [
+                    {
+                        label: 'User Rating',
+                        aroma: this.review.aroma,
+                        appearance: this.review.appearance,
+                        taste: this.review.taste,
+                        palate: this.review.palate,
+                        overall: this.review.overall
+                    }
+                ];
+
+                if (this.includeAverageUserRating) {
+                    datasets.push({
+                        label: 'Avg. User Rating',
+                        ...this.review.user.averageRating
+                    });
+                }
+
+                if (this.includeBeerRating) {
+                    datasets.push({
+                        label: 'Beer Rating',
+                        ...this.beerRating
+                    });
+                }
+
+                return datasets;
             }
         }
     };

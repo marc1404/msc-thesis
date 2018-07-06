@@ -1,5 +1,6 @@
 import { connect } from '../../beer-scraper/src/mysql';
 import firstRow from './firstRow';
+import castToAverageRating from './castToAverageRating';
 
 export default async function beer(request) {
     const db = await connect();
@@ -48,7 +49,7 @@ async function loadUsers(reviews, db) {
     const averageResults = await Promise.all(averageTasks);
 
     for (let i = 0; i < users.length; i++) {
-        users[i].averageRating = firstRow(averageResults[i].rows);
+        users[i].averageRating = castToAverageRating(firstRow(averageResults[i].rows));
     }
 
     for (const user of users) {

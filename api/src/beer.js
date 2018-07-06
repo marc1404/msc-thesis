@@ -1,13 +1,15 @@
 import { connect } from '../../beer-scraper/src/mysql';
 import firstRow from './firstRow';
+import castToAverageRating from './castToAverageRating';
 
 export default async function beer(request) {
     const db = await connect();
     const { id } = request.params;
 
-    const [beer, tags] = await Promise.all([
+    const [beer, tags, averageRating] = await Promise.all([
         loadBeer(id, db),
-        loadTags(id, db)
+        loadTags(id, db),
+        loadAverageRating(id, db)
     ]);
 
     const [style, brewery] = await Promise.all([
@@ -27,6 +29,7 @@ export default async function beer(request) {
             style: beer.style
         },
         average: beer.weighted_average,
+        averageRating: averageRating,
         ratings: beer.total_ratings,
         ibu: beer.ibu,
         calories: beer.calories,
@@ -66,4 +69,15 @@ async function loadTags(id, db) {
     const results = await Promise.all(tasks);
 
     return results.map(result => firstRow(result.rows).name);
+}
+
+async function loadAverageRating(id, db) {
+    const { rows } = await db`
+        SELECT AVG(aroma) AS aroma, AVG(appearance) AS appearance, AVG(taste) AS taste, AVG(palate) as palate, AVG(overall) as overall
+        FROM reviews
+        WHERE beer_id = ${id};
+    `;
+    const row = firstRow(rows);
+
+    return castToAverageRating(row);
 }

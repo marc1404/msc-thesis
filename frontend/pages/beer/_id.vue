@@ -69,7 +69,7 @@
                     </span>
                 </h2>
 
-                <Review :key="review.id" :review="review" v-for="review in sortedReviews" />
+                <Review :key="review.id" :review="review" :beerRating="beer.averageRating" v-for="review in sortedReviews" />
             </section>
         </div>
 
@@ -105,6 +105,16 @@
                     <section class="mb-1">
                         <Tags :tags="beer.tags" />
                     </section>
+
+                    <section class="mb-1">
+                        <h2 class="title is-size-3 mb-half">
+                            Average Rating
+                        </h2>
+
+                        <RatingRadarChart
+                            :datasets="[beer.averageRating]"
+                        />
+                    </section>
                 </div>
                 <div class="column has-text-centered">
                     <img :src="beer.image" :alt="beer.name">
@@ -137,6 +147,7 @@
     import embeddings, { starSpace } from '~/src/embeddings';
     import IBU from '~/src/IBU';
     import Calories from '~/src/Calories';
+    import RatingRadarChart from '~/src/RatingRadarChart';
 
     export default {
         name: 'Beer',
@@ -147,7 +158,8 @@
             Rating,
             Tags,
             IBU,
-            Calories
+            Calories,
+            RatingRadarChart
         },
         head() {
             return {
