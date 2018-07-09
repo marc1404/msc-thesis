@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@google/maps@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@google/maps/-/maps-0.5.3.tgz#f8a48749c015a35b92972575580633106cedb60a"
+"@google/maps@0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@google/maps/-/maps-0.5.4.tgz#fa024afa3f6f0fb4c8fa153a34f6fa4227286705"
   dependencies:
     uuid ">=2.2.1"
 
@@ -499,9 +499,9 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-esm@3.0.62:
-  version "3.0.62"
-  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.62.tgz#a50a0609c685f11715e12563516e50e9e1981c4b"
+esm@3.0.65:
+  version "3.0.65"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.65.tgz#dcc3d9ba1c6acf5728146c77caad7f3310b466fb"
 
 esprima@~3.0.0:
   version "3.0.0"
@@ -1227,7 +1227,7 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-needle@^2.2.0:
+needle@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.1.tgz#b5e325bd3aae8c2678902fa296f729455d1d3a7d"
   dependencies:
@@ -1236,12 +1236,12 @@ needle@^2.2.0:
     sax "^1.2.4"
 
 node-pre-gyp@^0.10.0:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.2.tgz#e8945c20ef6795a20aac2b44f036eb13cf5146e3"
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.3.tgz#3070040716afdc778747b61b6887bf78880b80fc"
   dependencies:
     detect-libc "^1.0.2"
     mkdirp "^0.5.1"
-    needle "^2.2.0"
+    needle "^2.2.1"
     nopt "^4.0.1"
     npm-packlist "^1.1.6"
     npmlog "^4.0.2"

@@ -11,10 +11,10 @@
     "dev": "micro-dev --port 3001"
   },
   "dependencies": {
-    "@google/maps": "0.5.3",
+    "@google/maps": "0.5.4",
     "@rich_harris/sql": "1.2.1",
     "dotenv": "6.0.0",
-    "esm": "3.0.62",
+    "esm": "3.0.65",
     "lunr": "2.3.0",
     "micro": "9.3.2",
     "micro-cors": "0.1.0",
