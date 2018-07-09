@@ -23,7 +23,8 @@
                 const map = {};
 
                 for (const tag of this.tags) {
-                    map[tag] = `https://www.ratebeer.com/tag/${tag}/`;
+                    const urlPart = tag.replace(/ /g, '-');
+                    map[tag] = `https://www.ratebeer.com/tag/${urlPart}/`;
                 }
 
                 return map;
