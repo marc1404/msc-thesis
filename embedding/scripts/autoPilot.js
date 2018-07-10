@@ -4,7 +4,7 @@ import consola from 'consola';
 
 (async () => {
     const db = await connect();
-    const { rows: beerRows } = await db`SELECT id FROM beers WHERE processed = 0 AND total_ratings >= 100 ORDER BY total_ratings ASC;`;
+    const { rows: beerRows } = await db`SELECT id FROM beers WHERE processed = 0 AND total_ratings >= 100 ORDER BY total_ratings DESC;`;
     const beerIds = beerRows.map(row => row.id);
 
     for (const beerId of beerIds) {
