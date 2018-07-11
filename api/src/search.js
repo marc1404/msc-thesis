@@ -17,7 +17,7 @@ export default async function search(request) {
             }
 
             return b.ratings - a.ratings;
-        }).slice(0, 10);
+        }).slice(0, 16);
     }
 
     const results = searchIndex.search(query);
@@ -31,18 +31,21 @@ async function getSearchIndex() {
     }
 
     const db = await connect();
-    const { rows } = await db`SELECT id, name, processed, total_ratings, weighted_average FROM beers;`;
+    const { rows } = await db`SELECT id, name, processed, total_ratings, weighted_average, image FROM beers;`;
 
     await db.close();
 
     const documents = rows.map(row => {
-        const { id, name } = row;
+        const { id, name, image } = row;
         const beer = {
             id: id,
             name: name,
+            image: image,
             isProcessed: !!row.processed,
             ratings: row.total_ratings,
-            rating: row.weighted_average
+            rating: row.weighted_average,
+            liked: false,
+            disliked: false
         };
 
         beerMap.set(id.toString(), beer);
