@@ -2,13 +2,18 @@
     .mr-1 {
         margin-right: 1rem !important;
     }
+
+    .blurred {
+        color: transparent;
+        text-shadow: 0 0 10px #363636;
+    }
 </style>
 
 <template>
     <div class="box">
         <div class="header mb-half is-size-larger">
             <span>
-                <strong>
+                <strong class="blurred">
                     {{ review.user.name }}
                 </strong>
                 <span class="tag is-rounded is-light">
@@ -32,7 +37,7 @@
         <div class="columns">
             <div class="column">
                 <strong class="is-size-larger is-block">
-                    {{ review.user.name }}'s Rating
+                    <span class="blurred">{{ review.user.name }}</span>'s Rating
                 </strong>
 
                 <div>
@@ -55,7 +60,7 @@
             <div class="column">
 
                 <strong class="is-size-larger">
-                    Where {{ review.user.name }} is active
+                    Where <span class="blurred">{{ review.user.name }}</span> is active
                 </strong>
 
                 <UserHeatmap :userId="review.user.id" />
