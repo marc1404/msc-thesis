@@ -16,6 +16,10 @@ export default async function search(request) {
                 return -1;
             }
 
+            if (b.isProcessed && !a.isProcessed) {
+                return 1;
+            }
+
             return b.ratings - a.ratings;
         }).slice(0, 10);
     }
