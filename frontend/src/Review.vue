@@ -4,8 +4,10 @@
     }
 
     .blurred {
+        /*
         color: transparent;
         text-shadow: 0 0 10px #363636;
+        */
     }
 </style>
 
